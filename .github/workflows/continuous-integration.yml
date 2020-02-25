@@ -9,6 +9,7 @@ on:
       - "master"
 
 env:
+  APP_ENV: "test"
   MIN_COVERED_MSI: 100
   MIN_MSI: 100
   REQUIRED_PHP_EXTENSIONS: "mbstring"
@@ -237,6 +238,9 @@ jobs:
       - name: "Install highest dependencies from composer.json"
         if: "matrix.dependencies == 'highest'"
         run: "composer update --no-interaction --no-progress --no-suggest"
+
+      - name: "Dump environment variables"
+        run: "composer dump-env ${{ env.APP_ENV }}"
 
       - name: "Run auto-review tests with phpunit/phpunit"
         run: "vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml"

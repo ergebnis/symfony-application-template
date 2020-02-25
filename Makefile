@@ -1,3 +1,4 @@
+APP_ENV:=test
 MIN_COVERED_MSI:=100
 MIN_MSI:=100
 
@@ -44,6 +45,7 @@ static-code-analysis-baseline: vendor ## Generates a baseline for static code an
 .PHONY: tests
 tests: vendor ## Runs auto-review, unit, and integration tests with phpunit/phpunit
 	mkdir -p .build/phpunit
+	composer dump-env ${APP_ENV}
 	vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Integration/phpunit.xml
