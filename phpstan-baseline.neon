@@ -1,3 +1,52 @@
 parameters:
-	ignoreErrors: []
+	ignoreErrors:
+		-
+			message: "#^File is missing a \"declare\\(strict_types\\=1\\)\" declaration\\.$#"
+			count: 1
+			path: bin/console
+
+		-
+			message: "#^Language construct isset\\(\\) should not be used\\.$#"
+			count: 2
+			path: config/bootstrap.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 1
+			path: config/bootstrap.php
+
+		-
+			message: "#^Only booleans are allowed in \\|\\|, int given on the left side\\.$#"
+			count: 1
+			path: config/bootstrap.php
+
+		-
+			message: "#^Class \"Ergebnis\\\\Application\\\\Kernel\" is not allowed to extend \"Symfony\\\\Component\\\\HttpKernel\\\\Kernel\"\\.$#"
+			count: 1
+			path: src/Kernel.php
+
+		-
+			message: "#^Method Ergebnis\\\\Application\\\\Kernel\\:\\:configureContainer\\(\\) has a parameter \\$container with a type declaration of Symfony\\\\Component\\\\DependencyInjection\\\\ContainerBuilder, but containers should not be injected\\.$#"
+			count: 1
+			path: src/Kernel.php
+
+		-
+			message: "#^Method Ergebnis\\\\Application\\\\Kernel\\:\\:configureContainer\\(\\) is protected, but since the containing class is final, it can be private\\.$#"
+			count: 1
+			path: src/Kernel.php
+
+		-
+			message: "#^Method Ergebnis\\\\Application\\\\Kernel\\:\\:configureRoutes\\(\\) is protected, but since the containing class is final, it can be private\\.$#"
+			count: 1
+			path: src/Kernel.php
+
+		-
+			message: "#^Call to function method_exists\\(\\) with 'Symfony\\\\\\\\Component…' and 'bootEnv' will always evaluate to false\\.$#"
+			count: 1
+			path: test/Integration/bootstrap.php
+
+		-
+			message: "#^Call to an undefined method Symfony\\\\Component\\\\Dotenv\\\\Dotenv\\:\\:bootEnv\\(\\)\\.$#"
+			count: 1
+			path: test/Integration/bootstrap.php
 
