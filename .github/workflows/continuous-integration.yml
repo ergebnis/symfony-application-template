@@ -10,8 +10,8 @@ on:
 
 env:
   APP_ENV: "test"
-  MIN_COVERED_MSI: 100
-  MIN_MSI: 100
+  MIN_COVERED_MSI: 9
+  MIN_MSI: 9
   REQUIRED_PHP_EXTENSIONS: "mbstring"
 
 jobs:
