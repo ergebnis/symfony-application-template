@@ -7,7 +7,7 @@
     beStrictAboutResourceUsageDuringSmallTests="true"
     beStrictAboutTestsThatDoNotTestAnything="true"
     beStrictAboutTodoAnnotatedTests="true"
-    bootstrap="../../vendor/autoload.php"
+    bootstrap="bootstrap.php"
     cacheResult="true"
     cacheResultFile="../../.build/phpunit/integration.cache"
     colors="true"
@@ -22,6 +22,11 @@
     stopOnSkipped="false"
     verbose="true"
 >
+    <php>
+        <ini name="error_reporting" value="-1" />
+        <server name="APP_ENV" value="test" force="true" />
+        <server name="SHELL_VERBOSITY" value="-1" />
+    </php>
     <testsuites>
         <testsuite name="Integration Tests">
             <directory>.</directory>
