@@ -13,6 +13,7 @@ declare(strict_types=1);
 
 namespace Ergebnis\Application\Test\AutoReview;
 
+use Ergebnis\Application;
 use Ergebnis\Test\Util\Helper;
 use PHPUnit\Framework;
 
@@ -30,7 +31,10 @@ final class SrcCodeTest extends Framework\TestCase
         self::assertClassesHaveTests(
             __DIR__ . '/../../src',
             'Ergebnis\\Application\\',
-            'Ergebnis\\Application\\Test\\Unit\\'
+            'Ergebnis\\Application\\Test\\Unit\\',
+            [
+                Application\Kernel::class,
+            ]
         );
     }
 }

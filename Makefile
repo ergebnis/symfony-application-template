@@ -1,5 +1,6 @@
-MIN_COVERED_MSI:=100
-MIN_MSI:=100
+APP_ENV:=test
+MIN_COVERED_MSI:=9
+MIN_MSI:=9
 
 .PHONY: it
 it: coding-standards dependency-analysis static-code-analysis tests ## Runs the coding-standards, dependency-analysis, static-code-analysis, and tests targets
@@ -15,7 +16,7 @@ coding-standards: vendor ## Fixes code style issues with friendsofphp/php-cs-fix
 
 .PHONY: dependency-analysis
 dependency-analysis: vendor ## Runs a dependency analysis with maglnet/composer-require-checker
-	docker run --interactive --rm --tty --volume ${PWD}:/app webfactory/composer-require-checker:2.1.0
+	docker run --interactive --rm --tty --volume ${PWD}:/app webfactory/composer-require-checker:2.1.0 check --config-file=composer-require-checker.json
 
 .PHONY: help
 help: ## Displays this list of targets with descriptions
@@ -44,6 +45,7 @@ static-code-analysis-baseline: vendor ## Generates a baseline for static code an
 .PHONY: tests
 tests: vendor ## Runs auto-review, unit, and integration tests with phpunit/phpunit
 	mkdir -p .build/phpunit
+	composer dump-env ${APP_ENV}
 	vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Integration/phpunit.xml

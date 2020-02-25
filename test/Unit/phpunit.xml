@@ -30,6 +30,9 @@
     <filter>
         <whitelist addUncoveredFilesFromWhitelist="true" processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">../../src/</directory>
+            <exclude>
+                <file>../../src/Kernel.php</file>
+            </exclude>
         </whitelist>
     </filter>
 </phpunit>

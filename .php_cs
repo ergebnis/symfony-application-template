@@ -35,8 +35,12 @@ $config->getFinder()
         '.build/',
         '.dependabot/',
         '.github/',
+        'var/',
     ])
-    ->name('.php_cs');
+    ->name([
+        '.php_cs',
+        'console',
+    ]);
 
 $config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/.php_cs.cache');
 

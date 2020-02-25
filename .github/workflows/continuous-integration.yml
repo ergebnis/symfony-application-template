@@ -9,8 +9,9 @@ on:
       - "master"
 
 env:
-  MIN_COVERED_MSI: 100
-  MIN_MSI: 100
+  APP_ENV: "test"
+  MIN_COVERED_MSI: 9
+  MIN_MSI: 9
   REQUIRED_PHP_EXTENSIONS: "mbstring"
 
 jobs:
@@ -129,6 +130,8 @@ jobs:
 
       - name: "Run maglnet/composer-require-checker"
         uses: "docker://webfactory/composer-require-checker:2.1.0"
+        with:
+          args: "check --config-file=composer-require-checker.json"
 
   static-code-analysis:
     name: "Static Code Analysis"
@@ -235,6 +238,9 @@ jobs:
       - name: "Install highest dependencies from composer.json"
         if: "matrix.dependencies == 'highest'"
         run: "composer update --no-interaction --no-progress --no-suggest"
+
+      - name: "Dump environment variables"
+        run: "composer dump-env ${{ env.APP_ENV }}"
 
       - name: "Run auto-review tests with phpunit/phpunit"
         run: "vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml"

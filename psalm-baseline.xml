@@ -1,2 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="3.7.2@d9cae720c1af31db9ba27c2bc1fcf9b0dd092fb0"/>
+<files psalm-version="3.9.3@2e4154d76e24d1b4e59e6cc2bebef7790cb9e550">
+  <file src="bin/console">
+    <MixedArrayAccess occurrences="3">
+      <code>$_SERVER['APP_DEBUG']</code>
+      <code>$_SERVER['APP_ENV']</code>
+      <code>$_SERVER['APP_DEBUG']</code>
+    </MixedArrayAccess>
+    <MixedAssignment occurrences="3">
+      <code>$env</code>
+      <code>$_ENV['APP_ENV']</code>
+      <code>$_SERVER['APP_ENV']</code>
+    </MixedAssignment>
+    <MixedOperand occurrences="1">
+      <code>$_SERVER['APP_ENV'] = $_ENV['APP_ENV'] = $env</code>
+    </MixedOperand>
+  </file>
+  <file src="config/bootstrap.php">
+    <MissingFile occurrences="1">
+      <code>include \dirname(__DIR__) . '/.env.local.php'</code>
+    </MissingFile>
+    <MixedArrayAccess occurrences="3">
+      <code>$_SERVER['APP_ENV']</code>
+      <code>$_SERVER['APP_DEBUG']</code>
+      <code>$_SERVER['APP_DEBUG']</code>
+    </MixedArrayAccess>
+    <MixedAssignment occurrences="6">
+      <code>$env</code>
+      <code>$v</code>
+      <code>$_ENV[$k]</code>
+      <code>$_ENV['APP_ENV']</code>
+      <code>$_SERVER['APP_ENV']</code>
+      <code>$_SERVER['APP_DEBUG']</code>
+    </MixedAssignment>
+    <MixedOperand occurrences="1">
+      <code>$_SERVER</code>
+    </MixedOperand>
+  </file>
+  <file src="public/index.php">
+    <MixedArrayAccess occurrences="3">
+      <code>$_SERVER['APP_DEBUG']</code>
+      <code>$_SERVER['APP_ENV']</code>
+      <code>$_SERVER['APP_DEBUG']</code>
+    </MixedArrayAccess>
+    <MixedAssignment occurrences="4">
+      <code>$trustedProxies</code>
+      <code>$trustedHosts</code>
+      <code>$request</code>
+      <code>$response</code>
+    </MixedAssignment>
+  </file>
+  <file src="src/Kernel.php">
+    <MixedAssignment occurrences="2">
+      <code>$contents</code>
+      <code>$envs</code>
+    </MixedAssignment>
+    <MixedMethodCall occurrences="1">
+      <code>new $class()</code>
+    </MixedMethodCall>
+    <UnresolvableInclude occurrences="1">
+      <code>require $this-&gt;getProjectDir() . '/config/bundles.php'</code>
+    </UnresolvableInclude>
+  </file>
+</files>
