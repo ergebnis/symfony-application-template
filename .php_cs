@@ -26,7 +26,7 @@ $license = License\Type\MIT::markdown(
 
 $license->save();
 
-$config = Config\Factory::fromRuleSet(new Config\RuleSet\Php71($license->header()));
+$config = Config\Factory::fromRuleSet(new Config\RuleSet\Php73($license->header()));
 
 $config->getFinder()
     ->ignoreDotFiles(false)
