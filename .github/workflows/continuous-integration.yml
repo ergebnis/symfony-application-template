@@ -85,7 +85,7 @@ jobs:
         run: "composer dump-env ${{ env.APP_ENV }}"
 
       - name: "Lint YAML files"
-        run: "bin/console lint:yaml .dependabot .github/ config/"
+        run: "bin/console lint:yaml .dependabot/ .github/ config/"
 
   dependency-analysis:
     name: "Dependency Analysis"
