@@ -10,8 +10,6 @@ on: # yamllint disable-line rule:truthy
 
 env:
   APP_ENV: "test"
-  MIN_COVERED_MSI: 9
-  MIN_MSI: 9
   REQUIRED_PHP_EXTENSIONS: "mbstring"
 
 jobs:
@@ -375,7 +373,7 @@ jobs:
         run: "composer update --no-interaction --no-progress --no-suggest"
 
       - name: "Run mutation tests with pcov and infection/infection"
-        run: "vendor/bin/infection --ignore-msi-with-no-mutations --min-covered-msi=${{ env.MIN_COVERED_MSI }} --min-msi=${{ env.MIN_MSI }}"
+        run: "vendor/bin/infection --configuration=infection.json"
 
   dependabot:
     name: "Dependabot"

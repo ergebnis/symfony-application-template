@@ -1,6 +1,4 @@
 APP_ENV:=test
-MIN_COVERED_MSI:=9
-MIN_MSI:=9
 
 .PHONY: it
 it: coding-standards dependency-analysis static-code-analysis tests ## Runs the coding-standards, dependency-analysis, static-code-analysis, and tests targets
@@ -27,7 +25,7 @@ help: ## Displays this list of targets with descriptions
 .PHONY: mutation-tests
 mutation-tests: vendor ## Runs mutation tests with infection/infection
 	mkdir -p .build/infection
-	vendor/bin/infection --ignore-msi-with-no-mutations --min-covered-msi=${MIN_COVERED_MSI} --min-msi=${MIN_MSI}
+	vendor/bin/infection --configuration=infection.json
 
 .PHONY: static-code-analysis
 static-code-analysis: vendor ## Runs a static code analysis with phpstan/phpstan and vimeo/psalm
