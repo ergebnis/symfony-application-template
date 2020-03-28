@@ -11,4 +11,4 @@ parameters:
 		- public/index.php
 		- src/
 		- test/
-	tmpDir: %currentWorkingDirectory%/.build/phpstan
+	tmpDir: %currentWorkingDirectory%/.build/phpstan/

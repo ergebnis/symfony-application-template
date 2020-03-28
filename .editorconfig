@@ -13,10 +13,7 @@ indent_size = 2
 [*.neon]
 indent_style = tab
 
-[*.yaml]
-indent_size = 2
-
-[*.yml]
+[*.{yaml,yml}]
 indent_size = 2
 
 [Makefile]
