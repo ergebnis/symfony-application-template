@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="3.10.1@eeed5ecccc10131397f0eb7ee6da810c0be3a7fc">
+<files psalm-version="3.9.3@2e4154d76e24d1b4e59e6cc2bebef7790cb9e550">
   <file src="bin/console">
-    <MixedArgument occurrences="1">
+    <MixedArrayAccess occurrences="3">
+      <code>$_SERVER['APP_DEBUG']</code>
       <code>$_SERVER['APP_ENV']</code>
-    </MixedArgument>
+      <code>$_SERVER['APP_DEBUG']</code>
+    </MixedArrayAccess>
     <MixedAssignment occurrences="3">
       <code>$env</code>
       <code>$_ENV['APP_ENV']</code>
@@ -14,9 +16,14 @@
     </MixedOperand>
   </file>
   <file src="config/bootstrap.php">
-    <MixedArgumentTypeCoercion occurrences="1">
-      <code>$k</code>
-    </MixedArgumentTypeCoercion>
+    <MissingFile occurrences="1">
+      <code>include \dirname(__DIR__) . '/.env.local.php'</code>
+    </MissingFile>
+    <MixedArrayAccess occurrences="3">
+      <code>$_SERVER['APP_ENV']</code>
+      <code>$_SERVER['APP_DEBUG']</code>
+      <code>$_SERVER['APP_DEBUG']</code>
+    </MixedArrayAccess>
     <MixedAssignment occurrences="6">
       <code>$env</code>
       <code>$v</code>
@@ -25,15 +32,21 @@
       <code>$_SERVER['APP_ENV']</code>
       <code>$_SERVER['APP_DEBUG']</code>
     </MixedAssignment>
+    <MixedOperand occurrences="1">
+      <code>$_SERVER</code>
+    </MixedOperand>
   </file>
   <file src="public/index.php">
-    <MixedArgument occurrences="2">
-      <code>$trustedProxies</code>
+    <MixedArrayAccess occurrences="3">
+      <code>$_SERVER['APP_DEBUG']</code>
       <code>$_SERVER['APP_ENV']</code>
-    </MixedArgument>
-    <MixedAssignment occurrences="2">
+      <code>$_SERVER['APP_DEBUG']</code>
+    </MixedArrayAccess>
+    <MixedAssignment occurrences="4">
       <code>$trustedProxies</code>
       <code>$trustedHosts</code>
+      <code>$request</code>
+      <code>$response</code>
     </MixedAssignment>
   </file>
   <file src="src/Kernel.php">
