@@ -23,7 +23,7 @@
     "symfony/framework-bundle": "^5.0.6",
     "symfony/http-kernel": "^5.0.7",
     "symfony/routing": "^5.0.7",
-    "symfony/yaml": "^5.0.6"
+    "symfony/yaml": "^5.0.7"
   },
   "replace": {
     "paragonie/random_compat": "2.*",
