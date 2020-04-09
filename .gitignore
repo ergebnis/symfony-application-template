@@ -1,4 +1,5 @@
 /.build/
+/.notes/
 /vendor/
 
 ###> symfony/framework-bundle ###
