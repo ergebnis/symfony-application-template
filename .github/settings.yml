@@ -20,8 +20,6 @@ branches:
           - "Tests (7.4, locked)"
           - "Code Coverage (7.4, locked)"
           - "Mutation Tests (7.4, locked)"
-          - "codecov/patch"
-          - "codecov/project"
         strict: false
       restrictions:
 
@@ -49,6 +47,10 @@ labels:
 
   - name: "enhancement"
     color: "0e8a16"
+    description: ""
+
+  - name: "merge"
+    color: "6f42c1"
     description: ""
 
   - name: "question"

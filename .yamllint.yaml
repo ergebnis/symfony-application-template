@@ -2,8 +2,9 @@ extends: "default"
 
 ignore: |
   .build/
-  vendor/
+  .notes/
   var/
+  vendor/
 
 rules:
   braces:
