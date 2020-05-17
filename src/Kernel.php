@@ -44,7 +44,7 @@ final class Kernel extends HttpKernel\Kernel
     protected function configureContainer(DependencyInjection\ContainerBuilder $container, Config\Loader\LoaderInterface $loader): void
     {
         $container->addResource(new Config\Resource\FileResource($this->getProjectDir() . '/config/bundles.php'));
-        $container->setParameter('container.dumper.inline_class_loader', \PHP_VERSION_ID < 70400 || $this->debug);
+        $container->setParameter('container.dumper.inline_class_loader', $this->debug);
         $container->setParameter('container.dumper.inline_factories', true);
 
         $confDir = $this->getProjectDir() . '/config';
