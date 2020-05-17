@@ -11,4 +11,6 @@ parameters:
 		- test/
 		- public/index.php
 		- bin/console
+	symfony:
+		container_xml_path: var/cache/test/Ergebnis_Application_KernelTestDebugContainer.xml
 	tmpDir: .build/phpstan/

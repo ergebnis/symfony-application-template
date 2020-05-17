@@ -137,6 +137,9 @@
     "phpstan/phpstan-strict-rules": {
         "version": "0.12.2"
     },
+    "phpstan/phpstan-symfony": {
+        "version": "0.12.6"
+    },
     "phpunit/php-code-coverage": {
         "version": "8.0.1"
     },
