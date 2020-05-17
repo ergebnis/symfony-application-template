@@ -6,7 +6,7 @@ it: coding-standards static-code-analysis tests ## Runs the coding-standards, st
 .PHONY: cache
 cache: vendor ## Warms up the cache
 	composer dump-env ${APP_ENV}
-	bin/console cache:warmup
+	bin/console cache:warmup --env=${APP_ENV}
 
 .PHONY: code-coverage
 code-coverage: vendor ## Collects coverage from running unit tests with phpunit/phpunit
