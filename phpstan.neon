@@ -3,6 +3,9 @@ includes:
 
 parameters:
 	checkMissingIterableValueType: false
+	ergebnis:
+		classesAllowedToBeExtended:
+			- Symfony\Component\HttpKernel\Kernel
 	inferPrivatePropertyTypeFromConstructor: true
 	level: max
 	paths:
