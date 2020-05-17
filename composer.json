@@ -14,7 +14,7 @@
     "php": "^7.4.3",
     "ext-ctype": "*",
     "ext-iconv": "*",
-    "symfony/config": "^5.0.7",
+    "symfony/config": "^5.0.8",
     "symfony/console": "^5.0.7",
     "symfony/dependency-injection": "^5.0.7",
     "symfony/dotenv": "^5.0.7",
