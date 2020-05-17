@@ -3,6 +3,11 @@ APP_ENV:=test
 .PHONY: it
 it: coding-standards static-code-analysis tests ## Runs the coding-standards, static-code-analysis, and tests targets
 
+.PHONY: cache
+cache: vendor ## Warms up the cache
+	composer dump-env ${APP_ENV}
+	bin/console cache:warmup
+
 .PHONY: code-coverage
 code-coverage: vendor ## Collects coverage from running unit tests with phpunit/phpunit
 	mkdir -p .build/phpunit
@@ -29,23 +34,22 @@ mutation-tests: vendor ## Runs mutation tests with infection/infection
 	vendor/bin/infection --configuration=infection.json
 
 .PHONY: static-code-analysis
-static-code-analysis: vendor ## Runs a static code analysis with phpstan/phpstan and vimeo/psalm
+static-code-analysis: vendor cache ## Runs a static code analysis with phpstan/phpstan and vimeo/psalm
 	mkdir -p .build/phpstan
 	vendor/bin/phpstan analyse --configuration=phpstan.neon
 	mkdir -p .build/psalm
 	vendor/bin/psalm --config=psalm.xml --diff --diff-methods --show-info=false --stats --threads=4
 
 .PHONY: static-code-analysis-baseline
-static-code-analysis-baseline: vendor ## Generates a baseline for static code analysis with phpstan/phpstan and vimeo/psalm
+static-code-analysis-baseline: vendor cache ## Generates a baseline for static code analysis with phpstan/phpstan and vimeo/psalm
 	mkdir -p .build/phpstan
 	vendor/bin/phpstan analyze --configuration=phpstan.neon --generate-baseline=phpstan-baseline.neon
 	mkdir -p .build/psalm
 	vendor/bin/psalm --config=psalm.xml --set-baseline=psalm-baseline.xml
 
 .PHONY: tests
-tests: vendor ## Runs auto-review, unit, and integration tests with phpunit/phpunit
+tests: vendor cache ## Runs auto-review, unit, and integration tests with phpunit/phpunit
 	mkdir -p .build/phpunit
-	composer dump-env ${APP_ENV}
 	vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Integration/phpunit.xml
