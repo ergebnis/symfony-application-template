@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a888247d84c0573eff954bcbacfc93c",
+    "content-hash": "0496002c6a021507f89b9a117b68c957",
     "packages": [
         {
             "name": "psr/cache",
@@ -4651,6 +4651,56 @@
             "time": "2020-04-05T22:49:26+00:00"
         },
         {
+            "name": "psalm/plugin-symfony",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/psalm/psalm-plugin-symfony.git",
+                "reference": "95e6128cfae20f4cc0d03ab47510cbe882824132"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/95e6128cfae20f4cc0d03ab47510cbe882824132",
+                "reference": "95e6128cfae20f4cc0d03ab47510cbe882824132",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "php": "^7.1",
+                "symfony/framework-bundle": "^3.0 || ^4.0 || ^5.0",
+                "vimeo/psalm": "^3.11"
+            },
+            "require-dev": {
+                "codeception/base": "^2.5",
+                "phpunit/phpunit": "~7.5",
+                "symfony/console": "*",
+                "weirdan/codeception-psalm-module": "^0.2.2"
+            },
+            "type": "psalm-plugin",
+            "extra": {
+                "psalm": {
+                    "pluginClass": "Psalm\\SymfonyPsalmPlugin\\Plugin"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psalm\\SymfonyPsalmPlugin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Farhad Safarov",
+                    "email": "farhad.safarov@gmail.com"
+                }
+            ],
+            "description": "Psalm Plugin for Symfony",
+            "time": "2020-04-27T05:38:20+00:00"
+        },
+        {
             "name": "sanmai/pipeline",
             "version": "v3.1.2",
             "source": {
@@ -5997,5 +6047,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.4.3"
-    }
+    },
+    "plugin-api-version": "1.1.0"
 }
