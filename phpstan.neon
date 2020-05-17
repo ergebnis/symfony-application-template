@@ -6,9 +6,6 @@ parameters:
 	inferPrivatePropertyTypeFromConstructor: true
 	level: max
 	paths:
-		- config/
 		- src/
 		- test/
-		- public/index.php
-		- bin/console
 	tmpDir: .build/phpstan/
