@@ -14,7 +14,7 @@ declare(strict_types=1);
 namespace Ergebnis\Application\Test\AutoReview;
 
 use Ergebnis\Application;
-use Ergebnis\Test\Util\Helper;
+use Ergebnis\Test\Util;
 use PHPUnit\Framework;
 
 /**
@@ -24,7 +24,7 @@ use PHPUnit\Framework;
  */
 final class SrcCodeTest extends Framework\TestCase
 {
-    use Helper;
+    use Util\Helper;
 
     public function testSrcClassesHaveUnitTests(): void
     {
