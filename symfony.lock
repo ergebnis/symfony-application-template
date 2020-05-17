@@ -175,6 +175,9 @@
     "psalm/plugin-phpunit": {
         "version": "0.9.0"
     },
+    "psalm/plugin-symfony": {
+        "version": "v1.2.1"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
