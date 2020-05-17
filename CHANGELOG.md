@@ -6,6 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`1902cc2...master`][1902cc2...master].
+For a full diff see [`7fd0b8b...master`][7fd0b8b...master].
 
-[1902cc2...master]: https://github.com/ergebnis/symfony-application-template/compare/1902cc2...master
+[7fd0b8b...master]: https://github.com/ergebnis/symfony-application-template/compare/7fd0b8b...master
