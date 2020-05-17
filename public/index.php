@@ -11,28 +11,41 @@ declare(strict_types=1);
  * @see https://github.com/ergebnis/symfony-application-template
  */
 
-use Ergebnis\Application\Kernel;
-use Symfony\Component\ErrorHandler\Debug;
-use Symfony\Component\HttpFoundation\Request;
+use Ergebnis\Application;
+use Symfony\Component\ErrorHandler;
+use Symfony\Component\HttpFoundation;
 
 require \dirname(__DIR__) . '/config/bootstrap.php';
 
 if ($_SERVER['APP_DEBUG']) {
     \umask(0000);
 
-    Debug::enable();
+    ErrorHandler\Debug::enable();
 }
 
 if ($trustedProxies = $_SERVER['TRUSTED_PROXIES'] ?? $_ENV['TRUSTED_PROXIES'] ?? false) {
-    Request::setTrustedProxies(\explode(',', $trustedProxies), Request::HEADER_X_FORWARDED_ALL ^ Request::HEADER_X_FORWARDED_HOST);
+    HttpFoundation\Request::setTrustedProxies(
+        \explode(',', $trustedProxies),
+        HttpFoundation\Request::HEADER_X_FORWARDED_ALL ^ HttpFoundation\Request::HEADER_X_FORWARDED_HOST
+    );
 }
 
 if ($trustedHosts = $_SERVER['TRUSTED_HOSTS'] ?? $_ENV['TRUSTED_HOSTS'] ?? false) {
-    Request::setTrustedHosts([$trustedHosts]);
+    HttpFoundation\Request::setTrustedHosts([$trustedHosts]);
 }
 
-$kernel = new Kernel($_SERVER['APP_ENV'], (bool) $_SERVER['APP_DEBUG']);
-$request = Request::createFromGlobals();
+$kernel = new Application\Kernel(
+    $_SERVER['APP_ENV'],
+    (bool) $_SERVER['APP_DEBUG']
+);
+
+$request = HttpFoundation\Request::createFromGlobals();
+
 $response = $kernel->handle($request);
+
 $response->send();
-$kernel->terminate($request, $response);
+
+$kernel->terminate(
+    $request,
+    $response
+);

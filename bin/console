@@ -1,10 +1,10 @@
 #!/usr/bin/env php
 <?php
 
-use Ergebnis\Application\Kernel;
-use Symfony\Bundle\FrameworkBundle\Console\Application;
-use Symfony\Component\Console\Input\ArgvInput;
-use Symfony\Component\ErrorHandler\Debug;
+use Ergebnis\Application;
+use Symfony\Bundle\FrameworkBundle;
+use Symfony\Component\Console;
+use Symfony\Component\ErrorHandler;
 
 if (!\in_array(\PHP_SAPI, ['cli', 'phpdbg', 'embed'], true)) {
     echo 'Warning: The console should be invoked via the CLI version of PHP, not the ' . \PHP_SAPI . ' SAPI' . \PHP_EOL;
@@ -14,11 +14,11 @@ if (!\in_array(\PHP_SAPI, ['cli', 'phpdbg', 'embed'], true)) {
 
 require \dirname(__DIR__) . '/vendor/autoload.php';
 
-if (!\class_exists(Application::class)) {
+if (!\class_exists(FrameworkBundle\Console\Application::class)) {
     throw new LogicException('You need to add "symfony/framework-bundle" as a Composer dependency.');
 }
 
-$input = new ArgvInput();
+$input = new Console\Input\ArgvInput();
 
 if (null !== $env = $input->getParameterOption(['--env', '-e'], null, true)) {
     \putenv('APP_ENV=' . $_SERVER['APP_ENV'] = $_ENV['APP_ENV'] = $env);
@@ -33,11 +33,16 @@ require \dirname(__DIR__) . '/config/bootstrap.php';
 if ($_SERVER['APP_DEBUG']) {
     \umask(0000);
 
-    if (\class_exists(Debug::class)) {
-        Debug::enable();
+    if (\class_exists(ErrorHandler\Debug::class)) {
+        ErrorHandler\Debug::enable();
     }
 }
 
-$kernel = new Kernel($_SERVER['APP_ENV'], (bool) $_SERVER['APP_DEBUG']);
-$application = new Application($kernel);
+$kernel = new Application\Kernel(
+    $_SERVER['APP_ENV'],
+    (bool) $_SERVER['APP_DEBUG']
+);
+
+$application = new FrameworkBundle\Console\Application($kernel);
+
 $application->run($input);
