@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cff036427be656aa267fd4245663c2f",
+    "content-hash": "6f454c7dc1ed40d5e1017e248b90642e",
     "packages": [
         {
             "name": "psr/cache",
@@ -397,7 +397,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.0.7",
+            "version": "v5.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
