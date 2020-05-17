@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <files psalm-version="3.11.4@58e1d8e68e5098bf4fbfdfb420c38d563f882549">
-  <file src="bin/console">
-    <MixedArgument occurrences="1">
-      <code>$_SERVER['APP_ENV']</code>
-    </MixedArgument>
-    <MixedAssignment occurrences="3">
-      <code>$env</code>
-      <code>$_ENV['APP_ENV']</code>
-      <code>$_SERVER['APP_ENV']</code>
-    </MixedAssignment>
-    <MixedOperand occurrences="1">
-      <code>$_SERVER['APP_ENV'] = $_ENV['APP_ENV'] = $env</code>
-    </MixedOperand>
-  </file>
   <file src="config/bootstrap.php">
     <MixedArgumentTypeCoercion occurrences="1">
       <code>$k</code>
@@ -24,16 +11,6 @@
       <code>$_ENV['APP_ENV']</code>
       <code>$_SERVER['APP_ENV']</code>
       <code>$_SERVER['APP_DEBUG']</code>
-    </MixedAssignment>
-  </file>
-  <file src="public/index.php">
-    <MixedArgument occurrences="2">
-      <code>$trustedProxies</code>
-      <code>$_SERVER['APP_ENV']</code>
-    </MixedArgument>
-    <MixedAssignment occurrences="2">
-      <code>$trustedProxies</code>
-      <code>$trustedHosts</code>
     </MixedAssignment>
   </file>
   <file src="src/Kernel.php">

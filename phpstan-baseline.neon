@@ -1,26 +1,6 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^File is missing a \"declare\\(strict_types\\=1\\)\" declaration\\.$#"
-			count: 1
-			path: bin/console
-
-		-
-			message: "#^Language construct isset\\(\\) should not be used\\.$#"
-			count: 2
-			path: config/bootstrap.php
-
-		-
-			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
-			count: 1
-			path: config/bootstrap.php
-
-		-
-			message: "#^Only booleans are allowed in \\|\\|, int given on the left side\\.$#"
-			count: 1
-			path: config/bootstrap.php
-
-		-
 			message: "#^Class \"Ergebnis\\\\Application\\\\Kernel\" is not allowed to extend \"Symfony\\\\Component\\\\HttpKernel\\\\Kernel\"\\.$#"
 			count: 1
 			path: src/Kernel.php
