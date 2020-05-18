@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a338b81046a5ae7a76023fa8fb97e38",
+    "content-hash": "85d312ffe723d61ea5dd5d1cc32b7b9f",
     "packages": [
         {
             "name": "psr/cache",
@@ -546,7 +546,7 @@
         },
         {
             "name": "symfony/dotenv",
-            "version": "v5.0.7",
+            "version": "v5.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
