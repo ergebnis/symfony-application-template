@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eab62351b19e6b68497336cdba7e6973",
+    "content-hash": "807a1451f92ed5119c209eadf7a63603",
     "packages": [
         {
             "name": "psr/cache",
@@ -3107,38 +3107,38 @@
         },
         {
             "name": "jangregor/phpstan-prophecy",
-            "version": "0.6.2",
+            "version": "0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Jan0707/phpstan-prophecy.git",
-                "reference": "9f3422fa720d3dbd28ffba40f06aeba1edfecef9"
+                "reference": "d599ec96dce8087ba4f32d7d9f9cb4565239e3db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Jan0707/phpstan-prophecy/zipball/9f3422fa720d3dbd28ffba40f06aeba1edfecef9",
-                "reference": "9f3422fa720d3dbd28ffba40f06aeba1edfecef9",
+                "url": "https://api.github.com/repos/Jan0707/phpstan-prophecy/zipball/d599ec96dce8087ba4f32d7d9f9cb4565239e3db",
+                "reference": "d599ec96dce8087ba4f32d7d9f9cb4565239e3db",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1",
-                "phpstan/phpstan": "^0.12.0"
+                "phpstan/phpstan": "^0.12.6"
             },
             "conflict": {
-                "phpspec/prophecy": "<1.7,>=2.0",
-                "phpunit/phpunit": "<6.0,>=10.0"
+                "phpspec/prophecy": "<1.7.0,>=2.0.0",
+                "phpunit/phpunit": "<6.0.0,>=10.0.0"
             },
             "require-dev": {
                 "ergebnis/composer-normalize": "^2.1.1",
-                "ergebnis/license": "~0.1.0",
+                "ergebnis/license": "^1.0.0",
                 "ergebnis/php-cs-fixer-config": "~1.1.2",
-                "phpspec/prophecy": "^1.7",
-                "phpunit/phpunit": "^6.0 || ^7.0"
+                "phpspec/prophecy": "^1.7.0",
+                "phpunit/phpunit": "^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0"
             },
             "type": "phpstan-extension",
             "extra": {
                 "phpstan": {
                     "includes": [
-                        "src/extension.neon"
+                        "extension.neon"
                     ]
                 },
                 "violinist": {
@@ -3163,7 +3163,7 @@
                 }
             ],
             "description": "Provides a phpstan/phpstan extension for phpspec/prophecy",
-            "time": "2020-02-17T16:55:34+00:00"
+            "time": "2020-05-12T08:04:04+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -6117,6 +6117,5 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.4.3"
-    },
-    "plugin-api-version": "1.1.0"
+    }
 }
