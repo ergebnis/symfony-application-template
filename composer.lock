@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45ef7abd9b32e5e666c6651a295e9bf7",
+    "content-hash": "37aa628d4f0100a4cf966d95f7f96cbf",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -4791,16 +4791,16 @@
         },
         {
             "name": "psalm/plugin-symfony",
-            "version": "v1.2.1",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-symfony.git",
-                "reference": "95e6128cfae20f4cc0d03ab47510cbe882824132"
+                "reference": "8abc28c3a3fe8a6c656cc896b0e4956948f3f26e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/95e6128cfae20f4cc0d03ab47510cbe882824132",
-                "reference": "95e6128cfae20f4cc0d03ab47510cbe882824132",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/8abc28c3a3fe8a6c656cc896b0e4956948f3f26e",
+                "reference": "8abc28c3a3fe8a6c656cc896b0e4956948f3f26e",
                 "shasum": ""
             },
             "require": {
@@ -4814,6 +4814,9 @@
                 "phpunit/phpunit": "~7.5",
                 "symfony/console": "*",
                 "weirdan/codeception-psalm-module": "^0.2.2"
+            },
+            "suggest": {
+                "weirdan/doctrine-psalm-plugin": "If Doctrine is used, it is recommended install this plugin"
             },
             "type": "psalm-plugin",
             "extra": {
@@ -4837,7 +4840,7 @@
                 }
             ],
             "description": "Psalm Plugin for Symfony",
-            "time": "2020-04-27T05:38:20+00:00"
+            "time": "2020-05-27T14:08:01+00:00"
         },
         {
             "name": "sanmai/pipeline",
