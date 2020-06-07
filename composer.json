@@ -54,7 +54,7 @@
     "phpstan/phpstan-phpunit": "~0.12.11",
     "phpstan/phpstan-strict-rules": "~0.12.2",
     "phpstan/phpstan-symfony": "~0.12.6",
-    "phpunit/phpunit": "^9.2.1",
+    "phpunit/phpunit": "^9.2.2",
     "psalm/plugin-phpunit": "~0.10.1",
     "psalm/plugin-symfony": "^1.2.2",
     "vimeo/psalm": "^3.11.5"
