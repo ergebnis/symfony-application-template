@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a060cc11320b1968792da73a655d4a46",
+    "content-hash": "a6d9a063c34d130b24053177f64a9e10",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -4799,16 +4799,16 @@
         },
         {
             "name": "psalm/plugin-symfony",
-            "version": "v1.2.2",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-symfony.git",
-                "reference": "8abc28c3a3fe8a6c656cc896b0e4956948f3f26e"
+                "reference": "f0b6ffab06a031490ea201cf45766b3f5883a412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/8abc28c3a3fe8a6c656cc896b0e4956948f3f26e",
-                "reference": "8abc28c3a3fe8a6c656cc896b0e4956948f3f26e",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/f0b6ffab06a031490ea201cf45766b3f5883a412",
+                "reference": "f0b6ffab06a031490ea201cf45766b3f5883a412",
                 "shasum": ""
             },
             "require": {
@@ -4848,7 +4848,7 @@
                 }
             ],
             "description": "Psalm Plugin for Symfony",
-            "time": "2020-05-27T14:08:01+00:00"
+            "time": "2020-06-09T09:15:09+00:00"
         },
         {
             "name": "sanmai/pipeline",
