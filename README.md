@@ -1,11 +1,11 @@
 # symfony-application-template
 
-[![Integrate](https://github.com/ergebnis/symfony-application-template/workflows/Integrate/badge.svg?branch=master)](https://github.com/ergebnis/symfony-application-template/actions)
-[![Prune](https://github.com/ergebnis/symfony-application-template/workflows/Prune/badge.svg?branch=master)](https://github.com/ergebnis/symfony-application-template/actions)
-[![Release](https://github.com/ergebnis/symfony-application-template/workflows/Release/badge.svg?branch=master)](https://github.com/ergebnis/symfony-application-template/actions)
-[![Renew](https://github.com/ergebnis/symfony-application-template/workflows/Renew/badge.svg?branch=master)](https://github.com/ergebnis/symfony-application-template/actions)
+[![Integrate](https://github.com/ergebnis/symfony-application-template/workflows/Integrate/badge.svg?branch=main)](https://github.com/ergebnis/symfony-application-template/actions)
+[![Prune](https://github.com/ergebnis/symfony-application-template/workflows/Prune/badge.svg?branch=main)](https://github.com/ergebnis/symfony-application-template/actions)
+[![Release](https://github.com/ergebnis/symfony-application-template/workflows/Release/badge.svg?branch=main)](https://github.com/ergebnis/symfony-application-template/actions)
+[![Renew](https://github.com/ergebnis/symfony-application-template/workflows/Renew/badge.svg?branch=main)](https://github.com/ergebnis/symfony-application-template/actions)
 
-[![Code Coverage](https://codecov.io/gh/ergebnis/symfony-application-template/branch/master/graph/badge.svg)](https://codecov.io/gh/ergebnis/symfony-application-template)
+[![Code Coverage](https://codecov.io/gh/ergebnis/symfony-application-template/branch/main/graph/badge.svg)](https://codecov.io/gh/ergebnis/symfony-application-template)
 [![Type Coverage](https://shepherd.dev/github/ergebnis/symfony-application-template/coverage.svg)](https://shepherd.dev/github/ergebnis/symfony-application-template)
 
 ## Installation
