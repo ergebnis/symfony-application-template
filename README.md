@@ -14,7 +14,7 @@
 
 Run
 
-```
+```sh
 $ composer require ergebnis/symfony-application-template
 ```
 

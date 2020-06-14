@@ -52,7 +52,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v1"
+        uses: "actions/cache@v2"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -77,7 +77,7 @@ jobs:
         run: "mkdir -p .build/php-cs-fixer"
 
       - name: "Cache cache directory for friendsofphp/php-cs-fixer"
-        uses: "actions/cache@v1"
+        uses: "actions/cache@v2"
         with:
           path: ".build/php-cs-fixer"
           key: "php-${{ matrix.php-version }}-php-cs-fixer-${{ hashFiles('composer.lock') }}"
@@ -115,7 +115,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v1"
+        uses: "actions/cache@v2"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -167,7 +167,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v1"
+        uses: "actions/cache@v2"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -195,7 +195,7 @@ jobs:
         run: "mkdir -p .build/phpstan"
 
       - name: "Cache cache directory for phpstan/phpstan"
-        uses: "actions/cache@v1"
+        uses: "actions/cache@v2"
         with:
           path: ".build/phpstan"
           key: "php-${{ matrix.php-version }}-phpstan-${{ github.sha }}"
@@ -208,7 +208,7 @@ jobs:
         run: "mkdir -p .build/psalm"
 
       - name: "Cache cache directory for vimeo/psalm"
-        uses: "actions/cache@v1"
+        uses: "actions/cache@v2"
         with:
           path: ".build/psalm"
           key: "php-${{ matrix.php-version }}-psalm-${{ github.sha }}"
@@ -246,7 +246,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v1"
+        uses: "actions/cache@v2"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -308,7 +308,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v1"
+        uses: "actions/cache@v2"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -369,7 +369,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v1"
+        uses: "actions/cache@v2"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -416,15 +416,15 @@ jobs:
         github.event.action == 'reopened' ||
         github.event.action == 'synchronize'
       ) && (
-        (github.actor == 'dependabot-preview[bot]' && startsWith(github.event.pull_request.title, 'Build(deps-dev)')) ||
-        (github.actor == 'dependabot-preview[bot]' && startsWith(github.event.pull_request.title, 'Build(deps)')) ||
+        (github.actor == 'dependabot[bot]' && startsWith(github.event.pull_request.title, 'Build(deps-dev)')) ||
+        (github.actor == 'dependabot[bot]' && startsWith(github.event.pull_request.title, 'Build(deps)')) ||
         (github.actor == 'ergebnis-bot' && github.event.pull_request.title == 'Enhancement: Update license year') ||
         (github.actor == 'localheinz' && contains(github.event.pull_request.labels.*.name, 'merge'))
       )
 
     steps:
       - name: "Request review from @ergebnis-bot"
-        uses: "actions/github-script@0.8.0"
+        uses: "actions/github-script@v2"
         with:
           github-token: "${{ secrets.ERGEBNIS_BOT_TOKEN }}"
           script: |
@@ -443,7 +443,7 @@ jobs:
             })
 
       - name: "Assign @ergebnis-bot"
-        uses: "actions/github-script@0.8.0"
+        uses: "actions/github-script@v2"
         with:
           github-token: "${{ secrets.ERGEBNIS_BOT_TOKEN }}"
           script: |
@@ -462,7 +462,7 @@ jobs:
             })
 
       - name: "Approve pull request"
-        uses: "actions/github-script@0.8.0"
+        uses: "actions/github-script@v2"
         if: "github.actor != 'ergebnis-bot'"
         with:
           github-token: "${{ secrets.ERGEBNIS_BOT_TOKEN }}"
@@ -478,7 +478,7 @@ jobs:
             })
 
       - name: "Merge pull request"
-        uses: "actions/github-script@0.8.0"
+        uses: "actions/github-script@v2"
         with:
           github-token: "${{ secrets.ERGEBNIS_BOT_TOKEN }}"
           script: |
