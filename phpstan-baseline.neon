@@ -35,3 +35,8 @@ parameters:
 			count: 1
 			path: src/Kernel.php
 
+		-
+			message: "#^Parameter \\$routes of method Ergebnis\\\\Application\\\\Kernel\\:\\:configureRoutes\\(\\) has typehint with deprecated class Symfony\\\\Component\\\\Routing\\\\RouteCollectionBuilder\\:\nsince Symfony 5\\.1, use RoutingConfigurator instead$#"
+			count: 1
+			path: src/Kernel.php
+

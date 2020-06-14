@@ -37,6 +37,12 @@
     </MixedAssignment>
   </file>
   <file src="src/Kernel.php">
+    <DeprecatedClass occurrences="4">
+      <code>Routing\RouteCollectionBuilder</code>
+      <code>$routes-&gt;import($confDir . '/{routes}/' . $this-&gt;environment . '/*' . self::CONFIG_EXTS, '/', 'glob')</code>
+      <code>$routes-&gt;import($confDir . '/{routes}/*' . self::CONFIG_EXTS, '/', 'glob')</code>
+      <code>$routes-&gt;import($confDir . '/{routes}' . self::CONFIG_EXTS, '/', 'glob')</code>
+    </DeprecatedClass>
     <MixedAssignment occurrences="2">
       <code>$contents</code>
       <code>$envs</code>
