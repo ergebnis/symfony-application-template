@@ -20,7 +20,7 @@
     "symfony/dependency-injection": "^5.1.0",
     "symfony/dotenv": "^5.1.1",
     "symfony/error-handler": "^5.1.0",
-    "symfony/flex": "^1.8.0",
+    "symfony/flex": "^1.8.1",
     "symfony/framework-bundle": "^5.0.9",
     "symfony/http-kernel": "^5.1.1",
     "symfony/routing": "^5.0.8",
