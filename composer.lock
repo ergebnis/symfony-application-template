@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4d0b9b66a2c033879fc6c41d7cc0ff2",
+    "content-hash": "2bc0082d2262e60e66eb19d46ce75b27",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1146,16 +1146,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.8.0",
+            "version": "v1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "0fc2cd90cb4e3f3031bd4b2603de3a71d2456d07"
+                "reference": "967fb2d58d4e8437e0e417979dd0e8ee4891cfb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/0fc2cd90cb4e3f3031bd4b2603de3a71d2456d07",
-                "reference": "0fc2cd90cb4e3f3031bd4b2603de3a71d2456d07",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/967fb2d58d4e8437e0e417979dd0e8ee4891cfb9",
+                "reference": "967fb2d58d4e8437e0e417979dd0e8ee4891cfb9",
                 "shasum": ""
             },
             "require": {
@@ -1191,7 +1191,7 @@
                 }
             ],
             "description": "Composer plugin for Symfony",
-            "time": "2020-06-14T08:18:40+00:00"
+            "time": "2020-06-14T09:29:35+00:00"
         },
         {
             "name": "symfony/framework-bundle",
