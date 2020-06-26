@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="3.11.5@3c60609c218d4d4b3b257728b8089094e5c6c6c2">
+<files psalm-version="3.12.1@9b860214d58c48b5cbe99bdb17914d0eb723c9cd">
   <file src="bin/console">
     <MixedArgument occurrences="1">
       <code>$_SERVER['APP_ENV']</code>
@@ -14,17 +14,15 @@
     </MixedOperand>
   </file>
   <file src="config/bootstrap.php">
-    <MixedArgumentTypeCoercion occurrences="1">
-      <code>$k</code>
-    </MixedArgumentTypeCoercion>
-    <MixedAssignment occurrences="6">
-      <code>$env</code>
-      <code>$v</code>
+    <MixedAssignment occurrences="4">
       <code>$_ENV[$k]</code>
       <code>$_ENV['APP_ENV']</code>
       <code>$_SERVER['APP_ENV']</code>
       <code>$_SERVER['APP_DEBUG']</code>
     </MixedAssignment>
+    <RedundantCondition occurrences="1">
+      <code>\is_array($env = include \dirname(__DIR__) . '/.env.local.php')</code>
+    </RedundantCondition>
   </file>
   <file src="public/index.php">
     <MixedArgument occurrences="2">
