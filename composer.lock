@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b2f4f5ece90d39bcbe87a8dd71e9bb5c",
+    "content-hash": "85b752f8feb210cabd675cf2702955b6",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -6882,22 +6882,22 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "3.11.5",
+            "version": "3.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "3c60609c218d4d4b3b257728b8089094e5c6c6c2"
+                "reference": "9b860214d58c48b5cbe99bdb17914d0eb723c9cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/3c60609c218d4d4b3b257728b8089094e5c6c6c2",
-                "reference": "3c60609c218d4d4b3b257728b8089094e5c6c6c2",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/9b860214d58c48b5cbe99bdb17914d0eb723c9cd",
+                "reference": "9b860214d58c48b5cbe99bdb17914d0eb723c9cd",
                 "shasum": ""
             },
             "require": {
                 "amphp/amp": "^2.1",
                 "amphp/byte-stream": "^1.5",
-                "composer/semver": "^1.4",
+                "composer/semver": "^1.4 || ^2.0 || ^3.0",
                 "composer/xdebug-handler": "^1.1",
                 "ext-dom": "*",
                 "ext-json": "*",
@@ -6975,7 +6975,7 @@
                 "inspection",
                 "php"
             ],
-            "time": "2020-05-27T15:12:09+00:00"
+            "time": "2020-06-23T00:24:34+00:00"
         },
         {
             "name": "webmozart/assert",
