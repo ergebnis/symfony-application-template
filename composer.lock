@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f84ddada09e3fa6e21061958450900ec",
+    "content-hash": "cf8fd876724e9333a72cab884be34cd3",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -5604,16 +5604,16 @@
         },
         {
             "name": "psalm/plugin-symfony",
-            "version": "v1.2.3",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-symfony.git",
-                "reference": "f0b6ffab06a031490ea201cf45766b3f5883a412"
+                "reference": "76ff9a0f8eee871f813f29a996c317f568cdb085"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/f0b6ffab06a031490ea201cf45766b3f5883a412",
-                "reference": "f0b6ffab06a031490ea201cf45766b3f5883a412",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/76ff9a0f8eee871f813f29a996c317f568cdb085",
+                "reference": "76ff9a0f8eee871f813f29a996c317f568cdb085",
                 "shasum": ""
             },
             "require": {
@@ -5624,9 +5624,10 @@
             },
             "require-dev": {
                 "codeception/base": "^2.5",
+                "doctrine/orm": "^2.7",
                 "phpunit/phpunit": "~7.5",
                 "symfony/console": "*",
-                "weirdan/codeception-psalm-module": "^0.2.2"
+                "weirdan/codeception-psalm-module": "^0.7.3"
             },
             "suggest": {
                 "weirdan/doctrine-psalm-plugin": "If Doctrine is used, it is recommended install this plugin"
@@ -5653,7 +5654,7 @@
                 }
             ],
             "description": "Psalm Plugin for Symfony",
-            "time": "2020-06-09T09:15:09+00:00"
+            "time": "2020-06-19T13:18:31+00:00"
         },
         {
             "name": "sanmai/pipeline",
