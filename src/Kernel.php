@@ -55,12 +55,12 @@ final class Kernel extends HttpKernel\Kernel
         $loader->load($confDir . '/{services}_' . $this->environment . self::CONFIG_EXTS, 'glob');
     }
 
-    protected function configureRoutes(Routing\RouteCollectionBuilder $routes): void
+    protected function configureRoutes(Routing\Loader\Configurator\RoutingConfigurator $routingConfigurator): void
     {
         $confDir = $this->getProjectDir() . '/config';
 
-        $routes->import($confDir . '/{routes}/' . $this->environment . '/*' . self::CONFIG_EXTS, '/', 'glob');
-        $routes->import($confDir . '/{routes}/*' . self::CONFIG_EXTS, '/', 'glob');
-        $routes->import($confDir . '/{routes}' . self::CONFIG_EXTS, '/', 'glob');
+        $routingConfigurator->import($confDir . '/{routes}/' . $this->environment . '/*' . self::CONFIG_EXTS);
+        $routingConfigurator->import($confDir . '/{routes}/*' . self::CONFIG_EXTS);
+        $routingConfigurator->import($confDir . '/{routes}' . self::CONFIG_EXTS);
     }
 }
