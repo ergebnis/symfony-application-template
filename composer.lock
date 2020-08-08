@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "811e370b77d9ca634b65b79fceed9252",
+    "content-hash": "dada679aaf1ee1cc9c1009096a07988d",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -135,20 +135,6 @@
                 "parser",
                 "php"
             ],
-            "funding": [
-                {
-                    "url": "https://www.doctrine-project.org/sponsorship.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.patreon.com/phpdoctrine",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Flexer",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-05-25T17:44:05+00:00"
         },
         {
@@ -171,7 +157,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-main": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -217,7 +203,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-main": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -266,7 +252,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-main": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -312,7 +298,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-main": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -2793,7 +2779,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-main": "1.x-dev"
                 }
             },
             "autoload": {
@@ -2942,20 +2928,6 @@
             "keywords": [
                 "constructor",
                 "instantiate"
-            ],
-            "funding": [
-                {
-                    "url": "https://www.doctrine-project.org/sponsorship.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.patreon.com/phpdoctrine",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-05-29T17:27:14+00:00"
         },
@@ -3549,20 +3521,6 @@
                 "phpunit",
                 "test"
             ],
-            "funding": [
-                {
-                    "url": "http://paypal.me/localheinz",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.buymeacoffee.com/localheinz",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/localheinz",
-                    "type": "github"
-                }
-            ],
             "time": "2020-03-11T11:08:49+00:00"
         },
         {
@@ -3775,7 +3733,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-main": "1.9-dev"
                 }
             },
             "autoload": {
@@ -4228,6 +4186,58 @@
             "time": "2020-07-06T04:49:32+00:00"
         },
         {
+            "name": "migrify/config-transformer",
+            "version": "v0.3.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/migrify/config-transformer.git",
+                "reference": "e5d791e1a9964d8606f51cdc3fbe567ae65615e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/migrify/config-transformer/zipball/e5d791e1a9964d8606f51cdc3fbe567ae65615e4",
+                "reference": "e5d791e1a9964d8606f51cdc3fbe567ae65615e4",
+                "shasum": ""
+            },
+            "require": {
+                "nette/neon": "^3.0",
+                "nette/utils": "^3.1",
+                "nikic/php-parser": "^4.5",
+                "php": "^7.2",
+                "symfony/console": "^4.4|^5.0",
+                "symfony/dependency-injection": "^4.4|^5.0",
+                "symfony/expression-language": "^4.4|^5.0",
+                "symfony/http-kernel": "^4.4|^5.0",
+                "symfony/yaml": "^4.4|^5.0",
+                "symplify/autowire-array-parameter": "^8.1.17",
+                "symplify/package-builder": "^8.1.17",
+                "symplify/smart-file-system": "^8.1.17"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5|^9.0",
+                "symfony/framework-bundle": "^4.4|^5.0",
+                "symplify/easy-testing": "^8.1.17"
+            },
+            "bin": [
+                "bin/config-transformer"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Migrify\\ConfigTransformer\\": "src",
+                    "Migrify\\ConfigTransformer\\Clarifier\\": "packages/clarifier/src",
+                    "Migrify\\ConfigTransformer\\FormatSwitcher\\": "packages/format-switcher/src",
+                    "Migrify\\ConfigTransformer\\FeatureShifter\\": "packages/feature-shifter/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Convert Symfony XML format to YAML or clarify Symfony/Nette syntax to readable one - all the useful utils around configs",
+            "time": "2020-08-05T21:57:56+00:00"
+        },
+        {
             "name": "myclabs/deep-copy",
             "version": "1.10.1",
             "source": {
@@ -4326,6 +4336,209 @@
             ],
             "description": "Map nested JSON structures onto PHP classes",
             "time": "2020-04-16T18:48:43+00:00"
+        },
+        {
+            "name": "nette/finder",
+            "version": "v2.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/finder.git",
+                "reference": "4ad2c298eb8c687dd0e74ae84206a4186eeaed50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/finder/zipball/4ad2c298eb8c687dd0e74ae84206a4186eeaed50",
+                "reference": "4ad2c298eb8c687dd0e74ae84206a4186eeaed50",
+                "shasum": ""
+            },
+            "require": {
+                "nette/utils": "^2.4 || ^3.0",
+                "php": ">=7.1"
+            },
+            "conflict": {
+                "nette/nette": "<2.2"
+            },
+            "require-dev": {
+                "nette/tester": "^2.0",
+                "phpstan/phpstan": "^0.12",
+                "tracy/tracy": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https://nette.org/contributors"
+                }
+            ],
+            "description": "🔍 Nette Finder: find files and directories with an intuitive API.",
+            "homepage": "https://nette.org",
+            "keywords": [
+                "filesystem",
+                "glob",
+                "iterator",
+                "nette"
+            ],
+            "time": "2020-01-03T20:35:40+00:00"
+        },
+        {
+            "name": "nette/neon",
+            "version": "v3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/neon.git",
+                "reference": "a5b3a60833d2ef55283a82d0c30b45d136b29e75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/neon/zipball/a5b3a60833d2ef55283a82d0c30b45d136b29e75",
+                "reference": "a5b3a60833d2ef55283a82d0c30b45d136b29e75",
+                "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "ext-json": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "nette/tester": "^2.0",
+                "phpstan/phpstan": "^0.12",
+                "tracy/tracy": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0-only",
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https://nette.org/contributors"
+                }
+            ],
+            "description": "🍸 Nette NEON: encodes and decodes NEON file format.",
+            "homepage": "https://ne-on.org",
+            "keywords": [
+                "export",
+                "import",
+                "neon",
+                "nette",
+                "yaml"
+            ],
+            "time": "2020-07-31T12:28:05+00:00"
+        },
+        {
+            "name": "nette/utils",
+            "version": "v3.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/utils.git",
+                "reference": "c09937fbb24987b2a41c6022ebe84f4f1b8eec0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/utils/zipball/c09937fbb24987b2a41c6022ebe84f4f1b8eec0f",
+                "reference": "c09937fbb24987b2a41c6022ebe84f4f1b8eec0f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "nette/tester": "~2.0",
+                "phpstan/phpstan": "^0.12",
+                "tracy/tracy": "^2.3"
+            },
+            "suggest": {
+                "ext-gd": "to use Image",
+                "ext-iconv": "to use Strings::webalize(), toAscii(), chr() and reverse()",
+                "ext-intl": "to use Strings::webalize(), toAscii(), normalize() and compare()",
+                "ext-json": "to use Nette\\Utils\\Json",
+                "ext-mbstring": "to use Strings::lower() etc...",
+                "ext-tokenizer": "to use Nette\\Utils\\Reflection::getUseStatements()",
+                "ext-xml": "to use Strings::length() etc. when mbstring is not available"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0-only",
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https://nette.org/contributors"
+                }
+            ],
+            "description": "🛠 Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
+            "homepage": "https://nette.org",
+            "keywords": [
+                "array",
+                "core",
+                "datetime",
+                "images",
+                "json",
+                "nette",
+                "paginator",
+                "password",
+                "slugify",
+                "string",
+                "unicode",
+                "utf-8",
+                "utility",
+                "validation"
+            ],
+            "time": "2020-08-07T10:34:21+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -4518,7 +4731,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-main": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -5248,12 +5461,6 @@
                 "testing",
                 "xunit"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-05-23T08:02:54+00:00"
         },
         {
@@ -5654,7 +5861,7 @@
                 "ocramius/package-versions": "^1.3",
                 "php": "^7.1.3",
                 "phpunit/phpunit": "^7.5 || ^8.0 || ^9.0",
-                "vimeo/psalm": "^3.6.2 || dev-master"
+                "vimeo/psalm": "^3.6.2 || dev-main"
             },
             "require-dev": {
                 "codeception/codeception": "^4.0.3",
@@ -5771,7 +5978,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-main": "2.x-dev"
                 }
             },
             "autoload": {
@@ -6191,7 +6398,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-main": "4.0-dev"
                 }
             },
             "autoload": {
@@ -6591,6 +6798,72 @@
             "time": "2020-04-30T19:05:18+00:00"
         },
         {
+            "name": "symfony/expression-language",
+            "version": "v5.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/expression-language.git",
+                "reference": "6675d937852379a251017db6e5144dd57506fbbd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/expression-language/zipball/6675d937852379a251017db6e5144dd57506fbbd",
+                "reference": "6675d937852379a251017db6e5144dd57506fbbd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/cache": "^4.4|^5.0",
+                "symfony/polyfill-php80": "^1.15",
+                "symfony/service-contracts": "^1.1|^2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\ExpressionLanguage\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony ExpressionLanguage Component",
+            "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-31T07:33:39+00:00"
+        },
+        {
             "name": "symfony/options-resolver",
             "version": "v5.1.2",
             "source": {
@@ -6787,6 +7060,153 @@
                 }
             ],
             "time": "2020-05-20T17:43:50+00:00"
+        },
+        {
+            "name": "symplify/autowire-array-parameter",
+            "version": "v8.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symplify/autowire-array-parameter.git",
+                "reference": "839b65ff06fe065c9aaf9f49b57e1aa0f4715267"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symplify/autowire-array-parameter/zipball/839b65ff06fe065c9aaf9f49b57e1aa0f4715267",
+                "reference": "839b65ff06fe065c9aaf9f49b57e1aa0f4715267",
+                "shasum": ""
+            },
+            "require": {
+                "nette/utils": "^3.0",
+                "php": "^7.2",
+                "symfony/dependency-injection": "^4.4|^5.0",
+                "symplify/package-builder": "^8.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symplify\\AutowireArrayParameter\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Autowire array parameters for your Symfony applications",
+            "funding": [
+                {
+                    "url": "https://github.com/tomasvotruba",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-08-07T22:34:58+00:00"
+        },
+        {
+            "name": "symplify/package-builder",
+            "version": "v8.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symplify/package-builder.git",
+                "reference": "797d3e2508e92684f2714f5afdab835d4195e691"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symplify/package-builder/zipball/797d3e2508e92684f2714f5afdab835d4195e691",
+                "reference": "797d3e2508e92684f2714f5afdab835d4195e691",
+                "shasum": ""
+            },
+            "require": {
+                "nette/finder": "^2.5",
+                "nette/utils": "^3.0",
+                "php": "^7.2",
+                "symfony/config": "^4.4|^5.0",
+                "symfony/console": "^4.4|^5.0",
+                "symfony/dependency-injection": "^4.4|^5.0",
+                "symfony/finder": "^4.4|^5.0",
+                "symfony/http-kernel": "^4.4|^5.0",
+                "symfony/yaml": "^4.4|^5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symplify\\PackageBuilder\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Dependency Injection, Console and Kernel toolkit for Symplify packages.",
+            "funding": [
+                {
+                    "url": "https://github.com/tomasvotruba",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-08-07T20:33:15+00:00"
+        },
+        {
+            "name": "symplify/smart-file-system",
+            "version": "v8.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symplify/smart-file-system.git",
+                "reference": "ccafb93d253a4fc7f4cea02904e9c0b85487f469"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symplify/smart-file-system/zipball/ccafb93d253a4fc7f4cea02904e9c0b85487f469",
+                "reference": "ccafb93d253a4fc7f4cea02904e9c0b85487f469",
+                "shasum": ""
+            },
+            "require": {
+                "nette/utils": "^3.0",
+                "php": "^7.2",
+                "symfony/filesystem": "^4.4|^5.0",
+                "symfony/finder": "^4.4|^5.0"
+            },
+            "require-dev": {
+                "nette/finder": "^2.5",
+                "phpunit/phpunit": "^8.5|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symplify\\SmartFileSystem\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sanitized FileInfo with safe getRealPath() and other handy methods",
+            "funding": [
+                {
+                    "url": "https://github.com/tomasvotruba",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-08-07T20:33:15+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -7138,7 +7558,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-main": "4.1-dev"
                 }
             },
             "autoload": {
@@ -7184,7 +7604,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-main": "2.3-dev"
                 }
             },
             "autoload": {
