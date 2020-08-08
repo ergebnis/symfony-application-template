@@ -24,6 +24,8 @@ $ brew install yamllint
 
 to install `yamllint`.
 
+We are using [`migrify/config-transformer`](https://github.com/migrify/config-transformer) to convert YAML configuration files to PHP.
+
 We are using [`friendsofphp/php-cs-fixer`](https://github.com/FriendsOfPHP/PHP-CS-Fixer) to enforce coding standards in PHP files.
 
 Run
