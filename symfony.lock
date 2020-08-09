@@ -111,6 +111,9 @@
     "ergebnis/composer-normalize": {
         "version": "2.2.4"
     },
+    "ergebnis/factory-bot": {
+        "version": "0.3.1"
+    },
     "ergebnis/json-normalizer": {
         "version": "0.11.0"
     },
