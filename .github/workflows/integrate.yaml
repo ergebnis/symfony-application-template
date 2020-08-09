@@ -233,6 +233,22 @@ jobs:
         dependencies:
           - "locked"
 
+    services:
+      database-default:
+        env:
+          POSTGRES_USER: "postgres"
+          POSTGRES_PASSWORD: "postgres"
+          POSTGRES_DB: "default"
+        image: "postgres:12"
+        ports:
+          - "5432:5432"
+        options: "--health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 3"
+
+    env:
+      APP_ENV: "test"
+      CONNECTION_NAME_DEFAULT: "default"
+      ENTITY_MANAGER_NAME_DEFAULT: "default"
+
     steps:
       - name: "Checkout"
         uses: "actions/checkout@v2.3.1"
