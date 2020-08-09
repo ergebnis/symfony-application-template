@@ -5,6 +5,9 @@
     "amphp/byte-stream": {
         "version": "v1.7.2"
     },
+    "brick/math": {
+        "version": "0.8.15"
+    },
     "composer/semver": {
         "version": "1.5.1"
     },
@@ -277,6 +280,12 @@
     },
     "psr/log": {
         "version": "1.1.2"
+    },
+    "ramsey/collection": {
+        "version": "1.0.1"
+    },
+    "ramsey/uuid": {
+        "version": "4.1.0"
     },
     "sebastian/code-unit": {
         "version": "1.0.0"
