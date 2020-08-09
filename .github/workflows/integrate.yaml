@@ -296,7 +296,7 @@ jobs:
         run: "bin/console doctrine:migrations:migrate --allow-no-migration --no-interaction"
 
       - name: "Validate Doctrine schema"
-        run: "bin/console doctrine:schema:validate --em=${{ env.ENTITY_MANAGER_NAME_DEFAULT }} --skip-sync"
+        run: "bin/console doctrine:schema:validate --em=${{ env.ENTITY_MANAGER_NAME_DEFAULT }}"
 
       - name: "Run auto-review tests with phpunit/phpunit"
         run: "vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml"

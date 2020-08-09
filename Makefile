@@ -33,7 +33,7 @@ doctrine: vendor environment ## Runs doctrine commands to set up a local test da
 	bin/console doctrine:database:create --connection=${CONNECTION_NAME_DEFAULT} --env=${APP_ENV}
 	bin/console doctrine:migrations:status --env=${APP_ENV}
 	bin/console doctrine:migrations:migrate --env=${APP_ENV} --allow-no-migration --no-interaction
-	bin/console doctrine:schema:validate --em=${ENTITY_MANAGER_NAME_DEFAULT} --skip-sync
+	bin/console doctrine:schema:validate --em=${ENTITY_MANAGER_NAME_DEFAULT}
 
 .PHONY: environment
 environment: vendor ## Dumps environment variables
