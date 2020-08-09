@@ -15,6 +15,7 @@ use Symfony\Component\DependencyInjection;
 
 return static function (DependencyInjection\Loader\Configurator\ContainerConfigurator $containerConfigurator): void {
     $containerConfigurator->extension('doctrine_migrations', [
+        'custom_template' => '%kernel.project_dir%/migrations/migration.tpl',
         'migrations_paths' => [
             'Ergebnis\Application\Migration' => '%kernel.project_dir%/migrations',
         ],
