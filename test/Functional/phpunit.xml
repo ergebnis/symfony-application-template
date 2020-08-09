@@ -1,0 +1,35 @@
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../vendor/phpunit/phpunit/phpunit.xsd"
+    beStrictAboutChangesToGlobalState="true"
+    beStrictAboutCoversAnnotation="true"
+    beStrictAboutOutputDuringTests="true"
+    beStrictAboutResourceUsageDuringSmallTests="true"
+    beStrictAboutTestsThatDoNotTestAnything="true"
+    beStrictAboutTodoAnnotatedTests="true"
+    bootstrap="bootstrap.php"
+    cacheResult="true"
+    cacheResultFile="../../.build/phpunit/functional.cache"
+    colors="true"
+    columns="max"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    executionOrder="random"
+    stopOnError="false"
+    stopOnFailure="false"
+    stopOnIncomplete="false"
+    stopOnSkipped="false"
+    verbose="true"
+>
+    <php>
+        <ini name="error_reporting" value="-1" />
+        <server name="APP_ENV" value="test" force="true" />
+        <server name="SHELL_VERBOSITY" value="-1" />
+    </php>
+    <testsuites>
+        <testsuite name="Functional Tests">
+            <directory>.</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

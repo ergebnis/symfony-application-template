@@ -307,6 +307,9 @@ jobs:
       - name: "Run integration tests with phpunit/phpunit"
         run: "vendor/bin/phpunit --configuration=test/Integration/phpunit.xml"
 
+      - name: "Run functional tests with phpunit/phpunit"
+        run: "vendor/bin/phpunit --configuration=test/Functional/phpunit.xml"
+
   code-coverage:
     name: "Code Coverage"
 

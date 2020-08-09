@@ -63,11 +63,12 @@ static-code-analysis-baseline: vendor cache ## Generates a baseline for static c
 	vendor/bin/psalm --config=psalm.xml --set-baseline=psalm-baseline.xml
 
 .PHONY: tests
-tests: vendor cache environment doctrine ## Runs auto-review, unit, and integration tests with phpunit/phpunit
+tests: vendor cache environment doctrine ## Runs auto-review, unit, integration, and functional tests with phpunit/phpunit
 	mkdir -p .build/phpunit
 	vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Integration/phpunit.xml
+	vendor/bin/phpunit --configuration=test/Functional/phpunit.xml
 
 vendor: composer.json composer.lock
 	composer validate --strict
