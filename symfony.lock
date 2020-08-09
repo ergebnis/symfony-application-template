@@ -546,5 +546,8 @@
     },
     "webmozart/path-util": {
         "version": "2.3.0"
+    },
+    "weirdan/doctrine-psalm-plugin": {
+        "version": "0.11.3"
     }
 }
