@@ -16,6 +16,7 @@
     "ext-iconv": "*",
     "doctrine/annotations": "^1.8.0",
     "doctrine/collections": "^1.6.7",
+    "doctrine/doctrine-bundle": "^2.1.0",
     "doctrine/orm": "^2.7.3",
     "sensio/framework-extra-bundle": "^5.5.5",
     "symfony/config": "^5.1.3",
