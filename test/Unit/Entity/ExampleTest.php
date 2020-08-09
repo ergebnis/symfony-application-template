@@ -11,16 +11,16 @@ declare(strict_types=1);
  * @see https://github.com/ergebnis/symfony-application-template
  */
 
-namespace Ergebnis\Application\Test\Unit;
+namespace Ergebnis\Application\Test\Unit\Entity;
 
-use Ergebnis\Application\Example;
+use Ergebnis\Application\Entity\Example;
 use Ergebnis\Test\Util\Helper;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Ergebnis\Application\Example
+ * @covers \Ergebnis\Application\Entity\Example
  */
 final class ExampleTest extends Framework\TestCase
 {
@@ -33,5 +33,6 @@ final class ExampleTest extends Framework\TestCase
         $example = Example::fromName($name);
 
         self::assertSame($name, $example->name());
+        self::assertMatchesRegularExpression('/^[0-9a-fA-F]{8}(\-[0-9a-fA-F]{4}){3}\-[0-9a-fA-F]{12}$/', $example->id());
     }
 }
