@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ceac282542edb6d13c139e971e6c774",
+    "content-hash": "4766238fd0406af73f49cee4e1cde651",
     "packages": [
         {
             "name": "brick/math",
@@ -988,6 +988,20 @@
                 "constructor",
                 "instantiate"
             ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-29T17:27:14+00:00"
         },
         {
@@ -1049,6 +1063,20 @@
                 "lexer",
                 "parser",
                 "php"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Flexer",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-05-25T17:44:05+00:00"
         },
@@ -1764,7 +1792,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.0.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -1810,7 +1838,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.0.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -1859,7 +1887,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.0.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -1905,7 +1933,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.1.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -4697,7 +4725,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.x-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
@@ -5440,6 +5468,20 @@
                 "phpunit",
                 "test"
             ],
+            "funding": [
+                {
+                    "url": "http://paypal.me/localheinz",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.buymeacoffee.com/localheinz",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/localheinz",
+                    "type": "github"
+                }
+            ],
             "time": "2020-03-11T11:08:49+00:00"
         },
         {
@@ -5652,7 +5694,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.9-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -6650,7 +6692,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.0.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -7380,6 +7422,12 @@
                 "testing",
                 "xunit"
             ],
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-05-23T08:02:54+00:00"
         },
         {
@@ -7780,7 +7828,7 @@
                 "ocramius/package-versions": "^1.3",
                 "php": "^7.1.3",
                 "phpunit/phpunit": "^7.5 || ^8.0 || ^9.0",
-                "vimeo/psalm": "^3.6.2 || dev-main"
+                "vimeo/psalm": "^3.6.2 || dev-master"
             },
             "require-dev": {
                 "codeception/codeception": "^4.0.3",
@@ -7813,29 +7861,30 @@
         },
         {
             "name": "psalm/plugin-symfony",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-symfony.git",
-                "reference": "d13b6aa27aa0d5b8fab0e5874630c2e2c4546d21"
+                "reference": "798b72f40c184ff103b5cf5553de14dfed99a2ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/d13b6aa27aa0d5b8fab0e5874630c2e2c4546d21",
-                "reference": "d13b6aa27aa0d5b8fab0e5874630c2e2c4546d21",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/798b72f40c184ff103b5cf5553de14dfed99a2ab",
+                "reference": "798b72f40c184ff103b5cf5553de14dfed99a2ab",
                 "shasum": ""
             },
             "require": {
                 "ext-simplexml": "*",
                 "php": "^7.1",
                 "symfony/framework-bundle": "^3.0 || ^4.0 || ^5.0",
-                "vimeo/psalm": "^3.12"
+                "vimeo/psalm": "^3.13"
             },
             "require-dev": {
                 "doctrine/orm": "^2.7",
                 "phpunit/phpunit": "~7.5",
                 "symfony/console": "*",
                 "symfony/messenger": "^4.2 || ^5.0",
+                "symfony/validator": "*",
                 "weirdan/codeception-psalm-module": "~0.8"
             },
             "suggest": {
@@ -7863,7 +7912,7 @@
                 }
             ],
             "description": "Psalm Plugin for Symfony",
-            "time": "2020-07-28T18:21:03+00:00"
+            "time": "2020-08-04T04:14:56+00:00"
         },
         {
             "name": "sanmai/pipeline",
@@ -7897,7 +7946,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -8317,7 +8366,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "4.0-dev"
+                    "dev-master": "4.0-dev"
                 }
             },
             "autoload": {
@@ -9413,7 +9462,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "4.1-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -9459,7 +9508,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.3-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
