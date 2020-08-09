@@ -31,6 +31,8 @@ dependency-analysis: vendor ## Runs a dependency analysis with maglnet/composer-
 doctrine: vendor environment ## Runs doctrine commands to set up a local test database
 	bin/console doctrine:database:drop --connection=${CONNECTION_NAME_DEFAULT} --env=${APP_ENV} --force --if-exists
 	bin/console doctrine:database:create --connection=${CONNECTION_NAME_DEFAULT} --env=${APP_ENV}
+	bin/console doctrine:migrations:status --env=${APP_ENV}
+	bin/console doctrine:migrations:migrate --env=${APP_ENV} --allow-no-migration --no-interaction
 
 .PHONY: environment
 environment: vendor ## Dumps environment variables
