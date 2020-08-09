@@ -46,4 +46,9 @@
       <code>require $this-&gt;getProjectDir() . '/config/bundles.php'</code>
     </UnresolvableInclude>
   </file>
+  <file src="test/object-manager.php">
+    <MixedArgument occurrences="1">
+      <code>$_SERVER['APP_ENV']</code>
+    </MixedArgument>
+  </file>
 </files>
