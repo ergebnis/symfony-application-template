@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b24cabba97916d06b168e00595720c05",
+    "content-hash": "7ca347fb12e23c414dfd476dfcc87f9d",
     "packages": [
         {
             "name": "brick/math",
@@ -8002,16 +8002,16 @@
         },
         {
             "name": "psalm/plugin-symfony",
-            "version": "v1.4.2",
+            "version": "v1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-symfony.git",
-                "reference": "798b72f40c184ff103b5cf5553de14dfed99a2ab"
+                "reference": "9fb76499f9d975719a14a14f1fd7fbae3afab4bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/798b72f40c184ff103b5cf5553de14dfed99a2ab",
-                "reference": "798b72f40c184ff103b5cf5553de14dfed99a2ab",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/9fb76499f9d975719a14a14f1fd7fbae3afab4bc",
+                "reference": "9fb76499f9d975719a14a14f1fd7fbae3afab4bc",
                 "shasum": ""
             },
             "require": {
@@ -8023,8 +8023,10 @@
             "require-dev": {
                 "doctrine/orm": "^2.7",
                 "phpunit/phpunit": "~7.5",
+                "symfony/cache-contracts": "^1.0 || ^2.0",
                 "symfony/console": "*",
                 "symfony/messenger": "^4.2 || ^5.0",
+                "symfony/security-guard": "^4.0 || ^5.0",
                 "symfony/validator": "*",
                 "weirdan/codeception-psalm-module": "~0.8"
             },
@@ -8053,7 +8055,7 @@
                 }
             ],
             "description": "Psalm Plugin for Symfony",
-            "time": "2020-08-04T04:14:56+00:00"
+            "time": "2020-08-18T11:38:35+00:00"
         },
         {
             "name": "sanmai/pipeline",
