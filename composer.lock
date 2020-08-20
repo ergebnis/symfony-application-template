@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ca347fb12e23c414dfd476dfcc87f9d",
+    "content-hash": "58460ea45bd572fcbbe1c34eac959b5b",
     "packages": [
         {
             "name": "brick/math",
@@ -4774,16 +4774,16 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51"
+                "reference": "ebd27a9866ae8254e873866f795491f02418c5a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51",
-                "reference": "fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/ebd27a9866ae8254e873866f795491f02418c5a5",
+                "reference": "ebd27a9866ae8254e873866f795491f02418c5a5",
                 "shasum": ""
             },
             "require": {
@@ -4828,7 +4828,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-04T11:16:35+00:00"
+            "time": "2020-08-19T10:27:58+00:00"
         },
         {
             "name": "dama/doctrine-test-bundle",
@@ -5921,16 +5921,16 @@
         },
         {
             "name": "infection/infection",
-            "version": "0.17.0",
+            "version": "0.17.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "201c8ea39a3748552bfadb109ca3bc41f3259cd2"
+                "reference": "31e4af4be7e7508bed086d8254f010a56ff79bea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/201c8ea39a3748552bfadb109ca3bc41f3259cd2",
-                "reference": "201c8ea39a3748552bfadb109ca3bc41f3259cd2",
+                "url": "https://api.github.com/repos/infection/infection/zipball/31e4af4be7e7508bed086d8254f010a56ff79bea",
+                "reference": "31e4af4be7e7508bed086d8254f010a56ff79bea",
                 "shasum": ""
             },
             "require": {
@@ -6025,7 +6025,7 @@
                 "testing",
                 "unit testing"
             ],
-            "time": "2020-08-18T06:02:37+00:00"
+            "time": "2020-08-19T12:07:32+00:00"
         },
         {
             "name": "jangregor/phpstan-prophecy",
