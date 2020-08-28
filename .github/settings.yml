@@ -19,6 +19,7 @@ branches:
           - "Dependency Analysis (7.4, locked)"
           - "Mutation Tests (7.4, locked)"
           - "Static Code Analysis (7.4, locked)"
+          - "Symfony Flex (7.4, locked)"
           - "Tests (7.4, locked)"
         strict: false
       restrictions:

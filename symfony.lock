@@ -8,6 +8,9 @@
     "brick/math": {
         "version": "0.8.15"
     },
+    "composer/package-versions-deprecated": {
+        "version": "1.11.99"
+    },
     "composer/semver": {
         "version": "1.5.1"
     },
@@ -185,6 +188,9 @@
     },
     "migrify/config-transformer": {
         "version": "v0.3.24"
+    },
+    "migrify/php-config-printer": {
+        "version": "v0.3.31"
     },
     "myclabs/deep-copy": {
         "version": "1.9.5"
