@@ -41,11 +41,11 @@ final class Kernel extends HttpKernel\Kernel
         return \dirname(__DIR__);
     }
 
-    protected function configureContainer(DependencyInjection\ContainerBuilder $container, Config\Loader\LoaderInterface $loader): void
+    protected function configureContainer(DependencyInjection\ContainerBuilder $containerBuilder, Config\Loader\LoaderInterface $loader): void
     {
-        $container->addResource(new Config\Resource\FileResource($this->getProjectDir() . '/config/bundles.php'));
-        $container->setParameter('container.dumper.inline_class_loader', $this->debug);
-        $container->setParameter('container.dumper.inline_factories', true);
+        $containerBuilder->addResource(new Config\Resource\FileResource($this->getProjectDir() . '/config/bundles.php'));
+        $containerBuilder->setParameter('container.dumper.inline_class_loader', $this->debug);
+        $containerBuilder->setParameter('container.dumper.inline_factories', true);
 
         $confDir = $this->getProjectDir() . '/config';
 
