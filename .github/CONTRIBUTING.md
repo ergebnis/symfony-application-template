@@ -96,6 +96,18 @@ $ make mutation-tests
 
 to run mutation tests.
 
+## Symfony
+
+We are using [`symfony/flex`](https://github.com/symfony/flex) to integrate packages into the application.
+
+Run
+
+```sh
+$ make symfony
+```
+
+to synchronize recipes.
+
 ## Extra lazy?
 
 Run

@@ -70,6 +70,10 @@ tests: vendor cache environment doctrine ## Runs auto-review, unit, integration,
 	vendor/bin/phpunit --configuration=test/Integration/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Functional/phpunit.xml
 
+.PHONY: symfony
+symfony: vendor ## Synchronizes symfony recipes
+	composer symfony:sync-recipes
+
 vendor: composer.json composer.lock
 	composer validate --strict
 	composer install --no-interaction --no-progress --no-suggest
