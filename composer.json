@@ -58,7 +58,7 @@
     "infection/infection": "~0.17.3",
     "jangregor/phpstan-prophecy": "~0.8.0",
     "migrify/config-transformer": "~0.3.31",
-    "phpstan/extension-installer": "^1.0.4",
+    "phpstan/extension-installer": "^1.0.5",
     "phpstan/phpstan": "~0.12.40",
     "phpstan/phpstan-deprecation-rules": "~0.12.5",
     "phpstan/phpstan-doctrine": "~0.12.19",
