@@ -68,7 +68,7 @@
     "phpunit/phpunit": "^9.2.6",
     "psalm/plugin-phpunit": "~0.12.1",
     "psalm/plugin-symfony": "^1.4.3",
-    "vimeo/psalm": "^3.14.2",
+    "vimeo/psalm": "^3.15",
     "weirdan/doctrine-psalm-plugin": "~0.11.3"
   },
   "config": {

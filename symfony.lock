@@ -29,6 +29,9 @@
             "config/packages/test/dama_doctrine_test_bundle.yaml"
         ]
     },
+    "dnoegel/php-xdg-base-dir": {
+        "version": "v0.1.1"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
