@@ -30,7 +30,7 @@
     "symfony/flex": "^1.9.3",
     "symfony/framework-bundle": "^5.1.4",
     "symfony/http-kernel": "^5.1.5",
-    "symfony/routing": "^5.1.4",
+    "symfony/routing": "^5.1.5",
     "symfony/yaml": "^5.1.4"
   },
   "replace": {
