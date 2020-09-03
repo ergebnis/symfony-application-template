@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10854903b8b27c6d3ad23404bd532023",
+    "content-hash": "0847a74f86afc185c4ea6b1787ad718f",
     "packages": [
         {
             "name": "brick/math",
@@ -3951,7 +3951,7 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v5.1.4",
+            "version": "v5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
