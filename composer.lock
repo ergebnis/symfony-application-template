@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77040783344fa9a848ccd304dae916f8",
+    "content-hash": "ca91a17b3aa499c0804804f656bd053c",
     "packages": [
         {
             "name": "brick/math",
@@ -2805,7 +2805,7 @@
         },
         {
             "name": "symfony/dotenv",
-            "version": "v5.1.4",
+            "version": "v5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
