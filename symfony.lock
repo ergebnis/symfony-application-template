@@ -192,6 +192,9 @@
     "migrify/config-transformer": {
         "version": "v0.3.24"
     },
+    "migrify/migrify-kernel": {
+        "version": "0.3.35"
+    },
     "migrify/php-config-printer": {
         "version": "v0.3.31"
     },
