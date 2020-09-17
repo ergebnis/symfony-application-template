@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d21de9702aa4eec495f9da21bb775f06",
+    "content-hash": "9ac38c5d238a82a4d37d43668b491fa6",
     "packages": [
         {
             "name": "brick/math",
@@ -8050,16 +8050,16 @@
         },
         {
             "name": "psalm/plugin-symfony",
-            "version": "v1.4.3",
+            "version": "v1.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-symfony.git",
-                "reference": "9fb76499f9d975719a14a14f1fd7fbae3afab4bc"
+                "reference": "02408457444c4ab0d1228cc7c68d18eced2a89e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/9fb76499f9d975719a14a14f1fd7fbae3afab4bc",
-                "reference": "9fb76499f9d975719a14a14f1fd7fbae3afab4bc",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/02408457444c4ab0d1228cc7c68d18eced2a89e0",
+                "reference": "02408457444c4ab0d1228cc7c68d18eced2a89e0",
                 "shasum": ""
             },
             "require": {
@@ -8076,7 +8076,8 @@
                 "symfony/messenger": "^4.2 || ^5.0",
                 "symfony/security-guard": "^4.0 || ^5.0",
                 "symfony/validator": "*",
-                "weirdan/codeception-psalm-module": "~0.8"
+                "twig/twig": "^2.10 || ^3.0",
+                "weirdan/codeception-psalm-module": "~0.9"
             },
             "suggest": {
                 "weirdan/doctrine-psalm-plugin": "If Doctrine is used, it is recommended install this plugin"
@@ -8103,7 +8104,7 @@
                 }
             ],
             "description": "Psalm Plugin for Symfony",
-            "time": "2020-08-18T11:38:35+00:00"
+            "time": "2020-09-14T08:17:23+00:00"
         },
         {
             "name": "sanmai/pipeline",
