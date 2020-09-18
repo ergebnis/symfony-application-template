@@ -1,8 +1,8 @@
 {
-  "scan-files" : [
+  "scan-files": [
     "bin/console"
   ],
-  "symbol-whitelist" : [
+  "symbol-whitelist": [
     "array",
     "bool",
     "callable",
