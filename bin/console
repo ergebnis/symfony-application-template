@@ -4,6 +4,7 @@
 use Ergebnis\Application;
 use Symfony\Bundle\FrameworkBundle;
 use Symfony\Component\Console;
+use Symfony\Component\Dotenv;
 use Symfony\Component\ErrorHandler;
 
 if (!\in_array(\PHP_SAPI, ['cli', 'phpdbg', 'embed'], true)) {
@@ -14,8 +15,8 @@ if (!\in_array(\PHP_SAPI, ['cli', 'phpdbg', 'embed'], true)) {
 
 require \dirname(__DIR__) . '/vendor/autoload.php';
 
-if (!\class_exists(FrameworkBundle\Console\Application::class)) {
-    throw new LogicException('You need to add "symfony/framework-bundle" as a Composer dependency.');
+if (!\class_exists(FrameworkBundle\Console\Application::class) || !\class_exists(Dotenv\Dotenv::class)) {
+    throw new LogicException('You need to add "symfony/framework-bundle" as a Composer dependencies.');
 }
 
 $input = new Console\Input\ArgvInput();
@@ -28,7 +29,7 @@ if ($input->hasParameterOption('--no-debug', true)) {
     \putenv('APP_DEBUG=' . $_SERVER['APP_DEBUG'] = $_ENV['APP_DEBUG'] = '0');
 }
 
-require \dirname(__DIR__) . '/config/bootstrap.php';
+(new Dotenv\Dotenv())->bootEnv(\dirname(__DIR__) . '/.env');
 
 if ($_SERVER['APP_DEBUG']) {
     \umask(0000);

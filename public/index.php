@@ -12,10 +12,13 @@ declare(strict_types=1);
  */
 
 use Ergebnis\Application;
+use Symfony\Component\Dotenv;
 use Symfony\Component\ErrorHandler;
 use Symfony\Component\HttpFoundation;
 
-require \dirname(__DIR__) . '/config/bootstrap.php';
+require \dirname(__DIR__) . '/vendor/autoload.php';
+
+(new Dotenv\Dotenv())->bootEnv(\dirname(__DIR__) . '/.env');
 
 if ($_SERVER['APP_DEBUG']) {
     \umask(0000);
