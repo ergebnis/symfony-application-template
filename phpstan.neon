@@ -11,6 +11,7 @@ parameters:
 	inferPrivatePropertyTypeFromConstructor: true
 	level: max
 	paths:
+		- bin/
 		- config/
 		- src/
 		- test/
