@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="3.14.2@3538fe1955d47f6ee926c0769d71af6db08aa488">
+<files psalm-version="3.16@d03e5ef057d6adc656c0ff7e166c50b73b4f48f3">
   <file src="bin/console">
     <MixedArgument occurrences="1">
       <code>$_SERVER['APP_ENV']</code>
     </MixedArgument>
     <MixedAssignment occurrences="3">
-      <code>$env</code>
       <code>$_ENV['APP_ENV']</code>
       <code>$_SERVER['APP_ENV']</code>
+      <code>$env</code>
     </MixedAssignment>
     <MixedOperand occurrences="1">
       <code>$_SERVER['APP_ENV'] = $_ENV['APP_ENV'] = $env</code>
@@ -17,8 +17,8 @@
     <MixedAssignment occurrences="4">
       <code>$_ENV[$k]</code>
       <code>$_ENV['APP_ENV']</code>
-      <code>$_SERVER['APP_ENV']</code>
       <code>$_SERVER['APP_DEBUG']</code>
+      <code>$_SERVER['APP_ENV']</code>
     </MixedAssignment>
     <RedundantCondition occurrences="1">
       <code>\is_array($env = include \dirname(__DIR__) . '/.env.local.php')</code>
@@ -26,12 +26,12 @@
   </file>
   <file src="public/index.php">
     <MixedArgument occurrences="2">
-      <code>$trustedProxies</code>
       <code>$_SERVER['APP_ENV']</code>
+      <code>$trustedProxies</code>
     </MixedArgument>
     <MixedAssignment occurrences="2">
-      <code>$trustedProxies</code>
       <code>$trustedHosts</code>
+      <code>$trustedProxies</code>
     </MixedAssignment>
   </file>
   <file src="src/Kernel.php">
