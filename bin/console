@@ -20,14 +20,17 @@ $input = new Console\Input\ArgvInput();
 $environment = $input->getParameterOption(
     [
         '--env',
-        '-e'
+        '-e',
     ],
     null,
     true
 );
 
 if (null !== $environment) {
-    \putenv('APP_ENV=' . $_SERVER['APP_ENV'] = $_ENV['APP_ENV'] = $environment);
+    $_SERVER['APP_ENV'] = $environment;
+    $_ENV['APP_ENV'] = $environment;
+
+    \putenv('APP_ENV=' . $environment);
 }
 
 if ($input->hasParameterOption('--no-debug', true)) {
