@@ -7,10 +7,10 @@
     <MixedAssignment occurrences="3">
       <code>$_ENV['APP_ENV']</code>
       <code>$_SERVER['APP_ENV']</code>
-      <code>$env</code>
+      <code>$environment</code>
     </MixedAssignment>
     <MixedOperand occurrences="1">
-      <code>$_SERVER['APP_ENV'] = $_ENV['APP_ENV'] = $env</code>
+      <code>$environment</code>
     </MixedOperand>
   </file>
   <file src="config/bootstrap.php">
@@ -21,7 +21,7 @@
       <code>$_SERVER['APP_ENV']</code>
     </MixedAssignment>
     <RedundantCondition occurrences="1">
-      <code>\is_array($env = include \dirname(__DIR__) . '/.env.local.php')</code>
+      <code>\is_array($env = include __DIR__ . '/../.env.local.php')</code>
     </RedundantCondition>
   </file>
   <file src="public/index.php">
