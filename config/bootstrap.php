@@ -40,7 +40,7 @@ $_SERVER += $_ENV;
 
 $environment = $_SERVER['APP_ENV'] ?? $_ENV['APP_ENV'] ?? null;
 
-if (!$environment) {
+if (!\is_string($environment) || '' === $environment) {
     $environment = 'dev';
 }
 
