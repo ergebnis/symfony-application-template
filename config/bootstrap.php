@@ -25,7 +25,9 @@ if (\is_array($environmentVariables) && (!isset($environmentVariables['APP_ENV']
     }
 } else {
     // load all the .env files
-    (new Dotenv())->loadEnv(__DIR__ . '/../.env');
+    $dotEnv = new Dotenv();
+
+    $dotEnv->loadEnv(__DIR__ . '/../.env');
 }
 
 $_SERVER += $_ENV;
