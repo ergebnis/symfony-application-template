@@ -20,8 +20,8 @@ require __DIR__ . '/../vendor/autoload.php';
 $environmentVariables = include __DIR__ . '/../.env.local.php';
 
 if (\is_array($environmentVariables) && (!isset($environmentVariables['APP_ENV']) || ($_SERVER['APP_ENV'] ?? $_ENV['APP_ENV'] ?? $environmentVariables['APP_ENV']) === $environmentVariables['APP_ENV'])) {
-    foreach ($environmentVariables as $k => $v) {
-        $_ENV[$k] = $_ENV[$k] ?? (isset($_SERVER[$k]) && 0 !== \mb_strpos($k, 'HTTP_') ? $_SERVER[$k] : $v);
+    foreach ($environmentVariables as $name => $v) {
+        $_ENV[$name] = $_ENV[$name] ?? (isset($_SERVER[$name]) && 0 !== \mb_strpos($name, 'HTTP_') ? $_SERVER[$name] : $v);
     }
 } elseif (!\class_exists(Dotenv::class)) {
     throw new RuntimeException('Please run "composer require symfony/dotenv" to load the ".env" files configuring the application.');

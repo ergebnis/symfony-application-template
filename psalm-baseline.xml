@@ -15,7 +15,7 @@
   </file>
   <file src="config/bootstrap.php">
     <MixedAssignment occurrences="4">
-      <code>$_ENV[$k]</code>
+      <code>$_ENV[$name]</code>
       <code>$_ENV['APP_ENV']</code>
       <code>$_SERVER['APP_DEBUG']</code>
       <code>$_SERVER['APP_ENV']</code>
