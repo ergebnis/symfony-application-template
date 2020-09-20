@@ -23,8 +23,6 @@ if (\is_array($environmentVariables) && (!isset($environmentVariables['APP_ENV']
     foreach ($environmentVariables as $name => $value) {
         $_ENV[$name] = $_ENV[$name] ?? (isset($_SERVER[$name]) && 0 !== \mb_strpos($name, 'HTTP_') ? $_SERVER[$name] : $value);
     }
-} elseif (!\class_exists(Dotenv::class)) {
-    throw new RuntimeException('Please run "composer require symfony/dotenv" to load the ".env" files configuring the application.');
 } else {
     // load all the .env files
     (new Dotenv())->loadEnv(__DIR__ . '/../.env');
