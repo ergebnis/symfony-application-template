@@ -34,7 +34,10 @@ if (null !== $environment) {
 }
 
 if ($input->hasParameterOption('--no-debug', true)) {
-    \putenv('APP_DEBUG=' . $_SERVER['APP_DEBUG'] = $_ENV['APP_DEBUG'] = '0');
+    $_SERVER['APP_DEBUG'] = '0';
+    $_ENV['APP_DEBUG'] = '0';
+
+    \putenv('APP_DEBUG=' . '0');
 }
 
 (new Dotenv\Dotenv())->bootEnv(__DIR__ . '/../.env');
