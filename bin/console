@@ -17,7 +17,7 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $input = new Console\Input\ArgvInput();
 
-$env = $input->getParameterOption(
+$environment = $input->getParameterOption(
     [
         '--env',
         '-e'
@@ -26,8 +26,8 @@ $env = $input->getParameterOption(
     true
 );
 
-if (null !== $env) {
-    \putenv('APP_ENV=' . $_SERVER['APP_ENV'] = $_ENV['APP_ENV'] = $env);
+if (null !== $environment) {
+    \putenv('APP_ENV=' . $_SERVER['APP_ENV'] = $_ENV['APP_ENV'] = $environment);
 }
 
 if ($input->hasParameterOption('--no-debug', true)) {
