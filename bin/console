@@ -42,7 +42,9 @@ if ($input->hasParameterOption('--no-debug', true)) {
     \putenv('APP_DEBUG=' . $debug);
 }
 
-(new Dotenv\Dotenv())->bootEnv(__DIR__ . '/../.env');
+$dotEnv = new Dotenv\Dotenv();
+
+$dotEnv->bootEnv(__DIR__ . '/../.env');
 
 if ($_SERVER['APP_DEBUG']) {
     \umask(0000);
