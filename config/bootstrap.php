@@ -38,7 +38,11 @@ if (\is_array($environmentVariables) && (!isset($environmentVariables['APP_ENV']
 
 $_SERVER += $_ENV;
 
-$environment = ($_SERVER['APP_ENV'] ?? $_ENV['APP_ENV'] ?? null) ?: 'dev';
+$environment = $_SERVER['APP_ENV'] ?? $_ENV['APP_ENV'] ?? null;
+
+if (!$environment) {
+    $environment = 'dev';
+}
 
 $_SERVER['APP_ENV'] = $environment;
 $_ENV['APP_ENV'] = $environment;

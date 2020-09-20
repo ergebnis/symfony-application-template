@@ -11,11 +11,6 @@ parameters:
 			path: config/bootstrap.php
 
 		-
-			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
-			count: 1
-			path: config/bootstrap.php
-
-		-
 			message: "#^Only booleans are allowed in \\|\\|, int given on the left side\\.$#"
 			count: 1
 			path: config/bootstrap.php
