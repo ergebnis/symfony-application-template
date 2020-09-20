@@ -21,7 +21,7 @@
       <code>$_SERVER['APP_ENV']</code>
     </MixedAssignment>
     <RedundantCondition occurrences="1">
-      <code>\is_array($env = include __DIR__ . '/../.env.local.php')</code>
+      <code>\is_array($env)</code>
     </RedundantCondition>
   </file>
   <file src="public/index.php">
