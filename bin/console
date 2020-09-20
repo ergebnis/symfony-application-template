@@ -17,7 +17,9 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $input = new Console\Input\ArgvInput();
 
-if (null !== $env = $input->getParameterOption(['--env', '-e'], null, true)) {
+$env = $input->getParameterOption(['--env', '-e'], null, true);
+
+if (null !== $env) {
     \putenv('APP_ENV=' . $_SERVER['APP_ENV'] = $_ENV['APP_ENV'] = $env);
 }
 
