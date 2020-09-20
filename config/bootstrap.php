@@ -21,7 +21,13 @@ $environmentVariables = include __DIR__ . '/../.env.local.php';
 
 if (\is_array($environmentVariables) && (!isset($environmentVariables['APP_ENV']) || ($_SERVER['APP_ENV'] ?? $_ENV['APP_ENV'] ?? $environmentVariables['APP_ENV']) === $environmentVariables['APP_ENV'])) {
     foreach ($environmentVariables as $name => $value) {
-        $_ENV[$name] = $_ENV[$name] ?? (isset($_SERVER[$name]) && 0 !== \mb_strpos($name, 'HTTP_') ? $_SERVER[$name] : $value);
+        if (isset($_ENV['name'])) {
+            $value = $_ENV['name'];
+        } elseif (isset($_SERVER[$name]) && 0 !== \mb_strpos($name, 'HTTP_')) {
+            $value = $_SERVER[$name];
+        }
+
+        $_ENV[$name] = $value;
     }
 } else {
     // load all the .env files

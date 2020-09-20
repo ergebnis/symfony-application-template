@@ -14,11 +14,13 @@
     </MixedOperand>
   </file>
   <file src="config/bootstrap.php">
-    <MixedAssignment occurrences="4">
+    <MixedAssignment occurrences="6">
       <code>$_ENV[$name]</code>
       <code>$_ENV['APP_ENV']</code>
       <code>$_SERVER['APP_DEBUG']</code>
       <code>$_SERVER['APP_ENV']</code>
+      <code>$value</code>
+      <code>$value</code>
     </MixedAssignment>
     <RedundantCondition occurrences="1">
       <code>\is_array($environmentVariables)</code>
