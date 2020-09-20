@@ -15,10 +15,6 @@ if (!\in_array(\PHP_SAPI, ['cli', 'embed', 'phpdbg'], true)) {
 
 require __DIR__ . '/../vendor/autoload.php';
 
-if (!\class_exists(FrameworkBundle\Console\Application::class) || !\class_exists(Dotenv\Dotenv::class)) {
-    throw new LogicException('You need to add "symfony/framework-bundle" as a Composer dependencies.');
-}
-
 $input = new Console\Input\ArgvInput();
 
 if (null !== $env = $input->getParameterOption(['--env', '-e'], null, true)) {
