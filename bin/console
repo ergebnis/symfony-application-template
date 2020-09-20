@@ -7,7 +7,7 @@ use Symfony\Component\Console;
 use Symfony\Component\Dotenv;
 use Symfony\Component\ErrorHandler;
 
-if (!\in_array(\PHP_SAPI, ['cli', 'phpdbg', 'embed'], true)) {
+if (!\in_array(\PHP_SAPI, ['cli', 'embed', 'phpdbg'], true)) {
     echo 'Warning: The console should be invoked via the CLI version of PHP, not the ' . \PHP_SAPI . ' SAPI' . \PHP_EOL;
 }
 
