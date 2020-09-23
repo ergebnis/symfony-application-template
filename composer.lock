@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eac9e9fac57794b8ef4d31afb569aa54",
+    "content-hash": "2bc4bb30dcc6031b3c763e113552d887",
     "packages": [
         {
             "name": "brick/math",
@@ -5013,16 +5013,16 @@
         },
         {
             "name": "ergebnis/composer-normalize",
-            "version": "2.8.1",
+            "version": "2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/composer-normalize.git",
-                "reference": "e545b95c4c9b6b4d4aebb12fa2e4e96bdc7d8e39"
+                "reference": "0a25a226c5503659179c8ea440d1c76599e434fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/e545b95c4c9b6b4d4aebb12fa2e4e96bdc7d8e39",
-                "reference": "e545b95c4c9b6b4d4aebb12fa2e4e96bdc7d8e39",
+                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/0a25a226c5503659179c8ea440d1c76599e434fd",
+                "reference": "0a25a226c5503659179c8ea440d1c76599e434fd",
                 "shasum": ""
             },
             "require": {
@@ -5034,18 +5034,18 @@
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "composer/composer": "^1.10.8 || ^2.0.0",
+                "composer/composer": "^1.10.13 || ^2.0.0",
                 "composer/package-versions-deprecated": "^1.11.99",
                 "ergebnis/phpstan-rules": "~0.15.2",
                 "ergebnis/test-util": "^1.1.0",
                 "jangregor/phpstan-prophecy": "~0.8.0",
                 "phpstan/extension-installer": "^1.0.5",
-                "phpstan/phpstan": "~0.12.40",
+                "phpstan/phpstan": "~0.12.43",
                 "phpstan/phpstan-deprecation-rules": "~0.12.5",
                 "phpstan/phpstan-phpunit": "~0.12.16",
-                "phpstan/phpstan-strict-rules": "~0.12.4",
+                "phpstan/phpstan-strict-rules": "~0.12.5",
                 "phpunit/phpunit": "^8.5.8",
-                "symfony/filesystem": "^5.1.3"
+                "symfony/filesystem": "^5.1.5"
             },
             "type": "composer-plugin",
             "extra": {
@@ -5080,7 +5080,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-08-30T16:32:02+00:00"
+            "time": "2020-09-22T09:55:49+00:00"
         },
         {
             "name": "ergebnis/factory-bot",
@@ -9194,12 +9194,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/autowire-array-parameter.git",
-                "reference": "2effd6718582a6913d2f411b67c0b01b86aeeb99"
+                "reference": "7b9c7fd42a75eeebcb5f794b624ed6c79484a6ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/autowire-array-parameter/zipball/2effd6718582a6913d2f411b67c0b01b86aeeb99",
-                "reference": "2effd6718582a6913d2f411b67c0b01b86aeeb99",
+                "url": "https://api.github.com/repos/symplify/autowire-array-parameter/zipball/7b9c7fd42a75eeebcb5f794b624ed6c79484a6ae",
+                "reference": "7b9c7fd42a75eeebcb5f794b624ed6c79484a6ae",
                 "shasum": ""
             },
             "require": {
@@ -9229,6 +9229,10 @@
             "description": "Autowire array parameters for your Symfony applications",
             "funding": [
                 {
+                    "url": "https://www.paypal.me/rectorphp",
+                    "type": "custom"
+                },
+                {
                     "url": "https://github.com/tomasvotruba",
                     "type": "github"
                 }
@@ -9241,12 +9245,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/package-builder.git",
-                "reference": "64340b3e9ce95d6c44981a0efa40da6db9a02485"
+                "reference": "5e230e06643d81240972a10cc9eb68c5cd3d7975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/package-builder/zipball/64340b3e9ce95d6c44981a0efa40da6db9a02485",
-                "reference": "64340b3e9ce95d6c44981a0efa40da6db9a02485",
+                "url": "https://api.github.com/repos/symplify/package-builder/zipball/5e230e06643d81240972a10cc9eb68c5cd3d7975",
+                "reference": "5e230e06643d81240972a10cc9eb68c5cd3d7975",
                 "shasum": ""
             },
             "require": {
@@ -9281,6 +9285,10 @@
             "description": "Dependency Injection, Console and Kernel toolkit for Symplify packages.",
             "funding": [
                 {
+                    "url": "https://www.paypal.me/rectorphp",
+                    "type": "custom"
+                },
+                {
                     "url": "https://github.com/tomasvotruba",
                     "type": "github"
                 }
@@ -9293,12 +9301,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/smart-file-system.git",
-                "reference": "fa57601b0fb041c5f46291c704812e894f89bf5f"
+                "reference": "4da309a971b710f4c910e1d96dc45bf4c00aff16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/smart-file-system/zipball/fa57601b0fb041c5f46291c704812e894f89bf5f",
-                "reference": "fa57601b0fb041c5f46291c704812e894f89bf5f",
+                "url": "https://api.github.com/repos/symplify/smart-file-system/zipball/4da309a971b710f4c910e1d96dc45bf4c00aff16",
+                "reference": "4da309a971b710f4c910e1d96dc45bf4c00aff16",
                 "shasum": ""
             },
             "require": {
@@ -9328,6 +9336,10 @@
             ],
             "description": "Sanitized FileInfo with safe getRealPath() and other handy methods",
             "funding": [
+                {
+                    "url": "https://www.paypal.me/rectorphp",
+                    "type": "custom"
+                },
                 {
                     "url": "https://github.com/tomasvotruba",
                     "type": "github"
