@@ -57,7 +57,7 @@
     "ergebnis/test-util": "^1.1.0",
     "infection/infection": "~0.17.5",
     "jangregor/phpstan-prophecy": "~0.8.0",
-    "migrify/config-transformer": "~0.3.42",
+    "migrify/config-transformer": "~0.3.43",
     "phpstan/extension-installer": "^1.0.5",
     "phpstan/phpstan": "~0.12.43",
     "phpstan/phpstan-deprecation-rules": "~0.12.5",
