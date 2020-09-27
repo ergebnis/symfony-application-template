@@ -1,5 +1,6 @@
 /.build/
 /.notes/
+/src/.preload.php
 /vendor/
 
 ###> symfony/framework-bundle ###
