@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5ebcf590f5fed4d527900230ca1117f",
+    "content-hash": "f65946f7639ef0ef89bc51da9a2084f4",
     "packages": [
         {
             "name": "brick/math",
@@ -6285,12 +6285,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/config-transformer.git",
-                "reference": "19c5865d3bdd42797af18d962b72f87817149e81"
+                "reference": "7eb4bf6c057918b41e6c0f79706fc6dbe137db55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/config-transformer/zipball/19c5865d3bdd42797af18d962b72f87817149e81",
-                "reference": "19c5865d3bdd42797af18d962b72f87817149e81",
+                "url": "https://api.github.com/repos/migrify/config-transformer/zipball/7eb4bf6c057918b41e6c0f79706fc6dbe137db55",
+                "reference": "7eb4bf6c057918b41e6c0f79706fc6dbe137db55",
                 "shasum": ""
             },
             "require": {
@@ -6333,12 +6333,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/migrify-kernel.git",
-                "reference": "d430abfa0ed9fd2d639f03a19186cfd3024aef83"
+                "reference": "c10a3cb237a26b1abffca6632cbb51095c4cbf17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/migrify-kernel/zipball/d430abfa0ed9fd2d639f03a19186cfd3024aef83",
-                "reference": "d430abfa0ed9fd2d639f03a19186cfd3024aef83",
+                "url": "https://api.github.com/repos/migrify/migrify-kernel/zipball/c10a3cb237a26b1abffca6632cbb51095c4cbf17",
+                "reference": "c10a3cb237a26b1abffca6632cbb51095c4cbf17",
                 "shasum": ""
             },
             "require": {
@@ -6372,12 +6372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/php-config-printer.git",
-                "reference": "1070faceca01f82edfe0ccabf49bc450bbf91572"
+                "reference": "b95e9ce8d323b952f7c1d9f68c040008e7e4edca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/1070faceca01f82edfe0ccabf49bc450bbf91572",
-                "reference": "1070faceca01f82edfe0ccabf49bc450bbf91572",
+                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/b95e9ce8d323b952f7c1d9f68c040008e7e4edca",
+                "reference": "b95e9ce8d323b952f7c1d9f68c040008e7e4edca",
                 "shasum": ""
             },
             "require": {
@@ -8136,23 +8136,23 @@
         },
         {
             "name": "psalm/plugin-symfony",
-            "version": "v1.4.4",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-symfony.git",
-                "reference": "02408457444c4ab0d1228cc7c68d18eced2a89e0"
+                "reference": "fc1bcd6ce9ba56c3719110fe6af85928867dc542"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/02408457444c4ab0d1228cc7c68d18eced2a89e0",
-                "reference": "02408457444c4ab0d1228cc7c68d18eced2a89e0",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/fc1bcd6ce9ba56c3719110fe6af85928867dc542",
+                "reference": "fc1bcd6ce9ba56c3719110fe6af85928867dc542",
                 "shasum": ""
             },
             "require": {
                 "ext-simplexml": "*",
                 "php": "^7.1",
                 "symfony/framework-bundle": "^3.0 || ^4.0 || ^5.0",
-                "vimeo/psalm": "^3.13"
+                "vimeo/psalm": "^3.17"
             },
             "require-dev": {
                 "doctrine/orm": "^2.7",
@@ -8190,7 +8190,7 @@
                 }
             ],
             "description": "Psalm Plugin for Symfony",
-            "time": "2020-09-14T08:17:23+00:00"
+            "time": "2020-10-14T05:02:27+00:00"
         },
         {
             "name": "sanmai/pipeline",
