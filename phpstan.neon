@@ -8,8 +8,6 @@ parameters:
 	ergebnis:
 		classesAllowedToBeExtended:
 			- Symfony\Component\HttpKernel\Kernel
-	excludes_analyse:
-		- src/.preload.php
 	inferPrivatePropertyTypeFromConstructor: true
 	level: max
 	paths:
