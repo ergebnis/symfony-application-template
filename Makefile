@@ -25,7 +25,7 @@ coding-standards: vendor ## Normalizes composer.json with ergebnis/composer-norm
 
 .PHONY: dependency-analysis
 dependency-analysis: vendor ## Runs a dependency analysis with maglnet/composer-require-checker
-	tools/composer-require-checker check --config-file=$(shell pwd)/composer-require-checker.json
+	.phive/composer-require-checker check --config-file=$(shell pwd)/composer-require-checker.json
 
 .PHONY: doctrine
 doctrine: vendor environment ## Runs doctrine commands to set up a local test database
