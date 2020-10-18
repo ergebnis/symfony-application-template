@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96ccd671d24acb14941880a693f7ac37",
+    "content-hash": "24a4fdc3071994a7c1713d2b7fa8d647",
     "packages": [
         {
             "name": "brick/math",
@@ -6285,12 +6285,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/config-transformer.git",
-                "reference": "7eb4bf6c057918b41e6c0f79706fc6dbe137db55"
+                "reference": "b6eb40dd3352a91c0ca2c03011048c983daa6812"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/config-transformer/zipball/7eb4bf6c057918b41e6c0f79706fc6dbe137db55",
-                "reference": "7eb4bf6c057918b41e6c0f79706fc6dbe137db55",
+                "url": "https://api.github.com/repos/migrify/config-transformer/zipball/b6eb40dd3352a91c0ca2c03011048c983daa6812",
+                "reference": "b6eb40dd3352a91c0ca2c03011048c983daa6812",
                 "shasum": ""
             },
             "require": {
@@ -6333,12 +6333,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/migrify-kernel.git",
-                "reference": "c10a3cb237a26b1abffca6632cbb51095c4cbf17"
+                "reference": "27bb88b615a7c6a5f700425e7b0ab5c476bd63e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/migrify-kernel/zipball/c10a3cb237a26b1abffca6632cbb51095c4cbf17",
-                "reference": "c10a3cb237a26b1abffca6632cbb51095c4cbf17",
+                "url": "https://api.github.com/repos/migrify/migrify-kernel/zipball/27bb88b615a7c6a5f700425e7b0ab5c476bd63e3",
+                "reference": "27bb88b615a7c6a5f700425e7b0ab5c476bd63e3",
                 "shasum": ""
             },
             "require": {
@@ -6372,12 +6372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/php-config-printer.git",
-                "reference": "b95e9ce8d323b952f7c1d9f68c040008e7e4edca"
+                "reference": "c02a3602260d73ba9d08ebdfb7f9d5dbc4aaa2e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/b95e9ce8d323b952f7c1d9f68c040008e7e4edca",
-                "reference": "b95e9ce8d323b952f7c1d9f68c040008e7e4edca",
+                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/c02a3602260d73ba9d08ebdfb7f9d5dbc4aaa2e6",
+                "reference": "c02a3602260d73ba9d08ebdfb7f9d5dbc4aaa2e6",
                 "shasum": ""
             },
             "require": {
@@ -7285,16 +7285,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.49",
+            "version": "0.12.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "9a6136c2b39d5214da78de37128d5fe08e5d5b05"
+                "reference": "b8248f9c81265af75d6d969ca3252aaf3e998f3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9a6136c2b39d5214da78de37128d5fe08e5d5b05",
-                "reference": "9a6136c2b39d5214da78de37128d5fe08e5d5b05",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b8248f9c81265af75d6d969ca3252aaf3e998f3a",
+                "reference": "b8248f9c81265af75d6d969ca3252aaf3e998f3a",
                 "shasum": ""
             },
             "require": {
@@ -7337,7 +7337,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-12T14:10:44+00:00"
+            "time": "2020-10-16T12:22:23+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
