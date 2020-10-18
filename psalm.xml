@@ -31,7 +31,6 @@
         <file name="public/index.php" />
         <ignoreFiles>
             <directory name="vendor/" />
-            <file name="src/.preload.php" />
         </ignoreFiles>
     </projectFiles>
 </psalm>
