@@ -53,7 +53,7 @@ static-code-analysis: vendor cache ## Runs a static code analysis with phpstan/p
 	mkdir -p .build/phpstan
 	vendor/bin/phpstan analyse --configuration=phpstan.neon --memory-limit=-1
 	mkdir -p .build/psalm
-	vendor/bin/psalm --config=psalm.xml --diff --diff-methods --show-info=false --stats --threads=4
+	vendor/bin/psalm --config=psalm.xml --diff --show-info=false --stats --threads=4
 
 .PHONY: static-code-analysis-baseline
 static-code-analysis-baseline: vendor cache ## Generates a baseline for static code analysis with phpstan/phpstan and vimeo/psalm
@@ -63,7 +63,7 @@ static-code-analysis-baseline: vendor cache ## Generates a baseline for static c
 	vendor/bin/psalm --config=psalm.xml --set-baseline=psalm-baseline.xml
 
 .PHONY: tests
-tests: vendor cache environment doctrine ## Runs auto-review, unit, integration, and functional tests with phpunit/phpunit
+tests: vendor ## Runs auto-review, unit, and integration tests with phpunit/phpunit
 	mkdir -p .build/phpunit
 	vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
