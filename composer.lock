@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "251a580ea94310aaf5bea37f61268d8c",
+    "content-hash": "03df4f7663052b91b252203f30483e15",
     "packages": [
         {
             "name": "brick/math",
@@ -129,16 +129,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "1.10.4",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "bfe91e31984e2ba76df1c1339681770401ec262f"
+                "reference": "88fb6fb1dae011de24dd6b632811c1ff5c2928f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/bfe91e31984e2ba76df1c1339681770401ec262f",
-                "reference": "bfe91e31984e2ba76df1c1339681770401ec262f",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/88fb6fb1dae011de24dd6b632811c1ff5c2928f5",
+                "reference": "88fb6fb1dae011de24dd6b632811c1ff5c2928f5",
                 "shasum": ""
             },
             "require": {
@@ -148,13 +148,14 @@
             },
             "require-dev": {
                 "doctrine/cache": "1.*",
+                "doctrine/coding-standard": "^6.0 || ^8.1",
                 "phpstan/phpstan": "^0.12.20",
                 "phpunit/phpunit": "^7.5 || ^9.1.5"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9.x-dev"
+                    "dev-master": "1.11.x-dev"
                 }
             },
             "autoload": {
@@ -189,13 +190,13 @@
                 }
             ],
             "description": "Docblock Annotations Parser",
-            "homepage": "http://www.doctrine-project.org",
+            "homepage": "https://www.doctrine-project.org/projects/annotations.html",
             "keywords": [
                 "annotations",
                 "docblock",
                 "parser"
             ],
-            "time": "2020-08-10T19:35:50+00:00"
+            "time": "2020-10-17T22:05:33+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -6290,12 +6291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/config-transformer.git",
-                "reference": "b6eb40dd3352a91c0ca2c03011048c983daa6812"
+                "reference": "65132aaa518f0aa94720313cdb4fdf94b4c58ef2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/config-transformer/zipball/b6eb40dd3352a91c0ca2c03011048c983daa6812",
-                "reference": "b6eb40dd3352a91c0ca2c03011048c983daa6812",
+                "url": "https://api.github.com/repos/migrify/config-transformer/zipball/65132aaa518f0aa94720313cdb4fdf94b4c58ef2",
+                "reference": "65132aaa518f0aa94720313cdb4fdf94b4c58ef2",
                 "shasum": ""
             },
             "require": {
@@ -6338,12 +6339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/migrify-kernel.git",
-                "reference": "27bb88b615a7c6a5f700425e7b0ab5c476bd63e3"
+                "reference": "ab6b57e56d40ac7e3c78380917ccb27fc057f29f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/migrify-kernel/zipball/27bb88b615a7c6a5f700425e7b0ab5c476bd63e3",
-                "reference": "27bb88b615a7c6a5f700425e7b0ab5c476bd63e3",
+                "url": "https://api.github.com/repos/migrify/migrify-kernel/zipball/ab6b57e56d40ac7e3c78380917ccb27fc057f29f",
+                "reference": "ab6b57e56d40ac7e3c78380917ccb27fc057f29f",
                 "shasum": ""
             },
             "require": {
@@ -6377,12 +6378,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/php-config-printer.git",
-                "reference": "c02a3602260d73ba9d08ebdfb7f9d5dbc4aaa2e6"
+                "reference": "3a0987628a74ef67054f58196188ac50227042fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/c02a3602260d73ba9d08ebdfb7f9d5dbc4aaa2e6",
-                "reference": "c02a3602260d73ba9d08ebdfb7f9d5dbc4aaa2e6",
+                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/3a0987628a74ef67054f58196188ac50227042fa",
+                "reference": "3a0987628a74ef67054f58196188ac50227042fa",
                 "shasum": ""
             },
             "require": {

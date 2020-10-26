@@ -14,7 +14,7 @@
     "php": "^7.4.3",
     "ext-ctype": "*",
     "ext-iconv": "*",
-    "doctrine/annotations": "^1.10.4",
+    "doctrine/annotations": "^1.11.0",
     "doctrine/collections": "^1.6.7",
     "doctrine/doctrine-bundle": "^2.1.2",
     "doctrine/doctrine-migrations-bundle": "^3.0.1",
