@@ -332,6 +332,9 @@
     "sanmai/pipeline": {
         "version": "v3.1.2"
     },
+    "sebastian/cli-parser": {
+        "version": "1.0.1"
+    },
     "sebastian/code-unit": {
         "version": "1.0.0"
     },
@@ -340,6 +343,9 @@
     },
     "sebastian/comparator": {
         "version": "4.0.0"
+    },
+    "sebastian/complexity": {
+        "version": "2.0.2"
     },
     "sebastian/diff": {
         "version": "4.0.0"
@@ -352,6 +358,9 @@
     },
     "sebastian/global-state": {
         "version": "4.0.0"
+    },
+    "sebastian/lines-of-code": {
+        "version": "1.0.2"
     },
     "sebastian/object-enumerator": {
         "version": "4.0.0"
