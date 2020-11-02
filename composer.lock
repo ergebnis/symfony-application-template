@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d71b626533165a4197c253caf9967fe",
+    "content-hash": "0167faeba2568721f189765740400094",
     "packages": [
         {
             "name": "brick/math",
@@ -451,33 +451,32 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "2.11.1",
+            "version": "2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "6e6903cd5e3a5be60a79439e3ee8fe126f78fe86"
+                "reference": "c6d37b4c42aaa3c3ee175f05eca68056f4185646"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/6e6903cd5e3a5be60a79439e3ee8fe126f78fe86",
-                "reference": "6e6903cd5e3a5be60a79439e3ee8fe126f78fe86",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/c6d37b4c42aaa3c3ee175f05eca68056f4185646",
+                "reference": "c6d37b4c42aaa3c3ee175f05eca68056f4185646",
                 "shasum": ""
             },
             "require": {
                 "doctrine/cache": "^1.0",
                 "doctrine/event-manager": "^1.0",
                 "ext-pdo": "*",
-                "php": "^7.3"
+                "php": "^7.3 || ^8"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^8.1",
                 "jetbrains/phpstorm-stubs": "^2019.1",
-                "nikic/php-parser": "^4.4",
                 "phpstan/phpstan": "^0.12.40",
-                "phpunit/phpunit": "^9.3",
+                "phpunit/phpunit": "^9.4",
                 "psalm/plugin-phpunit": "^0.10.0",
                 "symfony/console": "^2.0.5|^3.0|^4.0|^5.0",
-                "vimeo/psalm": "^3.14.2"
+                "vimeo/psalm": "^3.17.2"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
@@ -555,7 +554,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-27T04:09:41+00:00"
+            "time": "2020-10-22T17:26:24+00:00"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -4819,29 +4818,31 @@
         },
         {
             "name": "dama/doctrine-test-bundle",
-            "version": "v6.3.3",
+            "version": "v6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmaicher/doctrine-test-bundle.git",
-                "reference": "a364cfee35acb7d37698c4749f7dd34d04646535"
+                "reference": "ada40c684d212e6911d70ae5ba5a0536607df567"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dmaicher/doctrine-test-bundle/zipball/a364cfee35acb7d37698c4749f7dd34d04646535",
-                "reference": "a364cfee35acb7d37698c4749f7dd34d04646535",
+                "url": "https://api.github.com/repos/dmaicher/doctrine-test-bundle/zipball/ada40c684d212e6911d70ae5ba5a0536607df567",
+                "reference": "ada40c684d212e6911d70ae5ba5a0536607df567",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^2.9,>=2.9.3",
                 "doctrine/doctrine-bundle": "^1.11 || ^2.0",
-                "php": "^7.1",
-                "symfony/framework-bundle": "^3.4 || ^4.3 || ^5.0"
+                "php": "^7.1 || ^8.0",
+                "symfony/framework-bundle": "^3.4 || ^4.4 || ^5.1"
             },
             "require-dev": {
+                "behat/behat": "^3.0",
                 "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
-                "symfony/phpunit-bridge": "^4.3 || ^5.0",
-                "symfony/yaml": "^3.4 || ^4.3 || ^5.0"
+                "symfony/phpunit-bridge": "^5.1",
+                "symfony/process": "^3.4 || ^4.4 || ^5.1",
+                "symfony/yaml": "^3.4 || ^4.4 || ^5.1"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -4872,7 +4873,7 @@
                 "symfony",
                 "tests"
             ],
-            "time": "2020-09-04T05:50:21+00:00"
+            "time": "2020-10-30T10:35:52+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
