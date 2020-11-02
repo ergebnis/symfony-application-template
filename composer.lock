@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54d66195c28ee1357b0d0b84db93850b",
+    "content-hash": "86a8c5edc208c167528016960b6f13da",
     "packages": [
         {
             "name": "brick/math",
@@ -5758,6 +5758,7 @@
                 "faker",
                 "fixtures"
             ],
+            "abandoned": true,
             "time": "2019-12-12T13:22:17+00:00"
         },
         {
@@ -6199,12 +6200,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/config-transformer.git",
-                "reference": "e54e5b4a5c6d425a584c3354f1ec129eea0090a5"
+                "reference": "1b42a79abc1619ab53a87c38a67ef87a63c43c93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/config-transformer/zipball/e54e5b4a5c6d425a584c3354f1ec129eea0090a5",
-                "reference": "e54e5b4a5c6d425a584c3354f1ec129eea0090a5",
+                "url": "https://api.github.com/repos/migrify/config-transformer/zipball/1b42a79abc1619ab53a87c38a67ef87a63c43c93",
+                "reference": "1b42a79abc1619ab53a87c38a67ef87a63c43c93",
                 "shasum": ""
             },
             "require": {
@@ -6247,12 +6248,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/migrify-kernel.git",
-                "reference": "edc341f2474ec51bf8c869cf945d31d981983681"
+                "reference": "dc15278636346689d95fbf8cd45f978da732f6b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/migrify-kernel/zipball/edc341f2474ec51bf8c869cf945d31d981983681",
-                "reference": "edc341f2474ec51bf8c869cf945d31d981983681",
+                "url": "https://api.github.com/repos/migrify/migrify-kernel/zipball/dc15278636346689d95fbf8cd45f978da732f6b4",
+                "reference": "dc15278636346689d95fbf8cd45f978da732f6b4",
                 "shasum": ""
             },
             "require": {
@@ -6286,12 +6287,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/php-config-printer.git",
-                "reference": "a50d9e8448ff92b47acb6151094a04e58c361fdd"
+                "reference": "db7b96bffa7db6138581eff61cf45e2171a44623"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/a50d9e8448ff92b47acb6151094a04e58c361fdd",
-                "reference": "a50d9e8448ff92b47acb6151094a04e58c361fdd",
+                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/db7b96bffa7db6138581eff61cf45e2171a44623",
+                "reference": "db7b96bffa7db6138581eff61cf45e2171a44623",
                 "shasum": ""
             },
             "require": {
@@ -7479,22 +7480,22 @@
         },
         {
             "name": "phpstan/phpstan-symfony",
-            "version": "0.12.10",
+            "version": "0.12.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-symfony.git",
-                "reference": "675703d820235cac1abe08e8bfb12e5509a3b169"
+                "reference": "edb6aeb171980b11dca1fd27d3fa7573af89ac8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-symfony/zipball/675703d820235cac1abe08e8bfb12e5509a3b169",
-                "reference": "675703d820235cac1abe08e8bfb12e5509a3b169",
+                "url": "https://api.github.com/repos/phpstan/phpstan-symfony/zipball/edb6aeb171980b11dca1fd27d3fa7573af89ac8e",
+                "reference": "edb6aeb171980b11dca1fd27d3fa7573af89ac8e",
                 "shasum": ""
             },
             "require": {
                 "ext-simplexml": "*",
                 "php": "^7.1 || ^8.0",
-                "phpstan/phpstan": "^0.12.26"
+                "phpstan/phpstan": "^0.12.51"
             },
             "conflict": {
                 "symfony/framework-bundle": "<3.0"
@@ -7545,7 +7546,7 @@
                 }
             ],
             "description": "Symfony Framework extensions and rules for PHPStan",
-            "time": "2020-10-22T10:47:37+00:00"
+            "time": "2020-10-30T09:50:09+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
