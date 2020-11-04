@@ -30,7 +30,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v2.3.3"
+        uses: "actions/checkout@v2.3.4"
         with:
           ref: "${{ github.head_ref }}"
           token: "${{ secrets.ERGEBNIS_BOT_TOKEN }}"
@@ -106,7 +106,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v2.3.3"
+        uses: "actions/checkout@v2.3.4"
 
       - name: "Lint YAML files"
         uses: "ibiqlik/action-yamllint@v2.0.0"
@@ -174,7 +174,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v2.3.3"
+        uses: "actions/checkout@v2.3.4"
 
       - name: "Install PHP with extensions"
         uses: "shivammathur/setup-php@2.7.0"
@@ -216,7 +216,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v2.3.3"
+        uses: "actions/checkout@v2.3.4"
 
       - name: "Install PHP with extensions"
         uses: "shivammathur/setup-php@2.7.0"
@@ -302,7 +302,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v2.3.3"
+        uses: "actions/checkout@v2.3.4"
 
       - name: "Install PHP with extensions"
         uses: "shivammathur/setup-php@2.7.0"
@@ -371,7 +371,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v2.3.3"
+        uses: "actions/checkout@v2.3.4"
 
       - name: "Install PHP with extensions"
         uses: "shivammathur/setup-php@2.7.0"
@@ -427,7 +427,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v2.3.3"
+        uses: "actions/checkout@v2.3.4"
 
       - name: "Install PHP with extensions"
         uses: "shivammathur/setup-php@2.7.0"
