@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64413c170640dc78e77b98c20ffe896f",
+    "content-hash": "07a69de5e828e725967d1437585eeb2a",
     "packages": [
         {
             "name": "brick/math",
@@ -6103,21 +6103,21 @@
         },
         {
             "name": "migrify/config-transformer",
-            "version": "0.4.1",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/config-transformer.git",
-                "reference": "1c7d91b287157006a4f5c7fef0c460aeabbe86e6"
+                "reference": "fbefd719c49a53e03feea3b7774ccb51cc83dab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/config-transformer/zipball/1c7d91b287157006a4f5c7fef0c460aeabbe86e6",
-                "reference": "1c7d91b287157006a4f5c7fef0c460aeabbe86e6",
+                "url": "https://api.github.com/repos/migrify/config-transformer/zipball/fbefd719c49a53e03feea3b7774ccb51cc83dab3",
+                "reference": "fbefd719c49a53e03feea3b7774ccb51cc83dab3",
                 "shasum": ""
             },
             "require": {
-                "migrify/migrify-kernel": "^0.4.1",
-                "migrify/php-config-printer": "^0.4.1",
+                "migrify/migrify-kernel": "^0.4.2",
+                "migrify/php-config-printer": "^0.4.2",
                 "nette/neon": "^3.0",
                 "nette/utils": "^3.1",
                 "nikic/php-parser": "^4.9",
@@ -6147,11 +6147,11 @@
                 "MIT"
             ],
             "description": "Convert Symfony YAML/XML format to PHP/YAML",
-            "time": "2020-11-15T11:32:02+00:00"
+            "time": "2020-11-17T12:04:43+00:00"
         },
         {
             "name": "migrify/migrify-kernel",
-            "version": "0.4.1",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/migrify-kernel.git",
@@ -6190,20 +6190,20 @@
         },
         {
             "name": "migrify/php-config-printer",
-            "version": "0.4.1",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/php-config-printer.git",
-                "reference": "1b02193704b412b83ddc83d067c78c32c2772f1e"
+                "reference": "a7d9d21cb34050aa808ccd35d2bedcd484fe1220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/1b02193704b412b83ddc83d067c78c32c2772f1e",
-                "reference": "1b02193704b412b83ddc83d067c78c32c2772f1e",
+                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/a7d9d21cb34050aa808ccd35d2bedcd484fe1220",
+                "reference": "a7d9d21cb34050aa808ccd35d2bedcd484fe1220",
                 "shasum": ""
             },
             "require": {
-                "migrify/migrify-kernel": "^0.4.1",
+                "migrify/migrify-kernel": "^0.4.2",
                 "nette/utils": "^3.1",
                 "nikic/php-parser": "^4.9",
                 "php": ">=7.2",
@@ -6224,7 +6224,7 @@
                 "MIT"
             ],
             "description": "Print Symfony services array with configuration to to plain PHP file format thanks to this simple php-parser wrapper",
-            "time": "2020-11-15T11:32:00+00:00"
+            "time": "2020-11-17T12:04:46+00:00"
         },
         {
             "name": "myclabs/deep-copy",
