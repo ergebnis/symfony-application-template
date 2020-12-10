@@ -538,8 +538,17 @@
     "symplify/autowire-array-parameter": {
         "version": "v8.2.1"
     },
+    "symplify/composer-json-manipulator": {
+        "version": "9.0.1"
+    },
+    "symplify/easy-testing": {
+        "version": "9.0.1"
+    },
     "symplify/package-builder": {
         "version": "v8.2.1"
+    },
+    "symplify/php-config-printer": {
+        "version": "9.0.1"
     },
     "symplify/smart-file-system": {
         "version": "v8.2.1"
