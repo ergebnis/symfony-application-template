@@ -59,7 +59,7 @@
     "jangregor/phpstan-prophecy": "~0.8.1",
     "migrify/config-transformer": "~9.0.10",
     "phpstan/extension-installer": "^1.0.5",
-    "phpstan/phpstan": "~0.12.59",
+    "phpstan/phpstan": "~0.12.62",
     "phpstan/phpstan-deprecation-rules": "~0.12.5",
     "phpstan/phpstan-doctrine": "~0.12.25",
     "phpstan/phpstan-phpunit": "~0.12.16",
