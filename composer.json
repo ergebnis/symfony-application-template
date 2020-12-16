@@ -29,7 +29,7 @@
     "symfony/error-handler": "^5.2.0",
     "symfony/flex": "^1.11.0",
     "symfony/framework-bundle": "^5.1.8",
-    "symfony/http-kernel": "^5.1.8",
+    "symfony/http-kernel": "^5.2.0",
     "symfony/routing": "^5.2.0",
     "symfony/yaml": "^5.2.0"
   },
