@@ -71,7 +71,7 @@ jobs:
             (github.actor == 'dependabot[bot]' && startsWith(github.event.pull_request.title, 'composer(deps)')) ||
             (github.actor == 'dependabot[bot]' && startsWith(github.event.pull_request.title, 'composer(deps-dev)'))
           )
-        uses: "stefanzweifel/git-auto-commit-action@v4.7.2"
+        uses: "stefanzweifel/git-auto-commit-action@v4.8.0"
         with:
           branch: "${{ github.head_ref }}"
           commit_author: "${{ env.ERGEBNIS_BOT_NAME }} <${{ env.ERGEBNIS_BOT_EMAIL }}>"
