@@ -31,7 +31,7 @@
     "symfony/framework-bundle": "^5.1.8",
     "symfony/http-kernel": "^5.1.8",
     "symfony/routing": "^5.2.1",
-    "symfony/yaml": "^5.2.0"
+    "symfony/yaml": "^5.2.1"
   },
   "replace": {
     "paragonie/random_compat": "2.*",
