@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "821e16e9b46d585ec0f76871dfcca913",
+    "content-hash": "2219f5a2adf432595cc53281f3c17f56",
     "packages": [
         {
             "name": "brick/math",
@@ -2404,16 +2404,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.2.0",
+            "version": "v5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "98cec9b9f410a4832e239949a41d47182862c3a4"
+                "reference": "7f8a9e9eff0581a33e20f6c5d41096fe22832d25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/98cec9b9f410a4832e239949a41d47182862c3a4",
-                "reference": "98cec9b9f410a4832e239949a41d47182862c3a4",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/7f8a9e9eff0581a33e20f6c5d41096fe22832d25",
+                "reference": "7f8a9e9eff0581a33e20f6c5d41096fe22832d25",
                 "shasum": ""
             },
             "require": {
@@ -2484,7 +2484,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-28T11:24:18+00:00"
+            "time": "2020-12-18T08:03:05+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
