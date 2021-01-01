@@ -138,6 +138,9 @@
     "ergebnis/test-util": {
         "version": "0.9.1"
     },
+    "fakerphp/faker": {
+        "version": "v1.13.0"
+    },
     "felixfbecker/advanced-json-rpc": {
         "version": "v3.1.0"
     },
@@ -158,9 +161,6 @@
     },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.1"
-    },
-    "fzaninotto/faker": {
-        "version": "v1.9.1"
     },
     "infection/abstract-testframework-adapter": {
         "version": "0.3.0"
