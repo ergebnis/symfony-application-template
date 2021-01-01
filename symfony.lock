@@ -156,6 +156,9 @@
             ".php_cs.dist"
         ]
     },
+    "friendsofphp/proxy-manager-lts": {
+        "version": "v1.0.1"
+    },
     "fzaninotto/faker": {
         "version": "v1.9.1"
     },
