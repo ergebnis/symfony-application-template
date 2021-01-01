@@ -27,12 +27,12 @@
             <directory>.</directory>
         </testsuite>
     </testsuites>
-    <filter>
-        <whitelist addUncoveredFilesFromWhitelist="true" processUncoveredFilesFromWhitelist="true">
+    <coverage includeUncoveredFiles="true" processUncoveredFiles="true">
+        <exclude>
+            <file>../../src/Kernel.php</file>
+        </exclude>
+        <include>
             <directory suffix=".php">../../src/</directory>
-            <exclude>
-                <file>../../src/Kernel.php</file>
-            </exclude>
-        </whitelist>
-    </filter>
+        </include>
+    </coverage>
 </phpunit>
