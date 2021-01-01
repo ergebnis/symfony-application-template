@@ -23,7 +23,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "7.4"
+          - "8.0"
 
         dependencies:
           - "locked"
@@ -96,10 +96,13 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    env:
+      PHP_CS_FIXER_IGNORE_ENV: 1
+
     strategy:
       matrix:
         php-version:
-          - "7.4"
+          - "8.0"
 
         dependencies:
           - "locked"
@@ -209,7 +212,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "7.4"
+          - "8.0"
 
         dependencies:
           - "locked"
@@ -280,7 +283,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "7.4"
+          - "8.0"
 
         dependencies:
           - "locked"
@@ -364,7 +367,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "7.4"
+          - "8.0"
 
         dependencies:
           - "locked"
@@ -420,7 +423,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "7.4"
+          - "8.0"
 
         dependencies:
           - "locked"
