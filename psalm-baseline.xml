@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="3.18.2@19aa905f7c3c7350569999a93c40ae91ae4e1626">
+<files psalm-version="4.3.2@57b53ff26237074fdf5cbcb034f7da5172be4524">
   <file src="config/bootstrap.php">
     <MixedAssignment occurrences="4">
       <code>$_ENV[$k]</code>
@@ -12,7 +12,12 @@
     </RedundantCondition>
   </file>
   <file src="src/Kernel.php">
-    <MixedAssignment occurrences="2">
+    <MixedArrayAccess occurrences="2">
+      <code>$envs[$this-&gt;environment]</code>
+      <code>$envs['all']</code>
+    </MixedArrayAccess>
+    <MixedAssignment occurrences="3">
+      <code>$class</code>
       <code>$contents</code>
       <code>$envs</code>
     </MixedAssignment>
