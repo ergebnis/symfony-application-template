@@ -189,9 +189,6 @@
     "localheinz/diff": {
         "version": "1.0.1"
     },
-    "migrify/config-transformer": {
-        "version": "v0.3.24"
-    },
     "migrify/migrify-kernel": {
         "version": "0.3.39"
     },
@@ -211,13 +208,10 @@
         "version": "v3.2.1"
     },
     "nette/utils": {
-        "version": "v3.1.3"
+        "version": "v3.2.0"
     },
     "nikic/php-parser": {
         "version": "v4.3.0"
-    },
-    "ocramius/proxy-manager": {
-        "version": "2.8.0"
     },
     "ondram/ci-detector": {
         "version": "3.4.0"
@@ -430,7 +424,7 @@
         "version": "v2.0.1"
     },
     "symfony/expression-language": {
-        "version": "v5.1.3"
+        "version": "v5.2.1"
     },
     "symfony/filesystem": {
         "version": "v5.0.4"
@@ -536,25 +530,28 @@
         "version": "v5.0.4"
     },
     "symplify/autowire-array-parameter": {
-        "version": "v8.2.1"
+        "version": "9.0.23"
     },
     "symplify/composer-json-manipulator": {
-        "version": "9.0.1"
+        "version": "9.0.23"
+    },
+    "symplify/config-transformer": {
+        "version": "9.0.23"
     },
     "symplify/easy-testing": {
-        "version": "9.0.1"
+        "version": "9.0.23"
     },
     "symplify/package-builder": {
-        "version": "v8.2.1"
+        "version": "9.0.23"
     },
     "symplify/php-config-printer": {
-        "version": "9.0.1"
+        "version": "9.0.23"
     },
     "symplify/smart-file-system": {
-        "version": "v8.2.1"
+        "version": "9.0.23"
     },
     "symplify/symplify-kernel": {
-        "version": "8.3.33"
+        "version": "9.0.23"
     },
     "thecodingmachine/safe": {
         "version": "v1.0.3"
@@ -564,9 +561,6 @@
     },
     "vimeo/psalm": {
         "version": "3.9.3"
-    },
-    "webimpress/safe-writer": {
-        "version": "2.0.1"
     },
     "webmozart/assert": {
         "version": "1.7.0"
