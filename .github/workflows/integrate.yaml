@@ -412,6 +412,54 @@ jobs:
           CODECOV_TOKEN: "${{ secrets.CODECOV_TOKEN }}"
         run: "bash <(curl -s https://codecov.io/bash)"
 
+  mutation-tests:
+    name: "Mutation Tests"
+
+    runs-on: "ubuntu-latest"
+
+    strategy:
+      matrix:
+        php-version:
+          - "7.4"
+
+        dependencies:
+          - "locked"
+
+    steps:
+      - name: "Checkout"
+        uses: "actions/checkout@v2.3.4"
+
+      - name: "Install PHP with extensions"
+        uses: "shivammathur/setup-php@2.9.0"
+        with:
+          coverage: "pcov"
+          extensions: "${{ env.PHP_EXTENSIONS }}"
+          php-version: "${{ matrix.php-version }}"
+
+      - name: "Determine composer cache directory"
+        uses: "./.github/actions/composer/composer/determine-cache-directory"
+
+      - name: "Cache dependencies installed with composer"
+        uses: "actions/cache@v2.1.3"
+        with:
+          path: "${{ env.COMPOSER_CACHE_DIR }}"
+          key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
+          restore-keys: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-"
+
+      - name: "Install ${{ matrix.dependencies }} dependencies with composer"
+        uses: "./.github/actions/composer/composer/install"
+        with:
+          dependencies: "${{ matrix.dependencies }}"
+
+      - name: "Dump environment variables"
+        run: "composer dump-env ${{ env.APP_ENV }}"
+
+      - name: "Warm up cache"
+        run: "bin/console cache:warmup"
+
+      - name: "Run mutation tests with pcov and infection/infection"
+        run: "vendor/bin/infection --configuration=infection.json"
+
   merge:
     name: "Merge"
 
@@ -421,6 +469,7 @@ jobs:
       - "code-coverage"
       - "coding-standards"
       - "dependency-analysis"
+      - "mutation-tests"
       - "static-code-analysis"
       - "symfony-flex"
       - "tests"
