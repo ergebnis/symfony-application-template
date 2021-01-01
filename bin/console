@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-use Ergebnis\Application;
+use App\Kernel;
 use Symfony\Bundle\FrameworkBundle;
 use Symfony\Component\Console;
 use Symfony\Component\Dotenv;
@@ -39,7 +39,7 @@ if ($_SERVER['APP_DEBUG']) {
     }
 }
 
-$kernel = new Application\Kernel(
+$kernel = new Kernel(
     $_SERVER['APP_ENV'],
     (bool) $_SERVER['APP_DEBUG']
 );

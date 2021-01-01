@@ -11,7 +11,7 @@ declare(strict_types=1);
  * @see https://github.com/ergebnis/symfony-application-template
  */
 
-use Ergebnis\Application;
+use App\Kernel;
 use Symfony\Component\Dotenv;
 use Symfony\Component\ErrorHandler;
 use Symfony\Component\HttpFoundation;
@@ -37,7 +37,7 @@ if ($trustedHosts = $_SERVER['TRUSTED_HOSTS'] ?? $_ENV['TRUSTED_HOSTS'] ?? false
     HttpFoundation\Request::setTrustedHosts([$trustedHosts]);
 }
 
-$kernel = new Application\Kernel(
+$kernel = new Kernel(
     $_SERVER['APP_ENV'],
     (bool) $_SERVER['APP_DEBUG']
 );

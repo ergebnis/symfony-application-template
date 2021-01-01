@@ -11,7 +11,7 @@ declare(strict_types=1);
  * @see https://github.com/ergebnis/symfony-application-template
  */
 
-namespace Ergebnis\Application\Migration;
+namespace App\Migration;
 
 use Doctrine\DBAL;
 use Doctrine\Migrations;
