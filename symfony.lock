@@ -171,9 +171,6 @@
     "infection/infection": {
         "version": "0.15.3"
     },
-    "jangregor/phpstan-prophecy": {
-        "version": "0.6.2"
-    },
     "justinrainbow/json-schema": {
         "version": "5.2.9"
     },
