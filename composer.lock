@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "695e07e94d898813fce05f0946072b79",
+    "content-hash": "68679d2db636c0629eea32d886a8a43a",
     "packages": [
         {
             "name": "brick/math",
@@ -10113,77 +10113,6 @@
             ],
             "description": "A robust cross-platform utility for normalizing, comparing and modifying file paths.",
             "time": "2015-12-17T08:42:14+00:00"
-        },
-        {
-            "name": "weirdan/doctrine-psalm-plugin",
-            "version": "0.11.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/weirdan/doctrine-psalm-plugin.git",
-                "reference": "ded8b87735c5577d8d0e009b44e660ff006290c5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/weirdan/doctrine-psalm-plugin/zipball/ded8b87735c5577d8d0e009b44e660ff006290c5",
-                "reference": "ded8b87735c5577d8d0e009b44e660ff006290c5",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/collections": "^1.0",
-                "doctrine/orm": "^2.6",
-                "php": "^7.2|^8",
-                "vimeo/psalm": "^3.6.2 || dev-master"
-            },
-            "conflict": {
-                "slevomat/coding-standard": "6.1.1"
-            },
-            "require-dev": {
-                "codeception/codeception": "^4.0",
-                "composer/semver": "^1.4",
-                "doctrine/coding-standard": "^7.0",
-                "doctrine/doctrine-bundle": "^1.11",
-                "phly/keep-a-changelog": "^2.1",
-                "squizlabs/php_codesniffer": "^3.3",
-                "weirdan/codeception-psalm-module": "^0.6"
-            },
-            "type": "psalm-plugin",
-            "extra": {
-                "psalm": {
-                    "pluginClass": "Weirdan\\DoctrinePsalmPlugin\\Plugin"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Weirdan\\DoctrinePsalmPlugin\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bruce Weirdan",
-                    "email": "weirdan@gmail.com"
-                }
-            ],
-            "description": "Stubs to let Psalm understand Doctrine better",
-            "keywords": [
-                "code",
-                "dbal",
-                "doctrine",
-                "doctrine2",
-                "extension",
-                "inspection",
-                "orm",
-                "php",
-                "plugin",
-                "psalm",
-                "psalm-plugin",
-                "static analysis",
-                "static-analysis"
-            ],
-            "time": "2020-06-20T21:01:41+00:00"
         }
     ],
     "aliases": [],
