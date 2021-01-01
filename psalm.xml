@@ -19,7 +19,6 @@
         <pluginClass class="Psalm\SymfonyPsalmPlugin\Plugin">
             <containerXml>var/cache/test/App_KernelTestDebugContainer.xml</containerXml>
         </pluginClass>
-        <pluginClass class="Weirdan\DoctrinePsalmPlugin\Plugin" />
     </plugins>
 
     <projectFiles>
