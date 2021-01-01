@@ -23,13 +23,11 @@
     </plugins>
 
     <projectFiles>
-        <directory name="bin/" />
         <directory name="config/" />
         <directory name="src/" />
         <directory name="test/" />
-        <file name="bin/console" />
-        <file name="public/index.php" />
         <ignoreFiles>
+            <directory name="var/" />
             <directory name="vendor/" />
         </ignoreFiles>
     </projectFiles>

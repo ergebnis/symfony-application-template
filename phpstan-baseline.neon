@@ -1,11 +1,6 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^File is missing a \"declare\\(strict_types\\=1\\)\" declaration\\.$#"
-			count: 1
-			path: bin/console
-
-		-
 			message: "#^Language construct isset\\(\\) should not be used\\.$#"
 			count: 2
 			path: config/bootstrap.php
