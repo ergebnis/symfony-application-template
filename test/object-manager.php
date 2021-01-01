@@ -11,11 +11,11 @@ declare(strict_types=1);
  * @see https://github.com/ergebnis/symfony-application-template
  */
 
-use Ergebnis\Application;
+use App\Kernel;
 
 require __DIR__ . '/../config/bootstrap.php';
 
-$kernel = new Application\Kernel(
+$kernel = new Kernel(
     $_SERVER['APP_ENV'],
     (bool) $_SERVER['APP_DEBUG']
 );

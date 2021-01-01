@@ -11,9 +11,9 @@ declare(strict_types=1);
  * @see https://github.com/ergebnis/symfony-application-template
  */
 
-namespace Ergebnis\Application\Test\AutoReview;
+namespace App\Test\AutoReview;
 
-use Ergebnis\Application;
+use App\Kernel;
 use Ergebnis\Test\Util;
 use PHPUnit\Framework;
 
@@ -30,10 +30,10 @@ final class SrcCodeTest extends Framework\TestCase
     {
         self::assertClassesHaveTests(
             __DIR__ . '/../../src',
-            'Ergebnis\\Application\\',
-            'Ergebnis\\Application\\Test\\Unit\\',
+            'App\\',
+            'App\\Test\\Unit\\',
             [
-                Application\Kernel::class,
+                Kernel::class,
             ]
         );
     }

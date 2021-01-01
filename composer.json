@@ -86,12 +86,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ergebnis\\Application\\": "src/"
+      "App\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ergebnis\\Application\\Test\\": "test/"
+      "App\\Test\\": "test/"
     }
   },
   "scripts": {

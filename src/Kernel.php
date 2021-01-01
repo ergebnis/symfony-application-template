@@ -11,7 +11,7 @@ declare(strict_types=1);
  * @see https://github.com/ergebnis/symfony-application-template
  */
 
-namespace Ergebnis\Application;
+namespace App;
 
 use Symfony\Bundle\FrameworkBundle;
 use Symfony\Component\Config;

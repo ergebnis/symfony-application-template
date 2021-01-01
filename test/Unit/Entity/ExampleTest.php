@@ -11,16 +11,16 @@ declare(strict_types=1);
  * @see https://github.com/ergebnis/symfony-application-template
  */
 
-namespace Ergebnis\Application\Test\Unit\Entity;
+namespace App\Test\Unit\Entity;
 
-use Ergebnis\Application\Entity\Example;
+use App\Entity\Example;
 use Ergebnis\Test\Util\Helper;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Ergebnis\Application\Entity\Example
+ * @covers \App\Entity\Example
  */
 final class ExampleTest extends Framework\TestCase
 {

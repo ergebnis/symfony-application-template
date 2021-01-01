@@ -15,5 +15,5 @@ parameters:
 		- src/
 		- test/
 	symfony:
-		container_xml_path: var/cache/test/Ergebnis_Application_KernelTestDebugContainer.xml
+		container_xml_path: var/cache/test/App_KernelTestDebugContainer.xml
 	tmpDir: .build/phpstan/

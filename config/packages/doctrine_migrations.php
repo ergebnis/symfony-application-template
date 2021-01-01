@@ -17,7 +17,7 @@ return static function (DependencyInjection\Loader\Configurator\ContainerConfigu
     $containerConfigurator->extension('doctrine_migrations', [
         'custom_template' => '%kernel.project_dir%/migrations/migration.tpl',
         'migrations_paths' => [
-            'Ergebnis\Application\Migration' => '%kernel.project_dir%/migrations',
+            'App\Migration' => '%kernel.project_dir%/migrations',
         ],
     ]);
 };
