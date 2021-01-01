@@ -162,18 +162,6 @@
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.1"
     },
-    "infection/abstract-testframework-adapter": {
-        "version": "0.3.0"
-    },
-    "infection/extension-installer": {
-        "version": "0.1.1"
-    },
-    "infection/include-interceptor": {
-        "version": "0.2.3"
-    },
-    "infection/infection": {
-        "version": "0.15.3"
-    },
     "justinrainbow/json-schema": {
         "version": "5.2.9"
     },
@@ -212,9 +200,6 @@
     },
     "nikic/php-parser": {
         "version": "v4.3.0"
-    },
-    "ondram/ci-detector": {
-        "version": "3.4.0"
     },
     "openlss/lib-array2xml": {
         "version": "1.0.0"
@@ -323,9 +308,6 @@
     "ramsey/uuid": {
         "version": "4.1.0"
     },
-    "sanmai/pipeline": {
-        "version": "v3.1.2"
-    },
     "sebastian/code-unit": {
         "version": "1.0.0"
     },
@@ -364,9 +346,6 @@
     },
     "sebastian/version": {
         "version": "3.0.0"
-    },
-    "seld/jsonlint": {
-        "version": "1.7.2"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
@@ -552,9 +531,6 @@
     },
     "symplify/symplify-kernel": {
         "version": "9.0.23"
-    },
-    "thecodingmachine/safe": {
-        "version": "v1.0.3"
     },
     "theseer/tokenizer": {
         "version": "1.1.3"
