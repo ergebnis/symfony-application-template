@@ -76,4 +76,4 @@ symfony: vendor ## Synchronizes symfony recipes
 
 vendor: composer.json composer.lock
 	composer validate --strict
-	composer install --no-interaction --no-progress --no-suggest
+	composer install --no-interaction --no-progress
