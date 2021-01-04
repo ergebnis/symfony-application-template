@@ -547,6 +547,9 @@
     "symplify/config-transformer": {
         "version": "9.0.23"
     },
+    "symplify/console-package-builder": {
+        "version": "9.0.24"
+    },
     "symplify/easy-testing": {
         "version": "9.0.23"
     },
