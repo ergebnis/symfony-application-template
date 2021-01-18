@@ -63,7 +63,7 @@
     "phpstan/phpstan-phpunit": "~0.12.17",
     "phpstan/phpstan-strict-rules": "~0.12.9",
     "phpstan/phpstan-symfony": "~0.12.14",
-    "phpunit/phpunit": "^9.5.0",
+    "phpunit/phpunit": "^9.5.1",
     "psalm/plugin-phpunit": "~0.15.0",
     "psalm/plugin-symfony": "^2.1.1",
     "symplify/config-transformer": "^9.0.39",
