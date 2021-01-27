@@ -323,6 +323,9 @@
     "ramsey/uuid": {
         "version": "4.1.0"
     },
+    "sanmai/later": {
+        "version": "0.1.2"
+    },
     "sanmai/pipeline": {
         "version": "v5.1.0"
     },
