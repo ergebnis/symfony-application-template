@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f656bddae3e9d6fe0cc584c7af636ad",
+    "content-hash": "b283b961312f3cac20a00a9fe3a534fe",
     "packages": [
         {
             "name": "brick/math",
@@ -4013,16 +4013,16 @@
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v5.2.1",
+            "version": "v5.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "2b105c0354f39a63038a1d8bf776ee92852813af"
+                "reference": "b12274acfab9d9850c52583d136a24398cdf1a0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/2b105c0354f39a63038a1d8bf776ee92852813af",
-                "reference": "2b105c0354f39a63038a1d8bf776ee92852813af",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/b12274acfab9d9850c52583d136a24398cdf1a0c",
+                "reference": "b12274acfab9d9850c52583d136a24398cdf1a0c",
                 "shasum": ""
             },
             "require": {
@@ -4052,7 +4052,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony Stopwatch Component",
+            "description": "Provides a way to profile code",
             "homepage": "https://symfony.com",
             "funding": [
                 {
@@ -4068,7 +4068,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-01T16:14:45+00:00"
+            "time": "2021-01-27T10:15:41+00:00"
         },
         {
             "name": "symfony/string",
@@ -5177,39 +5177,39 @@
         },
         {
             "name": "ergebnis/php-cs-fixer-config",
-            "version": "2.10.0",
+            "version": "2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/php-cs-fixer-config.git",
-                "reference": "cb5395a2ba10fecd481254bfbf5026ea905f04f6"
+                "reference": "b1ea74fb5b013293ef06566a0b5dc1a81b49bb21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/cb5395a2ba10fecd481254bfbf5026ea905f04f6",
-                "reference": "cb5395a2ba10fecd481254bfbf5026ea905f04f6",
+                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/b1ea74fb5b013293ef06566a0b5dc1a81b49bb21",
+                "reference": "b1ea74fb5b013293ef06566a0b5dc1a81b49bb21",
                 "shasum": ""
             },
             "require": {
                 "ext-filter": "*",
-                "friendsofphp/php-cs-fixer": "~2.17.3",
+                "friendsofphp/php-cs-fixer": "~2.18.2",
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.11.0",
+                "ergebnis/composer-normalize": "^2.13.2",
                 "ergebnis/license": "^1.1.0",
                 "ergebnis/phpstan-rules": "~0.15.3",
                 "ergebnis/test-util": "^1.4.0",
                 "infection/infection": "~0.15.3",
                 "jangregor/phpstan-prophecy": "~0.8.1",
                 "phpstan/extension-installer": "^1.1.0",
-                "phpstan/phpstan": "~0.12.64",
+                "phpstan/phpstan": "~0.12.70",
                 "phpstan/phpstan-deprecation-rules": "~0.12.6",
                 "phpstan/phpstan-phpunit": "~0.12.17",
-                "phpstan/phpstan-strict-rules": "~0.12.7",
-                "phpunit/phpunit": "^8.5.13",
-                "psalm/plugin-phpunit": "~0.12.2",
+                "phpstan/phpstan-strict-rules": "~0.12.9",
+                "phpunit/phpunit": "^8.5.14",
+                "psalm/plugin-phpunit": "~0.15.1",
                 "symfony/filesystem": "^4.4.0",
-                "vimeo/psalm": "^3.18"
+                "vimeo/psalm": "^4.4.1"
             },
             "type": "library",
             "extra": {
@@ -5241,7 +5241,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-26T14:52:34+00:00"
+            "time": "2021-01-30T10:07:31+00:00"
         },
         {
             "name": "ergebnis/phpstan-rules",
@@ -5531,16 +5531,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v2.17.3",
+            "version": "v2.18.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "bd32f5dd72cdfc7b53f54077f980e144bfa2f595"
+                "reference": "18f8c9d184ba777380794a389fabc179896ba913"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/bd32f5dd72cdfc7b53f54077f980e144bfa2f595",
-                "reference": "bd32f5dd72cdfc7b53f54077f980e144bfa2f595",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/18f8c9d184ba777380794a389fabc179896ba913",
+                "reference": "18f8c9d184ba777380794a389fabc179896ba913",
                 "shasum": ""
             },
             "require": {
@@ -5562,7 +5562,6 @@
                 "symfony/stopwatch": "^3.0 || ^4.0 || ^5.0"
             },
             "require-dev": {
-                "johnkary/phpunit-speedtrap": "^1.1 || ^2.0 || ^3.0",
                 "justinrainbow/json-schema": "^5.0",
                 "keradus/cli-executor": "^1.4",
                 "mikey179/vfsstream": "^1.6",
@@ -5571,11 +5570,11 @@
                 "php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.2",
                 "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.2.1",
                 "phpspec/prophecy-phpunit": "^1.1 || ^2.0",
-                "phpunit/phpunit": "^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.13 || ^9.4.4 <9.5",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.13 || ^9.5",
                 "phpunitgoodpractices/polyfill": "^1.5",
                 "phpunitgoodpractices/traits": "^1.9.1",
                 "sanmai/phpunit-legacy-adapter": "^6.4 || ^8.2.1",
-                "symfony/phpunit-bridge": "^5.1",
+                "symfony/phpunit-bridge": "^5.2.1",
                 "symfony/yaml": "^3.0 || ^4.0 || ^5.0"
             },
             "suggest": {
@@ -5627,7 +5626,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-24T11:14:44+00:00"
+            "time": "2021-01-26T00:22:21+00:00"
         },
         {
             "name": "infection/abstract-testframework-adapter",
@@ -8802,16 +8801,16 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v5.2.1",
+            "version": "v5.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "87a2a4a766244e796dd9cb9d6f58c123358cd986"
+                "reference": "5d0f633f9bbfcf7ec642a2b5037268e61b0a62ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/87a2a4a766244e796dd9cb9d6f58c123358cd986",
-                "reference": "87a2a4a766244e796dd9cb9d6f58c123358cd986",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/5d0f633f9bbfcf7ec642a2b5037268e61b0a62ce",
+                "reference": "5d0f633f9bbfcf7ec642a2b5037268e61b0a62ce",
                 "shasum": ""
             },
             "require": {
@@ -8843,7 +8842,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony OptionsResolver Component",
+            "description": "Provides an improved replacement for the array_replace PHP function",
             "homepage": "https://symfony.com",
             "keywords": [
                 "config",
@@ -8864,20 +8863,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:08:07+00:00"
+            "time": "2021-01-27T12:56:27+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v5.2.1",
+            "version": "v5.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "bd8815b8b6705298beaa384f04fabd459c10bedd"
+                "reference": "313a38f09c77fbcdc1d223e57d368cea76a2fd2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/bd8815b8b6705298beaa384f04fabd459c10bedd",
-                "reference": "bd8815b8b6705298beaa384f04fabd459c10bedd",
+                "url": "https://api.github.com/repos/symfony/process/zipball/313a38f09c77fbcdc1d223e57d368cea76a2fd2f",
+                "reference": "313a38f09c77fbcdc1d223e57d368cea76a2fd2f",
                 "shasum": ""
             },
             "require": {
@@ -8907,7 +8906,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony Process Component",
+            "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "funding": [
                 {
@@ -8923,7 +8922,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-08T17:03:37+00:00"
+            "time": "2021-01-27T10:15:41+00:00"
         },
         {
             "name": "symplify/autowire-array-parameter",
