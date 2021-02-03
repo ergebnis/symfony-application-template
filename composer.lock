@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c995ebaf601e151a3bc72c3655a4f3b7",
+    "content-hash": "f3b0f3d12c62ef10b22de4143c2603b3",
     "packages": [
         {
             "name": "brick/math",
@@ -2403,7 +2403,7 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
