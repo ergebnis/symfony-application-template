@@ -22,7 +22,7 @@
     "doctrine/orm": "^2.8.1",
     "ramsey/uuid": "^4.1.1",
     "sensio/framework-extra-bundle": "^6.0.0",
-    "symfony/config": "^5.2.2",
+    "symfony/config": "^5.2.3",
     "symfony/console": "^5.2.2",
     "symfony/dependency-injection": "^5.2.3",
     "symfony/dotenv": "^5.2.3",
