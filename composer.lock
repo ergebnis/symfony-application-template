@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "984f268f5c56b32de2a4e03e2073c2ca",
+    "content-hash": "87e1d57538ceaf894c6c7e474b2a767b",
     "packages": [
         {
             "name": "brick/math",
@@ -6918,16 +6918,16 @@
         },
         {
             "name": "phpstan/phpstan-doctrine",
-            "version": "0.12.30",
+            "version": "0.12.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-doctrine.git",
-                "reference": "c4b910638ef416ad336aca596b4551a2db10b5f7"
+                "reference": "2486f59ca63860c0da66bdcf7fd74ba2914d43b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-doctrine/zipball/c4b910638ef416ad336aca596b4551a2db10b5f7",
-                "reference": "c4b910638ef416ad336aca596b4551a2db10b5f7",
+                "url": "https://api.github.com/repos/phpstan/phpstan-doctrine/zipball/2486f59ca63860c0da66bdcf7fd74ba2914d43b5",
+                "reference": "2486f59ca63860c0da66bdcf7fd74ba2914d43b5",
                 "shasum": ""
             },
             "require": {
@@ -6943,7 +6943,7 @@
             },
             "require-dev": {
                 "doctrine/annotations": "^1.11.0",
-                "doctrine/collections": "^1.0",
+                "doctrine/collections": "^1.6",
                 "doctrine/common": "^2.7 || ^3.0",
                 "doctrine/dbal": "^2.11.0",
                 "doctrine/mongodb-odm": "^1.3 || ^2.1",
@@ -6978,7 +6978,7 @@
                 "MIT"
             ],
             "description": "Doctrine extensions for PHPStan",
-            "time": "2021-01-18T13:00:10+00:00"
+            "time": "2021-02-09T14:57:13+00:00"
         },
         {
             "name": "phpstan/phpstan-phpunit",
