@@ -67,7 +67,7 @@
     "psalm/plugin-phpunit": "~0.15.1",
     "psalm/plugin-symfony": "^2.1.2",
     "symplify/config-transformer": "^9.1.5",
-    "vimeo/psalm": "^4.5.0"
+    "vimeo/psalm": "^4.5.1"
   },
   "config": {
     "platform": {
