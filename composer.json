@@ -19,7 +19,7 @@
     "doctrine/doctrine-bundle": "^2.2.3",
     "doctrine/doctrine-migrations-bundle": "^3.0.2",
     "doctrine/migrations": "^3.1.0",
-    "doctrine/orm": "^2.8.1",
+    "doctrine/orm": "^2.8.2",
     "ramsey/uuid": "^4.1.1",
     "sensio/framework-extra-bundle": "^6.1.0",
     "symfony/config": "^5.2.3",
