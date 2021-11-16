@@ -18,7 +18,7 @@ $license = License\Type\MIT::markdown(
     __DIR__ . '/LICENSE.md',
     License\Range::since(
         License\Year::fromString('2020'),
-        new \DateTimeZone('UTC')
+        new \DateTimeZone('UTC'),
     ),
     License\Holder::fromString('Andreas Möller'),
     License\Url::fromString('https://github.com/ergebnis/symfony-application-template')
@@ -38,10 +38,10 @@ $config->getFinder()
     ->ignoreDotFiles(false)
     ->in(__DIR__)
     ->name([
-        '.php_cs',
+        '.php-cs-fixer.php',
         'console',
     ]);
 
-$config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/.php_cs.cache');
+$config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/.php-cs-fixer.cache');
 
 return $config;

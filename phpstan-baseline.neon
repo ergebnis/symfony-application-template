@@ -6,14 +6,19 @@ parameters:
 			path: config/bootstrap.php
 
 		-
+			message: "#^Only booleans are allowed in \\|\\|, int given on the left side\\.$#"
+			count: 1
+			path: config/bootstrap.php
+
+		-
 			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
 			count: 1
 			path: config/bootstrap.php
 
 		-
-			message: "#^Only booleans are allowed in \\|\\|, int given on the left side\\.$#"
+			message: "#^Generator expects value type Symfony\\\\Component\\\\HttpKernel\\\\Bundle\\\\BundleInterface, object given\\.$#"
 			count: 1
-			path: config/bootstrap.php
+			path: src/Kernel.php
 
 		-
 			message: "#^Method App\\\\Kernel\\:\\:configureContainer\\(\\) has a parameter \\$containerBuilder with a type declaration of Symfony\\\\Component\\\\DependencyInjection\\\\ContainerBuilder, but containers should not be injected\\.$#"

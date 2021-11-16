@@ -8,20 +8,6 @@
 [![Code Coverage](https://codecov.io/gh/ergebnis/symfony-application-template/branch/main/graph/badge.svg)](https://codecov.io/gh/ergebnis/symfony-application-template)
 [![Type Coverage](https://shepherd.dev/github/ergebnis/symfony-application-template/coverage.svg)](https://shepherd.dev/github/ergebnis/symfony-application-template)
 
-## Installation
-
-:bulb: This is a great place for showing how to install the package, see below:
-
-Run
-
-```sh
-$ composer require ergebnis/symfony-application-template
-```
-
-## Usage
-
-:bulb: This is a great place for showing a few usage examples!
-
 ## Changelog
 
 Please have a look at [`CHANGELOG.md`](CHANGELOG.md).
