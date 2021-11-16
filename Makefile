@@ -21,7 +21,7 @@ coding-standards: vendor ## Normalizes composer.json with ergebnis/composer-norm
 	yamllint -c .yamllint.yaml --strict .
 	vendor/bin/config-transformer switch-format --input-format=yaml --output-format=php config
 	mkdir -p .build/php-cs-fixer
-	vendor/bin/php-cs-fixer fix --config=.php_cs --diff --diff-format=udiff --verbose
+	vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --verbose
 
 .PHONY: dependency-analysis
 dependency-analysis: vendor ## Runs a dependency analysis with maglnet/composer-require-checker
@@ -51,14 +51,14 @@ mutation-tests: vendor ## Runs mutation tests with infection/infection
 .PHONY: static-code-analysis
 static-code-analysis: vendor cache ## Runs a static code analysis with phpstan/phpstan and vimeo/psalm
 	mkdir -p .build/phpstan
-	vendor/bin/phpstan analyse --configuration=phpstan.neon --memory-limit=-1
+	vendor/bin/phpstan --configuration=phpstan.neon --memory-limit=-1
 	mkdir -p .build/psalm
 	vendor/bin/psalm --config=psalm.xml --diff --show-info=false --stats --threads=4
 
 .PHONY: static-code-analysis-baseline
 static-code-analysis-baseline: vendor cache ## Generates a baseline for static code analysis with phpstan/phpstan and vimeo/psalm
 	mkdir -p .build/phpstan
-	vendor/bin/phpstan analyze --configuration=phpstan.neon --generate-baseline=phpstan-baseline.neon --memory-limit=-1
+	vendor/bin/phpstan --configuration=phpstan.neon --generate-baseline=phpstan-baseline.neon --memory-limit=-1
 	mkdir -p .build/psalm
 	vendor/bin/psalm --config=psalm.xml --set-baseline=psalm-baseline.xml
 

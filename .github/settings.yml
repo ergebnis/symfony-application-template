@@ -50,10 +50,6 @@ labels:
     color: "0e8a16"
     description: ""
 
-  - name: "merge"
-    color: "6f42c1"
-    description: ""
-
   - name: "question"
     color: "cc317c"
     description: ""
@@ -76,6 +72,8 @@ repository:
   default_branch: "main"
   delete_branch_on_merge: true
   description: ":octocat: + :musical_score: Provides a GitHub repository template for a Symfony application, using GitHub actions."
+  enable_automated_security_fixes: true
+  enable_vulnerability_alerts: true
   has_downloads: true
   has_issues: true
   has_pages: false
