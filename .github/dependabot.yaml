@@ -9,7 +9,7 @@ updates:
     directory: "/"
     labels:
       - "dependency"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 5
     package-ecosystem: "composer"
     schedule:
       interval: "daily"
@@ -21,7 +21,7 @@ updates:
     directory: "/"
     labels:
       - "dependency"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 5
     package-ecosystem: "github-actions"
     schedule:
       interval: "daily"
