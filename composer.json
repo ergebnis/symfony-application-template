@@ -24,7 +24,7 @@
     "sensio/framework-extra-bundle": "^6.1.1",
     "symfony/config": "^5.4.0",
     "symfony/console": "^5.2.4",
-    "symfony/dependency-injection": "^5.2.12",
+    "symfony/dependency-injection": "^5.4.0",
     "symfony/dotenv": "^5.4.0",
     "symfony/error-handler": "^5.2.4",
     "symfony/flex": "^2.0.1",
