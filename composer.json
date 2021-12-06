@@ -28,7 +28,7 @@
     "symfony/dotenv": "^5.4.0",
     "symfony/error-handler": "^5.2.4",
     "symfony/flex": "^2.0.1",
-    "symfony/framework-bundle": "^5.2.4",
+    "symfony/framework-bundle": "^5.3.11",
     "symfony/http-kernel": "^5.2.14",
     "symfony/routing": "^5.2.4",
     "symfony/yaml": "^5.4.0"
