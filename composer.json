@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "php": "^7.4.3",
+    "php": "^8.0",
     "ext-ctype": "*",
     "ext-iconv": "*",
     "doctrine/annotations": "^1.12.1",
@@ -71,7 +71,7 @@
   },
   "config": {
     "platform": {
-      "php": "7.4.3"
+      "php": "8.0.12"
     },
     "preferred-install": "dist",
     "sort-packages": true
