@@ -207,12 +207,6 @@
     "nette/finder": {
         "version": "v2.5.2"
     },
-    "nette/neon": {
-        "version": "v3.2.1"
-    },
-    "nette/utils": {
-        "version": "v3.2.0"
-    },
     "nikic/php-parser": {
         "version": "v4.3.0"
     },
@@ -438,9 +432,6 @@
     "symfony/event-dispatcher-contracts": {
         "version": "v2.0.1"
     },
-    "symfony/expression-language": {
-        "version": "v5.2.1"
-    },
     "symfony/filesystem": {
         "version": "v5.0.4"
     },
@@ -547,31 +538,7 @@
     "symfony/yaml": {
         "version": "v5.0.4"
     },
-    "symplify/autowire-array-parameter": {
-        "version": "9.0.23"
-    },
-    "symplify/composer-json-manipulator": {
-        "version": "9.0.23"
-    },
     "symplify/config-transformer": {
-        "version": "9.0.23"
-    },
-    "symplify/console-package-builder": {
-        "version": "9.0.24"
-    },
-    "symplify/easy-testing": {
-        "version": "9.0.23"
-    },
-    "symplify/package-builder": {
-        "version": "9.0.23"
-    },
-    "symplify/php-config-printer": {
-        "version": "9.0.23"
-    },
-    "symplify/smart-file-system": {
-        "version": "9.0.23"
-    },
-    "symplify/symplify-kernel": {
         "version": "9.0.23"
     },
     "thecodingmachine/safe": {
