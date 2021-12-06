@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04f1e2502b8b7d5e227f235d42251025",
+    "content-hash": "d95dbbe68d578a6b0426d13511edda60",
     "packages": [
         {
             "name": "brick/math",
@@ -2409,23 +2409,23 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.2.4",
+            "version": "v5.2.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "f7d89110c55d88620dc811f342f94393b8a045d4"
+                "reference": "2f0326ab0e142a3600b1b435cb3e852bc96264b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/f7d89110c55d88620dc811f342f94393b8a045d4",
-                "reference": "f7d89110c55d88620dc811f342f94393b8a045d4",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/2f0326ab0e142a3600b1b435cb3e852bc96264b6",
+                "reference": "2f0326ab0e142a3600b1b435cb3e852bc96264b6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
                 "psr/container": "^1.0",
                 "symfony/deprecation-contracts": "^2.1",
-                "symfony/polyfill-php80": "^1.15",
+                "symfony/polyfill-php80": "^1.16",
                 "symfony/service-contracts": "^1.1.6|^2"
             },
             "conflict": {
@@ -2475,6 +2475,9 @@
             ],
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/dependency-injection/tree/v5.2.12"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2489,7 +2492,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-04T15:41:09+00:00"
+            "time": "2021-07-23T15:54:19+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
