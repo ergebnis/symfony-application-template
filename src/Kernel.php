@@ -22,7 +22,6 @@ use Symfony\Component\Routing;
 final class Kernel extends HttpKernel\Kernel
 {
     use FrameworkBundle\Kernel\MicroKernelTrait;
-
     private const CONFIG_EXTS = '.{php,xml,yaml,yml}';
 
     public function registerBundles(): iterable

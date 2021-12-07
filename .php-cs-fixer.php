@@ -21,7 +21,7 @@ $license = License\Type\MIT::markdown(
         new \DateTimeZone('UTC'),
     ),
     License\Holder::fromString('Andreas Möller'),
-    License\Url::fromString('https://github.com/ergebnis/symfony-application-template')
+    License\Url::fromString('https://github.com/ergebnis/symfony-application-template'),
 );
 
 $license->save();
