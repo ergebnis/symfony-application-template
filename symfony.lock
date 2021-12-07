@@ -135,9 +135,6 @@
     "ergebnis/php-cs-fixer-config": {
         "version": "2.0.0"
     },
-    "ergebnis/phpstan-rules": {
-        "version": "0.14.3"
-    },
     "ergebnis/test-util": {
         "version": "0.9.1"
     },
@@ -239,27 +236,6 @@
     },
     "phpspec/prophecy": {
         "version": "v1.10.2"
-    },
-    "phpstan/extension-installer": {
-        "version": "1.0.3"
-    },
-    "phpstan/phpstan": {
-        "version": "0.12.11"
-    },
-    "phpstan/phpstan-deprecation-rules": {
-        "version": "0.12.2"
-    },
-    "phpstan/phpstan-doctrine": {
-        "version": "0.12.19"
-    },
-    "phpstan/phpstan-phpunit": {
-        "version": "0.12.6"
-    },
-    "phpstan/phpstan-strict-rules": {
-        "version": "0.12.2"
-    },
-    "phpstan/phpstan-symfony": {
-        "version": "0.12.6"
     },
     "phpunit/php-code-coverage": {
         "version": "8.0.1"
