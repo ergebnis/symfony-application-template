@@ -48,7 +48,7 @@
     "symfony/symfony": "*"
   },
   "require-dev": {
-    "dama/doctrine-test-bundle": "^6.5.0",
+    "dama/doctrine-test-bundle": "^6.7.1",
     "ergebnis/composer-normalize": "^2.13.3",
     "ergebnis/factory-bot": "~0.4.0",
     "ergebnis/license": "^1.1.0",
