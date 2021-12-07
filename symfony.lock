@@ -162,6 +162,18 @@
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.1"
     },
+    "infection/abstract-testframework-adapter": {
+        "version": "0.3.1"
+    },
+    "infection/extension-installer": {
+        "version": "0.1.1"
+    },
+    "infection/include-interceptor": {
+        "version": "0.2.4"
+    },
+    "infection/infection": {
+        "version": "0.20.2"
+    },
     "justinrainbow/json-schema": {
         "version": "5.2.9"
     },
@@ -197,6 +209,9 @@
     },
     "ocramius/package-versions": {
         "version": "2.4.0"
+    },
+    "ondram/ci-detector": {
+        "version": "3.5.1"
     },
     "openlss/lib-array2xml": {
         "version": "1.0.0"
@@ -284,6 +299,12 @@
     "ramsey/uuid": {
         "version": "4.1.0"
     },
+    "sanmai/later": {
+        "version": "0.1.2"
+    },
+    "sanmai/pipeline": {
+        "version": "v5.1.0"
+    },
     "sebastian/cli-parser": {
         "version": "1.0.1"
     },
@@ -331,6 +352,9 @@
     },
     "sebastian/version": {
         "version": "3.0.0"
+    },
+    "seld/jsonlint": {
+        "version": "1.8.3"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
@@ -495,6 +519,9 @@
     },
     "symplify/config-transformer": {
         "version": "9.0.23"
+    },
+    "thecodingmachine/safe": {
+        "version": "v1.3.3"
     },
     "theseer/tokenizer": {
         "version": "1.1.3"
