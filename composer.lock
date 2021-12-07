@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "23d243b1e1c0a7c58cd0609b79c63366",
+    "content-hash": "0986cc6a269020aab02a14a7b426239e",
     "packages": [
         {
             "name": "brick/math",
@@ -5351,39 +5351,38 @@
         },
         {
             "name": "ergebnis/php-cs-fixer-config",
-            "version": "2.13.0",
+            "version": "2.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/php-cs-fixer-config.git",
-                "reference": "b1ea74fb5b013293ef06566a0b5dc1a81b49bb21"
+                "reference": "5750f9c35b447619401838e9fb9b25f64b90eb93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/b1ea74fb5b013293ef06566a0b5dc1a81b49bb21",
-                "reference": "b1ea74fb5b013293ef06566a0b5dc1a81b49bb21",
+                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/5750f9c35b447619401838e9fb9b25f64b90eb93",
+                "reference": "5750f9c35b447619401838e9fb9b25f64b90eb93",
                 "shasum": ""
             },
             "require": {
                 "ext-filter": "*",
-                "friendsofphp/php-cs-fixer": "~2.18.2",
+                "friendsofphp/php-cs-fixer": "~2.19.0",
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.13.2",
+                "ergebnis/composer-normalize": "^2.13.3",
                 "ergebnis/license": "^1.1.0",
                 "ergebnis/phpstan-rules": "~0.15.3",
-                "ergebnis/test-util": "^1.4.0",
+                "ergebnis/test-util": "^1.5.0",
                 "infection/infection": "~0.15.3",
-                "jangregor/phpstan-prophecy": "~0.8.1",
                 "phpstan/extension-installer": "^1.1.0",
-                "phpstan/phpstan": "~0.12.70",
+                "phpstan/phpstan": "~0.12.85",
                 "phpstan/phpstan-deprecation-rules": "~0.12.6",
-                "phpstan/phpstan-phpunit": "~0.12.17",
+                "phpstan/phpstan-phpunit": "~0.12.18",
                 "phpstan/phpstan-strict-rules": "~0.12.9",
-                "phpunit/phpunit": "^8.5.14",
+                "phpunit/phpunit": "^8.5.15",
                 "psalm/plugin-phpunit": "~0.15.1",
                 "symfony/filesystem": "^4.4.0",
-                "vimeo/psalm": "^4.4.1"
+                "vimeo/psalm": "^4.7.2"
             },
             "type": "library",
             "extra": {
@@ -5419,7 +5418,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-30T10:07:31+00:00"
+            "time": "2021-05-04T14:04:50+00:00"
         },
         {
             "name": "ergebnis/test-util",
@@ -5665,21 +5664,21 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v2.18.2",
+            "version": "v2.19.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "18f8c9d184ba777380794a389fabc179896ba913"
+                "reference": "75ac86f33fab4714ea5a39a396784d83ae3b5ed8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/18f8c9d184ba777380794a389fabc179896ba913",
-                "reference": "18f8c9d184ba777380794a389fabc179896ba913",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/75ac86f33fab4714ea5a39a396784d83ae3b5ed8",
+                "reference": "75ac86f33fab4714ea5a39a396784d83ae3b5ed8",
                 "shasum": ""
             },
             "require": {
                 "composer/semver": "^1.4 || ^2.0 || ^3.0",
-                "composer/xdebug-handler": "^1.2",
+                "composer/xdebug-handler": "^1.2 || ^2.0",
                 "doctrine/annotations": "^1.2",
                 "ext-json": "*",
                 "ext-tokenizer": "*",
@@ -5722,6 +5721,11 @@
                 "php-cs-fixer"
             ],
             "type": "application",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.19-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "PhpCsFixer\\": "src/"
@@ -5736,6 +5740,7 @@
                     "tests/Test/IntegrationCaseFactoryInterface.php",
                     "tests/Test/InternalIntegrationCaseFactory.php",
                     "tests/Test/IsIdenticalConstraint.php",
+                    "tests/Test/TokensWithObservedTransformers.php",
                     "tests/TestCase.php"
                 ]
             },
@@ -5756,7 +5761,7 @@
             "description": "A tool to automatically fix PHP code style",
             "support": {
                 "issues": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues",
-                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v2.18.2"
+                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v2.19.3"
             },
             "funding": [
                 {
@@ -5764,7 +5769,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-26T00:22:21+00:00"
+            "time": "2021-11-15T17:17:55+00:00"
         },
         {
             "name": "infection/abstract-testframework-adapter",
@@ -8558,23 +8563,23 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v5.2.2",
+            "version": "v5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "5d0f633f9bbfcf7ec642a2b5037268e61b0a62ce"
+                "reference": "b0fb78576487af19c500aaddb269fd36701d4847"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/5d0f633f9bbfcf7ec642a2b5037268e61b0a62ce",
-                "reference": "5d0f633f9bbfcf7ec642a2b5037268e61b0a62ce",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/b0fb78576487af19c500aaddb269fd36701d4847",
+                "reference": "b0fb78576487af19c500aaddb269fd36701d4847",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
-                "symfony/deprecation-contracts": "^2.1",
+                "symfony/deprecation-contracts": "^2.1|^3",
                 "symfony/polyfill-php73": "~1.0",
-                "symfony/polyfill-php80": "^1.15"
+                "symfony/polyfill-php80": "^1.16"
             },
             "type": "library",
             "autoload": {
@@ -8607,7 +8612,7 @@
                 "options"
             ],
             "support": {
-                "source": "https://github.com/symfony/options-resolver/tree/v5.2.2"
+                "source": "https://github.com/symfony/options-resolver/tree/v5.4.0"
             },
             "funding": [
                 {
@@ -8623,7 +8628,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-27T12:56:27+00:00"
+            "time": "2021-11-23T10:19:22+00:00"
         },
         {
             "name": "symfony/process",
