@@ -12,6 +12,9 @@
     </RedundantCondition>
   </file>
   <file src="src/Kernel.php">
+    <MixedArgument occurrences="1">
+      <code>$this-&gt;debug</code>
+    </MixedArgument>
     <MixedArrayAccess occurrences="2">
       <code>$envs[$this-&gt;environment]</code>
       <code>$envs['all']</code>
@@ -24,6 +27,9 @@
     <MixedMethodCall occurrences="1">
       <code>new $class()</code>
     </MixedMethodCall>
+    <MoreSpecificReturnType occurrences="1">
+      <code>iterable</code>
+    </MoreSpecificReturnType>
     <UnresolvableInclude occurrences="1">
       <code>require $this-&gt;getProjectDir() . '/config/bundles.php'</code>
     </UnresolvableInclude>
