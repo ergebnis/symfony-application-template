@@ -30,20 +30,16 @@ class Example
      *     type="string",
      *     length=36
      * )
-     *
-     * @var string
      */
-    private $id;
+    private string $id;
 
     /**
      * @ORM\Mapping\Column(
      *     name="name",
      *     type="string"
      * )
-     *
-     * @var string
      */
-    private $name;
+    private string $name;
 
     private function __construct(string $name)
     {
