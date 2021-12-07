@@ -1,15 +1,19 @@
 {
   "name": "ergebnis/symfony-application-template",
-  "type": "project",
   "description": "Provides a GitHub repository template for a PHP library, using GitHub actions.",
-  "homepage": "https://github.com/ergebnis/symfony-application-template",
   "license": "MIT",
+  "type": "project",
   "authors": [
     {
       "name": "Andreas Möller",
       "email": "am@localheinz.com"
     }
   ],
+  "homepage": "https://github.com/ergebnis/symfony-application-template",
+  "support": {
+    "issues": "https://github.com/ergebnis/symfony-application-template/issues",
+    "source": "https://github.com/ergebnis/symfony-application-template"
+  },
   "require": {
     "php": "^8.0",
     "ext-ctype": "*",
@@ -33,6 +37,20 @@
     "symfony/routing": "^6.0.0",
     "symfony/yaml": "^6.0.0"
   },
+  "require-dev": {
+    "dama/doctrine-test-bundle": "^6.7.1",
+    "ergebnis/composer-normalize": "^2.17.0",
+    "ergebnis/factory-bot": "~0.4.0",
+    "ergebnis/license": "^1.1.0",
+    "ergebnis/php-cs-fixer-config": "^2.13.0",
+    "ergebnis/test-util": "^1.5.0",
+    "infection/infection": "~0.21.5",
+    "phpunit/phpunit": "^9.5.10",
+    "psalm/plugin-phpunit": "~0.16.1",
+    "psalm/plugin-symfony": "^3.1.0",
+    "symplify/config-transformer": "^9.4.70",
+    "vimeo/psalm": "^4.14.0"
+  },
   "replace": {
     "paragonie/random_compat": "2.*",
     "symfony/polyfill-ctype": "*",
@@ -47,19 +65,15 @@
   "conflict": {
     "symfony/symfony": "*"
   },
-  "require-dev": {
-    "dama/doctrine-test-bundle": "^6.7.1",
-    "ergebnis/composer-normalize": "^2.13.3",
-    "ergebnis/factory-bot": "~0.4.0",
-    "ergebnis/license": "^1.1.0",
-    "ergebnis/php-cs-fixer-config": "^2.13.0",
-    "ergebnis/test-util": "^1.5.0",
-    "infection/infection": "~0.21.5",
-    "phpunit/phpunit": "^9.5.10",
-    "psalm/plugin-phpunit": "~0.16.1",
-    "psalm/plugin-symfony": "^3.1.0",
-    "symplify/config-transformer": "^9.4.70",
-    "vimeo/psalm": "^4.14.0"
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Test\\": "test/"
+    }
   },
   "config": {
     "platform": {
@@ -74,16 +88,6 @@
       "require": "^5.1.0"
     }
   },
-  "autoload": {
-    "psr-4": {
-      "App\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "App\\Test\\": "test/"
-    }
-  },
   "scripts": {
     "post-install-cmd": [
       "@auto-scripts"
@@ -95,9 +99,5 @@
       "cache:clear": "symfony-cmd",
       "assets:install %PUBLIC_DIR%": "symfony-cmd"
     }
-  },
-  "support": {
-    "issues": "https://github.com/ergebnis/symfony-application-template/issues",
-    "source": "https://github.com/ergebnis/symfony-application-template"
   }
 }
