@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="4.6.2@bca09d74adc704c4eaee36a3c3e9d379e290fc3b">
+<files psalm-version="v4.14.0@14dcbc908ab2625cd7a74258ee6c740cbecc6140">
   <file src="config/bootstrap.php">
     <MixedAssignment occurrences="4">
       <code>$_ENV[$k]</code>
@@ -12,6 +12,9 @@
     </RedundantCondition>
   </file>
   <file src="src/Kernel.php">
+    <MixedArgument occurrences="1">
+      <code>$this-&gt;debug</code>
+    </MixedArgument>
     <MixedArrayAccess occurrences="2">
       <code>$envs[$this-&gt;environment]</code>
       <code>$envs['all']</code>
@@ -24,6 +27,9 @@
     <MixedMethodCall occurrences="1">
       <code>new $class()</code>
     </MixedMethodCall>
+    <MoreSpecificReturnType occurrences="1">
+      <code>iterable</code>
+    </MoreSpecificReturnType>
     <UnresolvableInclude occurrences="1">
       <code>require $this-&gt;getProjectDir() . '/config/bundles.php'</code>
     </UnresolvableInclude>
