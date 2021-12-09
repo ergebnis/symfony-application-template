@@ -29,7 +29,7 @@
     "symfony/config": "^5.4.0",
     "symfony/console": "^5.4.1",
     "symfony/dependency-injection": "^5.4.0",
-    "symfony/dotenv": "^6.0.0",
+    "symfony/dotenv": "^6.0.1",
     "symfony/error-handler": "^6.0.1",
     "symfony/flex": "^2.0.1",
     "symfony/framework-bundle": "^5.4.1",
