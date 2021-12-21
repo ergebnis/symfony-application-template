@@ -16,7 +16,7 @@ use Symfony\Component\DependencyInjection;
 return static function (DependencyInjection\Loader\Configurator\ContainerConfigurator $containerConfigurator): void {
     $containerConfigurator->extension('framework', [
         'session' => [
-            'storage_id' => 'session.storage.mock_file',
+            'storage_factory_id' => 'session.storage.factory.mock_file',
         ],
         'test' => true,
     ]);
