@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b8a6d669cff19d3507db6f3ce19b310",
+    "content-hash": "0575fbfceb4330e738685e3a86f62542",
     "packages": [
         {
             "name": "brick/math",
@@ -381,16 +381,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "6d970a11479275300b5144e9373ce5feacfa9b91"
+                "reference": "e927fc2410c8723d053b8032e591cdff76587cdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/6d970a11479275300b5144e9373ce5feacfa9b91",
-                "reference": "6d970a11479275300b5144e9373ce5feacfa9b91",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/e927fc2410c8723d053b8032e591cdff76587cdb",
+                "reference": "e927fc2410c8723d053b8032e591cdff76587cdb",
                 "shasum": ""
             },
             "require": {
@@ -398,9 +398,9 @@
                 "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^6.0 || ^8.0",
-                "phpstan/phpstan": "^0.12",
-                "phpstan/phpstan-phpunit": "^0.12",
+                "doctrine/coding-standard": "^9.0",
+                "phpstan/phpstan": "^1.2.0",
+                "phpstan/phpstan-phpunit": "^1",
                 "phpunit/phpunit": "^7.5.20 || ^8.5 || ^9.0",
                 "squizlabs/php_codesniffer": "^3.0",
                 "symfony/phpunit-bridge": "^4.0.5",
@@ -451,7 +451,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/common/issues",
-                "source": "https://github.com/doctrine/common/tree/3.2.0"
+                "source": "https://github.com/doctrine/common/tree/3.2.1"
             },
             "funding": [
                 {
@@ -467,7 +467,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-19T06:47:22+00:00"
+            "time": "2021-12-26T22:39:45+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -5144,16 +5144,16 @@
         },
         {
             "name": "ergebnis/factory-bot",
-            "version": "0.4.0",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/factory-bot.git",
-                "reference": "faae35fe29f2c4654eec9d263b031a4250a12986"
+                "reference": "bb7f94424102a9ac3fda22427a6ea24e8c9305db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/factory-bot/zipball/faae35fe29f2c4654eec9d263b031a4250a12986",
-                "reference": "faae35fe29f2c4654eec9d263b031a4250a12986",
+                "url": "https://api.github.com/repos/ergebnis/factory-bot/zipball/bb7f94424102a9ac3fda22427a6ea24e8c9305db",
+                "reference": "bb7f94424102a9ac3fda22427a6ea24e8c9305db",
                 "shasum": ""
             },
             "require": {
@@ -5161,28 +5161,29 @@
                 "doctrine/collections": "^1.6.5",
                 "doctrine/dbal": "^2.12.0 || ^3.0.0",
                 "doctrine/orm": "^2.8.0",
-                "ergebnis/classy": "^1.1.0",
+                "doctrine/persistence": "^2.1.0",
+                "ergebnis/classy": "^1.1.1",
                 "fakerphp/faker": "^1.11.0",
-                "php": "^7.3 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.13.2",
+                "ergebnis/composer-normalize": "^2.18.0",
                 "ergebnis/license": "^1.1.0",
-                "ergebnis/php-cs-fixer-config": "^2.10.0",
-                "ergebnis/phpstan-rules": "~0.15.3",
-                "ergebnis/test-util": "^1.4.0",
-                "infection/infection": "~0.15.3",
-                "jangregor/phpstan-prophecy": "~0.8.1",
+                "ergebnis/php-cs-fixer-config": "^3.4.0",
+                "ergebnis/phpstan-rules": "^1.0.0",
+                "ergebnis/test-util": "^1.5.0",
+                "infection/infection": "~0.25.5",
                 "phpstan/extension-installer": "^1.1.0",
-                "phpstan/phpstan": "~0.12.64",
-                "phpstan/phpstan-deprecation-rules": "~0.12.6",
-                "phpstan/phpstan-doctrine": "~0.12.26",
-                "phpstan/phpstan-phpunit": "~0.12.17",
-                "phpstan/phpstan-strict-rules": "~0.12.7",
-                "phpunit/phpunit": "^8.5.13",
-                "psalm/plugin-phpunit": "~0.12.2",
-                "ramsey/uuid": "^4.1.1",
-                "vimeo/psalm": "^3.18"
+                "phpstan/phpstan": "^1.1.2",
+                "phpstan/phpstan-deprecation-rules": "^1.0.0",
+                "phpstan/phpstan-doctrine": "^1.0.2",
+                "phpstan/phpstan-phpunit": "^1.0.0",
+                "phpstan/phpstan-strict-rules": "^1.1.0",
+                "phpunit/phpunit": "^9.5.11",
+                "psalm/plugin-phpunit": "~0.16.1",
+                "ramsey/uuid": "^4.2.3",
+                "symfony/cache": "^5.3.12",
+                "vimeo/psalm": "^4.16.1"
             },
             "type": "library",
             "autoload": {
@@ -5219,7 +5220,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-01T15:58:10+00:00"
+            "time": "2021-12-27T18:46:23+00:00"
         },
         {
             "name": "ergebnis/json-normalizer",
