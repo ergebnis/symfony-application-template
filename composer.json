@@ -27,7 +27,7 @@
     "ramsey/uuid": "^4.2.3",
     "sensio/framework-extra-bundle": "^6.2.4",
     "symfony/config": "^6.0.2",
-    "symfony/console": "^6.0.1",
+    "symfony/console": "^6.0.2",
     "symfony/dependency-injection": "^6.0.1",
     "symfony/dotenv": "^6.0.2",
     "symfony/error-handler": "^6.0.1",
