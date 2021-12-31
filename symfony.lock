@@ -132,6 +132,9 @@
     "ergebnis/json-printer": {
         "version": "3.0.2"
     },
+    "ergebnis/json-schema-validator": {
+        "version": "2.0.0"
+    },
     "ergebnis/license": {
         "version": "0.1.0"
     },
