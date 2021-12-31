@@ -4,7 +4,7 @@ version: 2
 
 updates:
   - allow:
-      dependency-type: "all"
+      - dependency-type: "all"
     commit-message:
       include: "scope"
       prefix: "composer"
