@@ -19,6 +19,7 @@
     "ext-ctype": "*",
     "ext-iconv": "*",
     "ext-mbstring": "*",
+    "ext-pdo": "*",
     "doctrine/annotations": "^1.13.2",
     "doctrine/collections": "^1.6.8",
     "doctrine/doctrine-bundle": "^2.5.4",
