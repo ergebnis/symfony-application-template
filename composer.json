@@ -91,7 +91,7 @@
   "extra": {
     "symfony": {
       "allow-contrib": false,
-      "require": "^5.1.0"
+      "require": "^6.0.0"
     }
   },
   "scripts": {
