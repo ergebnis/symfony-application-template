@@ -479,9 +479,6 @@
     "symfony/polyfill-intl-normalizer": {
         "version": "v1.17.0"
     },
-    "symfony/polyfill-mbstring": {
-        "version": "v1.14.0"
-    },
     "symfony/process": {
         "version": "v5.0.4"
     },
