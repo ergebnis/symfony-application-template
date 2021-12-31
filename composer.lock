@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eca28453f18cb53f0582d4ed71f0c3a6",
+    "content-hash": "76462bd5009ab71d781dcb46add31593",
     "packages": [
         {
             "name": "brick/math",
@@ -8561,16 +8561,16 @@
         },
         {
             "name": "symplify/config-transformer",
-            "version": "10.0.6",
+            "version": "10.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/config-transformer.git",
-                "reference": "e7d48287352898c46c342d063e73f1d269ca7a59"
+                "reference": "1047d527043822f76b4edb2d3ca1fb3d1d9ffa95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/config-transformer/zipball/e7d48287352898c46c342d063e73f1d269ca7a59",
-                "reference": "e7d48287352898c46c342d063e73f1d269ca7a59",
+                "url": "https://api.github.com/repos/symplify/config-transformer/zipball/1047d527043822f76b4edb2d3ca1fb3d1d9ffa95",
+                "reference": "1047d527043822f76b4edb2d3ca1fb3d1d9ffa95",
                 "shasum": ""
             },
             "require": {
@@ -8586,7 +8586,7 @@
             ],
             "description": "Prefixed version of Symfony YAML/XML to PHP/YAML config converter",
             "support": {
-                "source": "https://github.com/symplify/config-transformer/tree/10.0.6"
+                "source": "https://github.com/symplify/config-transformer/tree/10.0.8"
             },
             "funding": [
                 {
@@ -8598,7 +8598,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-23T23:27:40+00:00"
+            "time": "2021-12-31T12:17:40+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -9022,5 +9022,5 @@
     "platform-overrides": {
         "php": "8.1.0"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.1.0"
 }
