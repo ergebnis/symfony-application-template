@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8130d28d5ce317f041f76adc8f1369b3",
+    "content-hash": "ca5dda14c5543f3e18b7214a20e8e740",
     "packages": [
         {
             "name": "brick/math",
@@ -8553,16 +8553,16 @@
         },
         {
             "name": "symplify/config-transformer",
-            "version": "10.0.9",
+            "version": "10.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/config-transformer.git",
-                "reference": "7a37fe1371e95f2d1c22b9c9b71cdd4a815c4797"
+                "reference": "b30a01e0de10ee2d755deafe0bfaaae8de172578"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/config-transformer/zipball/7a37fe1371e95f2d1c22b9c9b71cdd4a815c4797",
-                "reference": "7a37fe1371e95f2d1c22b9c9b71cdd4a815c4797",
+                "url": "https://api.github.com/repos/symplify/config-transformer/zipball/b30a01e0de10ee2d755deafe0bfaaae8de172578",
+                "reference": "b30a01e0de10ee2d755deafe0bfaaae8de172578",
                 "shasum": ""
             },
             "require": {
@@ -8578,7 +8578,7 @@
             ],
             "description": "Prefixed version of Symfony YAML/XML to PHP/YAML config converter",
             "support": {
-                "source": "https://github.com/symplify/config-transformer/tree/10.0.9"
+                "source": "https://github.com/symplify/config-transformer/tree/10.0.11"
             },
             "funding": [
                 {
@@ -8590,7 +8590,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-07T15:59:26+00:00"
+            "time": "2022-01-17T00:42:20+00:00"
         },
         {
             "name": "thecodingmachine/safe",
