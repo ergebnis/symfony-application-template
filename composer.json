@@ -34,7 +34,7 @@
     "symfony/dependency-injection": "^6.0.1",
     "symfony/dotenv": "^6.0.2",
     "symfony/error-handler": "^6.0.1",
-    "symfony/flex": "^2.1.1",
+    "symfony/flex": "^2.1.2",
     "symfony/framework-bundle": "^6.0.2",
     "symfony/http-kernel": "^6.0.0",
     "symfony/routing": "^6.0.1",
