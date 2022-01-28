@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4754e56f01c4b43888632219d72504ea",
+    "content-hash": "51d10a589c3a9a6c3e588d9cd8b5797f",
     "packages": [
         {
             "name": "brick/math",
@@ -2530,16 +2530,16 @@
         },
         {
             "name": "symfony/doctrine-bridge",
-            "version": "v6.0.2",
+            "version": "v6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/doctrine-bridge.git",
-                "reference": "edc5491594d2f69d5704118d255c6f597167813d"
+                "reference": "d1d9d54717d3125119e09c9c34b337364e47960e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/doctrine-bridge/zipball/edc5491594d2f69d5704118d255c6f597167813d",
-                "reference": "edc5491594d2f69d5704118d255c6f597167813d",
+                "url": "https://api.github.com/repos/symfony/doctrine-bridge/zipball/d1d9d54717d3125119e09c9c34b337364e47960e",
+                "reference": "d1d9d54717d3125119e09c9c34b337364e47960e",
                 "shasum": ""
             },
             "require": {
@@ -2625,7 +2625,7 @@
             "description": "Provides integration for Doctrine with various Symfony components",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/doctrine-bridge/tree/v6.0.2"
+                "source": "https://github.com/symfony/doctrine-bridge/tree/v6.0.3"
             },
             "funding": [
                 {
@@ -2641,20 +2641,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-25T20:10:03+00:00"
+            "time": "2022-01-27T10:11:24+00:00"
         },
         {
             "name": "symfony/dotenv",
-            "version": "v6.0.2",
+            "version": "v6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
-                "reference": "5c43c5515e549a8c2c426be36d40f47daf196968"
+                "reference": "45c47b67cc92fbcf9b1d40f08e970a136f75559f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dotenv/zipball/5c43c5515e549a8c2c426be36d40f47daf196968",
-                "reference": "5c43c5515e549a8c2c426be36d40f47daf196968",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/45c47b67cc92fbcf9b1d40f08e970a136f75559f",
+                "reference": "45c47b67cc92fbcf9b1d40f08e970a136f75559f",
                 "shasum": ""
             },
             "require": {
@@ -2695,7 +2695,7 @@
                 "environment"
             ],
             "support": {
-                "source": "https://github.com/symfony/dotenv/tree/v6.0.2"
+                "source": "https://github.com/symfony/dotenv/tree/v6.0.3"
             },
             "funding": [
                 {
@@ -2711,7 +2711,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-16T22:05:41+00:00"
+            "time": "2022-01-26T17:23:29+00:00"
         },
         {
             "name": "symfony/error-handler",
@@ -8502,16 +8502,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v6.0.2",
+            "version": "v6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "71da2b7f3fdba460fcf61a97c8d3d14bbf3391ad"
+                "reference": "298ed357274c1868c20a0061df256a1250a6c4af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/71da2b7f3fdba460fcf61a97c8d3d14bbf3391ad",
-                "reference": "71da2b7f3fdba460fcf61a97c8d3d14bbf3391ad",
+                "url": "https://api.github.com/repos/symfony/process/zipball/298ed357274c1868c20a0061df256a1250a6c4af",
+                "reference": "298ed357274c1868c20a0061df256a1250a6c4af",
                 "shasum": ""
             },
             "require": {
@@ -8543,7 +8543,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v6.0.2"
+                "source": "https://github.com/symfony/process/tree/v6.0.3"
             },
             "funding": [
                 {
@@ -8559,7 +8559,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-27T21:05:08+00:00"
+            "time": "2022-01-26T17:23:29+00:00"
         },
         {
             "name": "symplify/config-transformer",
