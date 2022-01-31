@@ -42,7 +42,7 @@
   },
   "require-dev": {
     "dama/doctrine-test-bundle": "^6.7.4",
-    "ergebnis/composer-normalize": "^2.23.0",
+    "ergebnis/composer-normalize": "^2.23.1",
     "ergebnis/factory-bot": "~0.6.0",
     "ergebnis/license": "^1.2.0",
     "ergebnis/php-cs-fixer-config": "^4.0.0",
