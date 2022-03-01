@@ -27,7 +27,7 @@ jobs:
           token: "${{ secrets.ERGEBNIS_BOT_TOKEN }}"
 
       - name: "Set up PHP"
-        uses: "shivammathur/setup-php@2.17.0"
+        uses: "shivammathur/setup-php@2.17.1"
         with:
           coverage: "none"
           extensions: "none, ctype, dom, iconv, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
