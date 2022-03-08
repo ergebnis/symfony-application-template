@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50021cdfb5cf9acdeef0eb853d2d06e6",
+    "content-hash": "97b4eff2c3e74f24ed853d98c1cefb64",
     "packages": [
         {
             "name": "brick/math",
@@ -5235,31 +5235,31 @@
         },
         {
             "name": "ergebnis/php-cs-fixer-config",
-            "version": "4.0.0",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/php-cs-fixer-config.git",
-                "reference": "9a28b5fd78820baa30a08fb2138c99cf0e548bf0"
+                "reference": "196fda1bf6d99530b683ade181d86c215bf833c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/9a28b5fd78820baa30a08fb2138c99cf0e548bf0",
-                "reference": "9a28b5fd78820baa30a08fb2138c99cf0e548bf0",
+                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/196fda1bf6d99530b683ade181d86c215bf833c5",
+                "reference": "196fda1bf6d99530b683ade181d86c215bf833c5",
                 "shasum": ""
             },
             "require": {
                 "ext-filter": "*",
-                "friendsofphp/php-cs-fixer": "~3.5.0",
+                "friendsofphp/php-cs-fixer": "~3.7.0",
                 "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.23.0",
+                "ergebnis/composer-normalize": "^2.23.1",
                 "ergebnis/license": "^1.2.0",
-                "fakerphp/faker": "^1.17.0",
-                "phpunit/phpunit": "^9.5.11",
+                "fakerphp/faker": "^1.19.0",
+                "phpunit/phpunit": "^9.5.17",
                 "psalm/plugin-phpunit": "~0.16.1",
                 "symfony/filesystem": "^4.4.0 || ^5.0.0",
-                "vimeo/psalm": "^4.18"
+                "vimeo/psalm": "^4.22"
             },
             "type": "library",
             "extra": {
@@ -5295,7 +5295,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-14T23:01:37+00:00"
+            "time": "2022-03-07T19:21:05+00:00"
         },
         {
             "name": "ergebnis/test-util",
@@ -5544,21 +5544,21 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.5.0",
+            "version": "v3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "333f15e07c866e33e2765e84ba1e0b88e6a3af3b"
+                "reference": "7705d5a985132a40282d18a176eb9a4a0497747c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/333f15e07c866e33e2765e84ba1e0b88e6a3af3b",
-                "reference": "333f15e07c866e33e2765e84ba1e0b88e6a3af3b",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/7705d5a985132a40282d18a176eb9a4a0497747c",
+                "reference": "7705d5a985132a40282d18a176eb9a4a0497747c",
                 "shasum": ""
             },
             "require": {
                 "composer/semver": "^3.2",
-                "composer/xdebug-handler": "^3.0",
+                "composer/xdebug-handler": "^3.0.3",
                 "doctrine/annotations": "^1.13",
                 "ext-json": "*",
                 "ext-tokenizer": "*",
@@ -5570,8 +5570,8 @@
                 "symfony/finder": "^5.4 || ^6.0",
                 "symfony/options-resolver": "^5.4 || ^6.0",
                 "symfony/polyfill-mbstring": "^1.23",
-                "symfony/polyfill-php80": "^1.23",
-                "symfony/polyfill-php81": "^1.23",
+                "symfony/polyfill-php80": "^1.25",
+                "symfony/polyfill-php81": "^1.25",
                 "symfony/process": "^5.4 || ^6.0",
                 "symfony/stopwatch": "^5.4 || ^6.0"
             },
@@ -5621,7 +5621,7 @@
             "description": "A tool to automatically fix PHP code style",
             "support": {
                 "issues": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues",
-                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v3.5.0"
+                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v3.7.0"
             },
             "funding": [
                 {
@@ -5629,7 +5629,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-14T00:29:20+00:00"
+            "time": "2022-03-07T16:59:59+00:00"
         },
         {
             "name": "infection/abstract-testframework-adapter",
