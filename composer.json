@@ -1,6 +1,6 @@
 {
   "name": "ergebnis/symfony-application-template",
-  "description": "Provides a GitHub repository template for a PHP library, using GitHub Actions.",
+  "description": "Provides a GitHub repository template for a Symfony project, using GitHub Actions.",
   "license": "MIT",
   "type": "project",
   "authors": [
