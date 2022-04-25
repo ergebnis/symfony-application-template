@@ -28,7 +28,7 @@ class Example
      * @ORM\Mapping\Column(
      *     name="id",
      *     type="string",
-     *     length=36
+     *     length=36,
      * )
      */
     private string $id;
@@ -36,7 +36,7 @@ class Example
     /**
      * @ORM\Mapping\Column(
      *     name="name",
-     *     type="string"
+     *     type="string",
      * )
      */
     private string $name;
