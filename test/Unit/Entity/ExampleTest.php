@@ -14,7 +14,7 @@ declare(strict_types=1);
 namespace App\Test\Unit\Entity;
 
 use App\Entity\Example;
-use Ergebnis\Test\Util\Helper;
+use App\Test;
 use PHPUnit\Framework;
 
 /**
@@ -24,7 +24,7 @@ use PHPUnit\Framework;
  */
 final class ExampleTest extends Framework\TestCase
 {
-    use Helper;
+    use Test\Util\Helper;
 
     public function testFromNameReturnsExample(): void
     {
