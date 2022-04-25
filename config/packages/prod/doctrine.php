@@ -31,17 +31,4 @@ return static function (DependencyInjection\Loader\Configurator\ContainerConfigu
             ],
         ],
     ]);
-
-    $containerConfigurator->extension('framework', [
-        'cache' => [
-            'pools' => [
-                'doctrine.result_cache_pool' => [
-                    'adapter' => 'cache.app',
-                ],
-                'doctrine.system_cache_pool' => [
-                    'adapter' => 'cache.system',
-                ],
-            ],
-        ],
-    ]);
 };
