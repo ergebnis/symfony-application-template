@@ -138,9 +138,6 @@
     "ergebnis/php-cs-fixer-config": {
         "version": "2.0.0"
     },
-    "ergebnis/test-util": {
-        "version": "0.9.1"
-    },
     "fakerphp/faker": {
         "version": "v1.13.0"
     },
