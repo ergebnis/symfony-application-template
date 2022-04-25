@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace App\Test\Unit\Entity;
 
-use App\Entity\Example;
+use App\Entity;
 use App\Test;
 use PHPUnit\Framework;
 
@@ -30,7 +30,7 @@ final class ExampleTest extends Framework\TestCase
     {
         $name = self::faker()->sentence;
 
-        $example = Example::fromName($name);
+        $example = Entity\Example::fromName($name);
 
         self::assertSame($name, $example->name());
         self::assertMatchesRegularExpression('/^[0-9a-fA-F]{8}(\-[0-9a-fA-F]{4}){3}\-[0-9a-fA-F]{12}$/', $example->id());
