@@ -40,6 +40,9 @@ $config->getFinder()
     ->name([
         '.php-cs-fixer.php',
         'console',
+    ])
+    ->notName([
+        '.env.local.php',
     ]);
 
 $config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/.php-cs-fixer.cache');
