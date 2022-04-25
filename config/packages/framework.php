@@ -18,6 +18,9 @@ return static function (DependencyInjection\Loader\Configurator\ContainerConfigu
         'php_errors' => [
             'log' => true,
         ],
+        'router' => [
+            'utf8' => true,
+        ],
         'secret' => '%env(APP_SECRET)%',
         'session' => [
             'cookie_samesite' => 'lax',
