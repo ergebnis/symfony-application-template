@@ -53,7 +53,7 @@
     "psalm/plugin-phpunit": "~0.16.1",
     "psalm/plugin-symfony": "^3.1.4",
     "symplify/config-transformer": "^10.2.2",
-    "vimeo/psalm": "^4.22"
+    "vimeo/psalm": "^4.23"
   },
   "replace": {
     "paragonie/random_compat": "2.*",
