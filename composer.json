@@ -38,7 +38,7 @@
     "symfony/framework-bundle": "^6.0.8",
     "symfony/http-kernel": "^6.0.9",
     "symfony/routing": "^6.1.0",
-    "symfony/runtime": "^6.0.8",
+    "symfony/runtime": "^6.1.0",
     "symfony/yaml": "^6.1.0"
   },
   "require-dev": {
