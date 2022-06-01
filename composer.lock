@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf342275e4d26bbf498ce7f9eee3ee49",
+    "content-hash": "9cba1ecf0f57abb7d8aaa1876926db28",
     "packages": [
         {
             "name": "brick/math",
@@ -4741,20 +4741,20 @@
         },
         {
             "name": "dama/doctrine-test-bundle",
-            "version": "v7.0.0",
+            "version": "v7.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmaicher/doctrine-test-bundle.git",
-                "reference": "d8cf740cb3d1c5425cbb58ff48dfb112543f9a97"
+                "reference": "1cf583f0557e0c73465cece646656bc3a0d7dd9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dmaicher/doctrine-test-bundle/zipball/d8cf740cb3d1c5425cbb58ff48dfb112543f9a97",
-                "reference": "d8cf740cb3d1c5425cbb58ff48dfb112543f9a97",
+                "url": "https://api.github.com/repos/dmaicher/doctrine-test-bundle/zipball/1cf583f0557e0c73465cece646656bc3a0d7dd9e",
+                "reference": "1cf583f0557e0c73465cece646656bc3a0d7dd9e",
                 "shasum": ""
             },
             "require": {
-                "doctrine/dbal": "^3.0",
+                "doctrine/dbal": "^3.3",
                 "doctrine/doctrine-bundle": "^2.2.2",
                 "ext-json": "*",
                 "php": "^7.3 || ^8.0",
@@ -4802,9 +4802,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dmaicher/doctrine-test-bundle/issues",
-                "source": "https://github.com/dmaicher/doctrine-test-bundle/tree/v7.0.0"
+                "source": "https://github.com/dmaicher/doctrine-test-bundle/tree/v7.1.0"
             },
-            "time": "2022-04-11T09:34:40+00:00"
+            "time": "2022-06-01T09:16:12+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
