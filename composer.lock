@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b46ff7eb8474c7d76e3c37d6416b6089",
+    "content-hash": "56b5434d16906aae118f540cb1d3c212",
     "packages": [
         {
             "name": "brick/math",
@@ -5328,21 +5328,21 @@
         },
         {
             "name": "ergebnis/php-cs-fixer-config",
-            "version": "4.5.2",
+            "version": "4.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/php-cs-fixer-config.git",
-                "reference": "8b10b959cc5f09288ccb8b0b536f354f0259b32c"
+                "reference": "7c170fa0541161036eca6f8ac0a31f32c1f46cd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/8b10b959cc5f09288ccb8b0b536f354f0259b32c",
-                "reference": "8b10b959cc5f09288ccb8b0b536f354f0259b32c",
+                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/7c170fa0541161036eca6f8ac0a31f32c1f46cd0",
+                "reference": "7c170fa0541161036eca6f8ac0a31f32c1f46cd0",
                 "shasum": ""
             },
             "require": {
                 "ext-filter": "*",
-                "friendsofphp/php-cs-fixer": "~3.9.3",
+                "friendsofphp/php-cs-fixer": "~3.9.4",
                 "php": "^7.4 || ^8.0"
             },
             "require-dev": {
@@ -5382,7 +5382,7 @@
                 "issues": "https://github.com/ergebnis/php-cs-fixer-config/issues",
                 "source": "https://github.com/ergebnis/php-cs-fixer-config"
             },
-            "time": "2022-07-13T13:12:56+00:00"
+            "time": "2022-07-16T08:34:49+00:00"
         },
         {
             "name": "fakerphp/faker",
