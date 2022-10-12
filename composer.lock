@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec0a3289ad234e67f267eab9a2c079ba",
+    "content-hash": "f2b4664dcb18eb4ec79dcc558f6a13de",
     "packages": [
         {
             "name": "brick/math",
@@ -3151,16 +3151,16 @@
         },
         {
             "name": "symfony/framework-bundle",
-            "version": "v6.1.5",
+            "version": "v6.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
-                "reference": "be33f4a8b58e40c3ad876537ece359af374eb030"
+                "reference": "b79e5866a8293de00c8436836c2038ec31916ee7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/be33f4a8b58e40c3ad876537ece359af374eb030",
-                "reference": "be33f4a8b58e40c3ad876537ece359af374eb030",
+                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/b79e5866a8293de00c8436836c2038ec31916ee7",
+                "reference": "b79e5866a8293de00c8436836c2038ec31916ee7",
                 "shasum": ""
             },
             "require": {
@@ -3282,7 +3282,7 @@
             "description": "Provides a tight integration between Symfony components and the Symfony full-stack framework",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/framework-bundle/tree/v6.1.5"
+                "source": "https://github.com/symfony/framework-bundle/tree/v6.1.6"
             },
             "funding": [
                 {
@@ -3298,7 +3298,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-29T11:04:32+00:00"
+            "time": "2022-10-07T08:04:03+00:00"
         },
         {
             "name": "symfony/http-foundation",
