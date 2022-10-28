@@ -27,7 +27,7 @@ jobs:
         uses: "actions/checkout@v3"
 
       - name: "Set up PHP"
-        uses: "shivammathur/setup-php@2.21.2"
+        uses: "shivammathur/setup-php@2.22.0"
         with:
           coverage: "xdebug"
           extensions: "none, ctype, dom, iconv, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
@@ -86,7 +86,7 @@ jobs:
           strict: true
 
       - name: "Set up PHP"
-        uses: "shivammathur/setup-php@2.21.2"
+        uses: "shivammathur/setup-php@2.22.0"
         with:
           coverage: "none"
           extensions: "none, ctype, dom, iconv, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
@@ -147,7 +147,7 @@ jobs:
         uses: "actions/checkout@v3"
 
       - name: "Set up PHP"
-        uses: "shivammathur/setup-php@2.21.2"
+        uses: "shivammathur/setup-php@2.22.0"
         with:
           coverage: "none"
           extensions: "none, ctype, dom, iconv, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
@@ -192,7 +192,7 @@ jobs:
         uses: "actions/checkout@v3"
 
       - name: "Set up PHP"
-        uses: "shivammathur/setup-php@2.21.2"
+        uses: "shivammathur/setup-php@2.22.0"
         with:
           coverage: "xdebug"
           extensions: "none, ctype, dom, iconv, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
@@ -245,7 +245,7 @@ jobs:
         uses: "actions/checkout@v3"
 
       - name: "Set up PHP"
-        uses: "shivammathur/setup-php@2.21.2"
+        uses: "shivammathur/setup-php@2.22.0"
         with:
           coverage: "none"
           extensions: "none, ctype, curl, dom, iconv, mbstring, pcntl, pdo, pdo_pgsql, phar, posix, simplexml, tokenizer, xml, xmlwriter"
@@ -299,7 +299,7 @@ jobs:
           token: "${{ secrets.ERGEBNIS_BOT_TOKEN }}"
 
       - name: "Set up PHP"
-        uses: "shivammathur/setup-php@2.21.2"
+        uses: "shivammathur/setup-php@2.22.0"
         with:
           coverage: "none"
           extensions: "none, ctype, dom, iconv, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
@@ -388,7 +388,7 @@ jobs:
         uses: "actions/checkout@v3"
 
       - name: "Set up PHP"
-        uses: "shivammathur/setup-php@2.21.2"
+        uses: "shivammathur/setup-php@2.22.0"
         with:
           coverage: "none"
           extensions: "none, ctype, dom, iconv, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
