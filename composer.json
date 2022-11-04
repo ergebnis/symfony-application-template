@@ -50,7 +50,7 @@
     "fakerphp/faker": "^1.20.0",
     "infection/infection": "~0.26.16",
     "phpunit/phpunit": "^9.5.26",
-    "psalm/plugin-phpunit": "~0.18.1",
+    "psalm/plugin-phpunit": "~0.18.3",
     "psalm/plugin-symfony": "^4.0.0",
     "symplify/config-transformer": "^11.1.16",
     "vimeo/psalm": "^4.29"
