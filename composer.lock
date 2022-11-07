@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "82dc93011eaa287bfabfca6475a16bdf",
+    "content-hash": "35928cd6fd6599c247219d4d65d7e5b2",
     "packages": [
         {
             "name": "brick/math",
@@ -5078,21 +5078,21 @@
         },
         {
             "name": "ergebnis/factory-bot",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/factory-bot.git",
-                "reference": "79d7282828672a18ebe9f890f8a2b0ac9ec1154f"
+                "reference": "57b40770048565bc60bfa7e32c84650da5c5d38d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/factory-bot/zipball/79d7282828672a18ebe9f890f8a2b0ac9ec1154f",
-                "reference": "79d7282828672a18ebe9f890f8a2b0ac9ec1154f",
+                "url": "https://api.github.com/repos/ergebnis/factory-bot/zipball/57b40770048565bc60bfa7e32c84650da5c5d38d",
+                "reference": "57b40770048565bc60bfa7e32c84650da5c5d38d",
                 "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "^1.10.3",
-                "doctrine/collections": "^1.6.5",
+                "doctrine/collections": "^1.6.5 || ^2.0.0",
                 "doctrine/dbal": "^2.12.0 || ^3.0.0",
                 "doctrine/orm": "^2.8.0",
                 "doctrine/persistence": "^2.1.0",
@@ -5101,23 +5101,23 @@
                 "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.24.0",
-                "ergebnis/license": "^1.2.0",
-                "ergebnis/php-cs-fixer-config": "^4.3.0",
+                "ergebnis/composer-normalize": "^2.28.3",
+                "ergebnis/license": "^2.0.0",
+                "ergebnis/php-cs-fixer-config": "^4.11.0",
                 "ergebnis/phpstan-rules": "^1.0.0",
                 "ext-pdo_sqlite": "*",
                 "infection/infection": "~0.26.6",
-                "phpstan/extension-installer": "^1.1.0",
-                "phpstan/phpstan": "^1.4.8",
+                "phpstan/extension-installer": "^1.2.0",
+                "phpstan/phpstan": "^1.6.2",
                 "phpstan/phpstan-deprecation-rules": "^1.0.0",
-                "phpstan/phpstan-doctrine": "^1.2.11",
-                "phpstan/phpstan-phpunit": "^1.0.0",
-                "phpstan/phpstan-strict-rules": "^1.1.0",
-                "phpunit/phpunit": "^9.5.18",
-                "psalm/plugin-phpunit": "~0.16.1",
+                "phpstan/phpstan-doctrine": "^1.3.22",
+                "phpstan/phpstan-phpunit": "^1.2.2",
+                "phpstan/phpstan-strict-rules": "^1.4.4",
+                "phpunit/phpunit": "^9.5.26",
+                "psalm/plugin-phpunit": "~0.18.3",
                 "ramsey/uuid": "^4.2.3",
                 "symfony/cache": "^5.3.14",
-                "vimeo/psalm": "^4.22"
+                "vimeo/psalm": "^4.30"
             },
             "type": "library",
             "autoload": {
@@ -5148,13 +5148,7 @@
                 "issues": "https://github.com/ergebnis/factory-bot/issues",
                 "source": "https://github.com/ergebnis/factory-bot"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/localheinz",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-03-09T16:54:38+00:00"
+            "time": "2022-11-07T08:09:31+00:00"
         },
         {
             "name": "ergebnis/json-normalizer",
