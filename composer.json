@@ -39,7 +39,7 @@
     "symfony/http-kernel": "^6.1.7",
     "symfony/routing": "^6.1.7",
     "symfony/runtime": "^6.1.3",
-    "symfony/yaml": "^6.1.6"
+    "symfony/yaml": "^6.1.8"
   },
   "require-dev": {
     "dama/doctrine-test-bundle": "^7.1.1",
