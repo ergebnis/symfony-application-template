@@ -428,10 +428,10 @@ jobs:
         run: "bin/console doctrine:schema:validate --ansi --em=${{ env.ENTITY_MANAGER_NAME_DEFAULT }}"
 
       - name: "Run unit tests with phpunit/phpunit"
-        run: "vendor/bin/phpunit --configuration=test/Unit/phpunit.xml"
+        run: "vendor/bin/phpunit --colors=always --configuration=test/Unit/phpunit.xml"
 
       - name: "Run integration tests with phpunit/phpunit"
-        run: "vendor/bin/phpunit --configuration=test/Integration/phpunit.xml"
+        run: "vendor/bin/phpunit --colors=always --configuration=test/Integration/phpunit.xml"
 
       - name: "Run functional tests with phpunit/phpunit"
-        run: "vendor/bin/phpunit --configuration=test/Functional/phpunit.xml"
+        run: "vendor/bin/phpunit --colors=always --configuration=test/Functional/phpunit.xml"
