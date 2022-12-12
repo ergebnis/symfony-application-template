@@ -93,7 +93,7 @@ jobs:
           php-version: "${{ matrix.php-version }}"
 
       - name: "Validate composer.json and composer.lock"
-        run: "composer validate --strict"
+        run: "composer validate --ansi --strict"
 
       - name: "Determine composer cache directory"
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.7.0"
@@ -111,10 +111,10 @@ jobs:
           dependencies: "${{ matrix.dependencies }}"
 
       - name: "Run ergebnis/composer-normalize"
-        run: "composer normalize --dry-run"
+        run: "composer normalize --ansi --dry-run"
 
       - name: "Run symplify/config-transformer"
-        run: "vendor/bin/config-transformer switch-format --dry-run config"
+        run: "vendor/bin/config-transformer switch-format --ansi --dry-run config"
 
       - name: "Create cache directory for friendsofphp/php-cs-fixer"
         run: "mkdir -p .build/php-cs-fixer"
@@ -127,7 +127,7 @@ jobs:
           restore-keys: "php-${{ matrix.php-version }}-php-cs-fixer-"
 
       - name: "Run friendsofphp/php-cs-fixer"
-        run: "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --dry-run --verbose"
+        run: "vendor/bin/php-cs-fixer fix --ansi --config=.php-cs-fixer.php --diff --dry-run --verbose"
 
   dependency-analysis:
     name: "Dependency Analysis"
@@ -214,10 +214,10 @@ jobs:
           dependencies: "${{ matrix.dependencies }}"
 
       - name: "Dump environment variables"
-        run: "composer dump-env ${{ env.APP_ENV }}"
+        run: "composer dump-env ${{ env.APP_ENV }} --ansi"
 
       - name: "Warm up cache"
-        run: "bin/console cache:warmup"
+        run: "bin/console cache:warmup --ansi"
 
       - name: "Run mutation tests with Xdebug and infection/infection"
         env:
@@ -267,10 +267,10 @@ jobs:
           dependencies: "${{ matrix.dependencies }}"
 
       - name: "Dump environment variables"
-        run: "composer dump-env ${{ env.APP_ENV }}"
+        run: "composer dump-env ${{ env.APP_ENV }} --ansi"
 
       - name: "Warm up cache"
-        run: "bin/console cache:warmup"
+        run: "bin/console cache:warmup --ansi"
 
       - name: "Create cache directory for vimeo/psalm"
         run: "mkdir -p .build/psalm"
@@ -321,7 +321,7 @@ jobs:
           dependencies: "${{ matrix.dependencies }}"
 
       - name: "Synchronize symfony/flex recipes"
-        run: "composer symfony:sync-recipes"
+        run: "composer symfony:sync-recipes --ansi"
 
       - name: "Commit symfony.lock"
         if: >
@@ -413,19 +413,19 @@ jobs:
           dependencies: "${{ matrix.dependencies }}"
 
       - name: "Dump environment variables"
-        run: "composer dump-env ${{ env.APP_ENV }}"
+        run: "composer dump-env ${{ env.APP_ENV }} --ansi"
 
       - name: "Warm up cache"
-        run: "bin/console cache:warmup"
+        run: "bin/console cache:warmup --ansi"
 
       - name: "Show Doctrine migration status"
-        run: "bin/console doctrine:migrations:status"
+        run: "bin/console doctrine:migrations:status --ansi"
 
       - name: "Run Doctrine migrations"
-        run: "bin/console doctrine:migrations:migrate --allow-no-migration --no-interaction"
+        run: "bin/console doctrine:migrations:migrate --allow-no-migration --ansi --no-interaction"
 
       - name: "Validate Doctrine schema"
-        run: "bin/console doctrine:schema:validate --em=${{ env.ENTITY_MANAGER_NAME_DEFAULT }}"
+        run: "bin/console doctrine:schema:validate --ansi --em=${{ env.ENTITY_MANAGER_NAME_DEFAULT }}"
 
       - name: "Run unit tests with phpunit/phpunit"
         run: "vendor/bin/phpunit --configuration=test/Unit/phpunit.xml"
