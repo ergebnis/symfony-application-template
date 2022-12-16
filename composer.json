@@ -52,7 +52,7 @@
     "phpunit/phpunit": "^9.5.27",
     "psalm/plugin-phpunit": "~0.18.4",
     "psalm/plugin-symfony": "^4.0.0",
-    "symplify/config-transformer": "^11.1.17",
+    "symplify/config-transformer": "^11.1.18",
     "vimeo/psalm": "^4.30"
   },
   "replace": {
