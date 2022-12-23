@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f823d916d964d2439ede19fcce020080",
+    "content-hash": "f2d35e3feb99550b1bd3e506753426e3",
     "packages": [
         {
             "name": "brick/math",
@@ -7218,16 +7218,16 @@
         },
         {
             "name": "psalm/plugin-symfony",
-            "version": "v4.0.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-symfony.git",
-                "reference": "40589bcc366b46a80754f874e83d430089a8cbfe"
+                "reference": "6671a91e7cf20f2aadd1261e14af7c3bb331926f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/40589bcc366b46a80754f874e83d430089a8cbfe",
-                "reference": "40589bcc366b46a80754f874e83d430089a8cbfe",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/6671a91e7cf20f2aadd1261e14af7c3bb331926f",
+                "reference": "6671a91e7cf20f2aadd1261e14af7c3bb331926f",
                 "shasum": ""
             },
             "require": {
@@ -7237,7 +7237,7 @@
                 "vimeo/psalm": "^4.12"
             },
             "require-dev": {
-                "doctrine/annotations": "^1.8",
+                "doctrine/annotations": "^1.8|^2",
                 "doctrine/orm": "^2.7",
                 "phpunit/phpunit": "~7.5 || ~9.5",
                 "symfony/cache-contracts": "^1.0 || ^2.0",
@@ -7277,9 +7277,9 @@
             "description": "Psalm Plugin for Symfony",
             "support": {
                 "issues": "https://github.com/psalm/psalm-plugin-symfony/issues",
-                "source": "https://github.com/psalm/psalm-plugin-symfony/tree/v4.0.0"
+                "source": "https://github.com/psalm/psalm-plugin-symfony/tree/v4.0.1"
             },
-            "time": "2022-10-29T15:24:33+00:00"
+            "time": "2022-12-23T06:41:09+00:00"
         },
         {
             "name": "sanmai/later",
