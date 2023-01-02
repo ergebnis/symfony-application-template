@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "267a28c5df90fd31ce9c3e2f66e16be0",
+    "content-hash": "facf68353fd9db586092e985751a843c",
     "packages": [
         {
             "name": "brick/math",
@@ -5427,16 +5427,16 @@
         },
         {
             "name": "ergebnis/php-cs-fixer-config",
-            "version": "5.0.1",
+            "version": "5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/php-cs-fixer-config.git",
-                "reference": "24b3b8ce37d307e3527af38475c45b45ee29448e"
+                "reference": "e5a5e5e01b078868282614bbd4a85a38d8dceba0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/24b3b8ce37d307e3527af38475c45b45ee29448e",
-                "reference": "24b3b8ce37d307e3527af38475c45b45ee29448e",
+                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/e5a5e5e01b078868282614bbd4a85a38d8dceba0",
+                "reference": "e5a5e5e01b078868282614bbd4a85a38d8dceba0",
                 "shasum": ""
             },
             "require": {
@@ -5450,8 +5450,9 @@
                 "fakerphp/faker": "^1.21.0",
                 "phpunit/phpunit": "^9.5.27",
                 "psalm/plugin-phpunit": "~0.18.4",
-                "symfony/filesystem": "^4.4.0 || ^5.0.0",
-                "vimeo/psalm": "^5.2"
+                "symfony/filesystem": "^5.0.0 || ^6.0.0",
+                "symfony/process": "^5.0.0 || ^6.0.0",
+                "vimeo/psalm": "^5.4.0"
             },
             "type": "library",
             "extra": {
@@ -5481,7 +5482,7 @@
                 "issues": "https://github.com/ergebnis/php-cs-fixer-config/issues",
                 "source": "https://github.com/ergebnis/php-cs-fixer-config"
             },
-            "time": "2022-12-18T16:16:53+00:00"
+            "time": "2023-01-02T11:33:24+00:00"
         },
         {
             "name": "fakerphp/faker",
