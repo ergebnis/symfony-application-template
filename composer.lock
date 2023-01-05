@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dad74047ed4364ddb1f5ee7c9bd4147c",
+    "content-hash": "1e9675c599d871bc0f29953b8caf938f",
     "packages": [
         {
             "name": "brick/math",
@@ -8512,16 +8512,16 @@
         },
         {
             "name": "symplify/config-transformer",
-            "version": "11.1.24",
+            "version": "11.1.26.72",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/config-transformer.git",
-                "reference": "7b40949a0475149dd2bb488dab75842b6ea3fb20"
+                "reference": "fcc8775b12caf40cb96be72a12301b74eb17c613"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/config-transformer/zipball/7b40949a0475149dd2bb488dab75842b6ea3fb20",
-                "reference": "7b40949a0475149dd2bb488dab75842b6ea3fb20",
+                "url": "https://api.github.com/repos/symplify/config-transformer/zipball/fcc8775b12caf40cb96be72a12301b74eb17c613",
+                "reference": "fcc8775b12caf40cb96be72a12301b74eb17c613",
                 "shasum": ""
             },
             "require": {
@@ -8537,7 +8537,8 @@
             ],
             "description": "Prefixed version of Symfony YAML/XML to PHP/YAML config converter",
             "support": {
-                "source": "https://github.com/symplify/config-transformer/tree/11.1.24"
+                "issues": "https://github.com/symplify/config-transformer/issues",
+                "source": "https://github.com/symplify/config-transformer/tree/11.1.26.72"
             },
             "funding": [
                 {
@@ -8549,7 +8550,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-23T15:00:00+00:00"
+            "time": "2023-01-05T15:26:46+00:00"
         },
         {
             "name": "thecodingmachine/safe",
