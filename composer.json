@@ -25,7 +25,7 @@
     "doctrine/collections": "^2.1.2",
     "doctrine/doctrine-bundle": "^2.8.2",
     "doctrine/doctrine-migrations-bundle": "^3.2.2",
-    "doctrine/migrations": "^3.5.3",
+    "doctrine/migrations": "^3.5.5",
     "doctrine/orm": "^2.14.1",
     "ramsey/uuid": "^4.7.3",
     "sensio/framework-extra-bundle": "^6.2.9",
