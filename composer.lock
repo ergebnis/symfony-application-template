@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80543c13c5e6f8b5913f68c8629f684f",
+    "content-hash": "658f3642bba5e3aff8602ee56250eb6b",
     "packages": [
         {
             "name": "brick/math",
@@ -2744,16 +2744,16 @@
         },
         {
             "name": "symfony/error-handler",
-            "version": "v6.2.3",
+            "version": "v6.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/error-handler.git",
-                "reference": "0926124c95d220499e2baf0fb465772af3a4eddb"
+                "reference": "0092696af0be8e6124b042fbe2890ca1788d7b28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/error-handler/zipball/0926124c95d220499e2baf0fb465772af3a4eddb",
-                "reference": "0926124c95d220499e2baf0fb465772af3a4eddb",
+                "url": "https://api.github.com/repos/symfony/error-handler/zipball/0092696af0be8e6124b042fbe2890ca1788d7b28",
+                "reference": "0092696af0be8e6124b042fbe2890ca1788d7b28",
                 "shasum": ""
             },
             "require": {
@@ -2795,7 +2795,7 @@
             "description": "Provides tools to manage errors and ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/error-handler/tree/v6.2.3"
+                "source": "https://github.com/symfony/error-handler/tree/v6.2.5"
             },
             "funding": [
                 {
@@ -2811,7 +2811,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-19T14:33:49+00:00"
+            "time": "2023-01-01T08:38:09+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
