@@ -114,7 +114,7 @@ jobs:
         run: "composer normalize --ansi --dry-run"
 
       - name: "Run symplify/config-transformer"
-        run: "vendor/bin/config-transformer switch-format --ansi --dry-run config"
+        run: "vendor/bin/config-transformer --ansi --dry-run config"
 
       - name: "Create cache directory for friendsofphp/php-cs-fixer"
         run: "mkdir -p .build/php-cs-fixer"

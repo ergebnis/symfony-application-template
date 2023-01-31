@@ -19,7 +19,7 @@ code-coverage: vendor ## Collects coverage from running unit tests with phpunit/
 coding-standards: vendor ## Normalizes composer.json with ergebnis/composer-normalize, lints YAML files with yamllint, converts YAML configuration to PHP format, and fixes code style issues with friendsofphp/php-cs-fixer
 	composer normalize
 	yamllint -c .yamllint.yaml --strict .
-	vendor/bin/config-transformer switch-format config
+	vendor/bin/config-transformer config
 	mkdir -p .build/php-cs-fixer
 	vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --verbose
 
