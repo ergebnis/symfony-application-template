@@ -195,9 +195,6 @@
     "ondram/ci-detector": {
         "version": "3.5.1"
     },
-    "openlss/lib-array2xml": {
-        "version": "1.0.0"
-    },
     "phar-io/manifest": {
         "version": "1.0.3"
     },
@@ -250,9 +247,6 @@
     },
     "psalm/plugin-phpunit": {
         "version": "0.15.0"
-    },
-    "psalm/plugin-symfony": {
-        "version": "v2.1.1"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -489,8 +483,5 @@
     },
     "webmozart/assert": {
         "version": "1.7.0"
-    },
-    "webmozart/path-util": {
-        "version": "2.3.0"
     }
 }
