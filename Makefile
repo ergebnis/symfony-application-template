@@ -3,7 +3,7 @@ CONNECTION_NAME_DEFAULT:=default
 ENTITY_MANAGER_NAME_DEFAULT:=default
 
 .PHONY: it
-it: coding-standards static-code-analysis tests ## Runs the coding-standards, static-code-analysis, and tests targets
+it: refactoring coding-standards security-analysis static-code-analysis tests ## Runs the refactoring, coding-standards, security-analysis, static-code-analysis, and tests targets
 
 .PHONY: cache
 cache: vendor ## Warms up the cache
@@ -16,15 +16,15 @@ code-coverage: vendor ## Collects coverage from running unit tests with phpunit/
 	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml --coverage-text
 
 .PHONY: coding-standards
-coding-standards: vendor ## Normalizes composer.json with ergebnis/composer-normalize, lints YAML files with yamllint, converts YAML configuration to PHP format, and fixes code style issues with friendsofphp/php-cs-fixer
-	composer normalize
+coding-standards: vendor ## Lints YAML files with yamllint, normalizes composer.json with ergebnis/composer-normalize, converts YAML configuration to PHP format, and fixes code style issues with friendsofphp/php-cs-fixer
 	yamllint -c .yamllint.yaml --strict .
+	composer normalize
 	vendor/bin/config-transformer config
 	mkdir -p .build/php-cs-fixer
 	vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --verbose
 
 .PHONY: dependency-analysis
-dependency-analysis: vendor ## Runs a dependency analysis with maglnet/composer-require-checker
+dependency-analysis: phive vendor ## Runs a dependency analysis with maglnet/composer-require-checker
 	.phive/composer-require-checker check --config-file=$(shell pwd)/composer-require-checker.json
 
 .PHONY: doctrine
@@ -48,19 +48,33 @@ mutation-tests: vendor ## Runs mutation tests with infection/infection
 	mkdir -p .build/infection
 	vendor/bin/infection --configuration=infection.json
 
+.PHONY: phive
+phive: .phive## Installs dependencies with phive
+	mkdir -p .build/phive
+	PHIVE_HOME=.build/phive phive install --trust-gpg-keys 0x033E5F8D801A2F8D
+
+.PHONY: refactoring
+refactoring: vendor ## Runs automated refactoring with rector/rector
+	vendor/bin/rector process --config=rector.php
+
+.PHONY: security-analysis
+security-analysis: vendor ## Runs a security analysis with composer
+	composer audit
+
 .PHONY: static-code-analysis
-static-code-analysis: vendor cache ## Runs a static code analysis with vimeo/psalm
+static-code-analysis: vendor ## Runs a static code analysis with vimeo/psalm
 	mkdir -p .build/psalm
-	vendor/bin/psalm --config=psalm.xml --diff --show-info=false --stats --threads=4
+	vendor/bin/psalm --config=psalm.xml --clear-cache
+	vendor/bin/psalm --config=psalm.xml --show-info=false --stats --threads=4
 
 .PHONY: static-code-analysis-baseline
-static-code-analysis-baseline: vendor cache ## Generates a baseline for static code analysis with vimeo/psalm
+static-code-analysis-baseline: vendor ## Generates a baseline for static code analysis vimeo/psalm
 	mkdir -p .build/psalm
 	vendor/bin/psalm --config=psalm.xml --clear-cache
 	vendor/bin/psalm --config=psalm.xml --set-baseline=psalm-baseline.xml
 
 .PHONY: tests
-tests: vendor ## Runs auto-review, unit, and integration tests with phpunit/phpunit
+tests: vendor ## Runs unit, integration, and functional tests with phpunit/phpunit
 	mkdir -p .build/phpunit
 	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Integration/phpunit.xml

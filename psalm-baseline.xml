@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="v4.14.0@14dcbc908ab2625cd7a74258ee6c740cbecc6140">
-  <file src="config/bootstrap.php">
-    <MixedAssignment occurrences="4">
-      <code>$_ENV[$k]</code>
-      <code>$_ENV['APP_ENV']</code>
-      <code>$_SERVER['APP_DEBUG']</code>
-      <code>$_SERVER['APP_ENV']</code>
-    </MixedAssignment>
-    <RedundantCondition occurrences="1">
-      <code>\is_array($env = include \dirname(__DIR__) . '/.env.local.php')</code>
-    </RedundantCondition>
-  </file>
+<files psalm-version="5.6.0@e784128902dfe01d489c4123d69918a9f3c1eac5">
   <file src="src/Kernel.php">
-    <MixedArgument occurrences="1">
+    <MixedArgument>
       <code>$this-&gt;debug</code>
     </MixedArgument>
-    <MixedArrayAccess occurrences="2">
+    <MixedArrayAccess>
       <code>$envs[$this-&gt;environment]</code>
       <code>$envs['all']</code>
     </MixedArrayAccess>
-    <MixedAssignment occurrences="3">
+    <MixedAssignment>
       <code>$class</code>
       <code>$contents</code>
       <code>$envs</code>
     </MixedAssignment>
-    <MixedMethodCall occurrences="1">
+    <MixedMethodCall>
       <code>new $class()</code>
     </MixedMethodCall>
-    <MoreSpecificReturnType occurrences="1">
+    <MoreSpecificReturnType>
       <code>iterable</code>
     </MoreSpecificReturnType>
-    <UnresolvableInclude occurrences="1">
+    <PossiblyUnusedMethod>
+      <code>configureContainer</code>
+      <code>configureRoutes</code>
+    </PossiblyUnusedMethod>
+    <UnresolvableInclude>
       <code>require $this-&gt;getProjectDir() . '/config/bundles.php'</code>
     </UnresolvableInclude>
   </file>
