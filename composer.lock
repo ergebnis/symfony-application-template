@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e911449b2d8f0e0cbb754e51284b2215",
+    "content-hash": "7ebdcf58c8658fc2b8f03e870107f57d",
     "packages": [
         {
             "name": "brick/math",
@@ -7131,16 +7131,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.0",
+            "version": "9.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "70fc8be1d0b9fad56a199a4df5f9cfabfc246f84"
+                "reference": "1a461cabfbd5b464f5d41c49a9959c63b4ecd2d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/70fc8be1d0b9fad56a199a4df5f9cfabfc246f84",
-                "reference": "70fc8be1d0b9fad56a199a4df5f9cfabfc246f84",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1a461cabfbd5b464f5d41c49a9959c63b4ecd2d1",
+                "reference": "1a461cabfbd5b464f5d41c49a9959c63b4ecd2d1",
                 "shasum": ""
             },
             "require": {
@@ -7213,7 +7213,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.0"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.2"
             },
             "funding": [
                 {
@@ -7229,7 +7229,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-03T07:32:24+00:00"
+            "time": "2023-02-04T06:59:53+00:00"
         },
         {
             "name": "psalm/plugin-phpunit",
