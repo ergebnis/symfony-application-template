@@ -21,7 +21,7 @@
     "ext-mbstring": "*",
     "ext-pdo": "*",
     "ext-pdo_pgsql": "*",
-    "doctrine/annotations": "^1.14.3",
+    "doctrine/annotations": "^1.14.3 || ^2.0.0",
     "doctrine/collections": "^2.1.2",
     "doctrine/doctrine-bundle": "^2.8.2",
     "doctrine/doctrine-migrations-bundle": "^3.2.2",
