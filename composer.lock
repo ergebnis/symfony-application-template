@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca51a07fa3734c98c30c7e8c2879203f",
+    "content-hash": "54b5b76604e942ec71530e10299ab1c5",
     "packages": [
         {
             "name": "brick/math",
@@ -5096,20 +5096,20 @@
         },
         {
             "name": "ergebnis/factory-bot",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/factory-bot.git",
-                "reference": "30342ffab16a7d71a91d8219bea05e117038e083"
+                "reference": "bf1f417e90f7dd16ccaa42fbc9ca64fe5cbcf820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/factory-bot/zipball/30342ffab16a7d71a91d8219bea05e117038e083",
-                "reference": "30342ffab16a7d71a91d8219bea05e117038e083",
+                "url": "https://api.github.com/repos/ergebnis/factory-bot/zipball/bf1f417e90f7dd16ccaa42fbc9ca64fe5cbcf820",
+                "reference": "bf1f417e90f7dd16ccaa42fbc9ca64fe5cbcf820",
                 "shasum": ""
             },
             "require": {
-                "doctrine/annotations": "^1.10.3",
+                "doctrine/annotations": "^1.10.3 || ^2.0.0",
                 "doctrine/collections": "^1.6.5 || ^2.0.0",
                 "doctrine/dbal": "^2.12.0 || ^3.0.0",
                 "doctrine/orm": "^2.8.0",
@@ -5121,22 +5121,22 @@
             "require-dev": {
                 "ergebnis/composer-normalize": "^2.29.0",
                 "ergebnis/license": "^2.1.0",
-                "ergebnis/php-cs-fixer-config": "^5.0.1",
+                "ergebnis/php-cs-fixer-config": "^5.2.0",
                 "ergebnis/phpstan-rules": "^1.0.0",
                 "ext-pdo_sqlite": "*",
-                "infection/infection": "~0.26.16",
+                "infection/infection": "~0.26.19",
                 "phpstan/extension-installer": "^1.2.0",
-                "phpstan/phpstan": "^1.9.4",
+                "phpstan/phpstan": "^1.9.17",
                 "phpstan/phpstan-deprecation-rules": "^1.1.1",
-                "phpstan/phpstan-doctrine": "^1.3.27",
-                "phpstan/phpstan-phpunit": "^1.3.2",
-                "phpstan/phpstan-strict-rules": "^1.4.4",
-                "phpunit/phpunit": "^9.5.27",
+                "phpstan/phpstan-doctrine": "^1.3.32",
+                "phpstan/phpstan-phpunit": "^1.3.4",
+                "phpstan/phpstan-strict-rules": "^1.4.5",
+                "phpunit/phpunit": "^9.6.3",
                 "psalm/plugin-phpunit": "~0.18.4",
-                "ramsey/uuid": "^4.7.0",
-                "rector/rector": "~0.15.1",
+                "ramsey/uuid": "^4.7.3",
+                "rector/rector": "~0.15.13",
                 "symfony/cache": "^5.3.14",
-                "vimeo/psalm": "^5.4.0"
+                "vimeo/psalm": "^5.6.0"
             },
             "type": "library",
             "autoload": {
@@ -5167,7 +5167,7 @@
                 "issues": "https://github.com/ergebnis/factory-bot/issues",
                 "source": "https://github.com/ergebnis/factory-bot"
             },
-            "time": "2022-12-20T20:16:35+00:00"
+            "time": "2023-02-09T22:30:51+00:00"
         },
         {
             "name": "ergebnis/json-normalizer",
