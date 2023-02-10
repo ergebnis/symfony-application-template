@@ -1,26 +1,21 @@
+<?xml version="1.0"?>
 <phpunit
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../../vendor/phpunit/phpunit/phpunit.xsd"
     beStrictAboutChangesToGlobalState="true"
-    beStrictAboutCoversAnnotation="true"
+    beStrictAboutCoverageMetadata="true"
     beStrictAboutOutputDuringTests="true"
-    beStrictAboutResourceUsageDuringSmallTests="true"
     beStrictAboutTestsThatDoNotTestAnything="true"
-    beStrictAboutTodoAnnotatedTests="true"
     bootstrap="bootstrap.php"
+    cacheDirectory="../../.build/phpunit/cache/unit/"
     cacheResult="true"
-    cacheResultFile="../../.build/phpunit/functional.cache"
     colors="true"
     columns="max"
-    convertErrorsToExceptions="true"
-    convertNoticesToExceptions="true"
-    convertWarningsToExceptions="true"
     executionOrder="random"
     stopOnError="false"
     stopOnFailure="false"
     stopOnIncomplete="false"
     stopOnSkipped="false"
-    verbose="true"
 >
     <extensions>
         <extension class="DAMA\DoctrineTestBundle\PHPUnit\PHPUnitExtension" />
