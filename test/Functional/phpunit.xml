@@ -25,7 +25,9 @@
 >
     <extensions>
         <bootstrap class="DAMA\DoctrineTestBundle\PHPUnit\PHPUnitExtension" />
-        <bootstrap class="Ergebnis\PHPUnit\SlowTestDetector\Extension"/>
+        <bootstrap class="Ergebnis\PHPUnit\SlowTestDetector\Extension">
+            <parameter name="maximum-duration" value="100"/>
+        </bootstrap>
     </extensions>
     <php>
         <ini name="error_reporting" value="-1" />

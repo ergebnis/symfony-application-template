@@ -32,7 +32,9 @@
         </include>
     </coverage>
     <extensions>
-        <bootstrap class="Ergebnis\PHPUnit\SlowTestDetector\Extension"/>
+        <bootstrap class="Ergebnis\PHPUnit\SlowTestDetector\Extension">
+            <parameter name="maximum-duration" value="100"/>
+        </bootstrap>
     </extensions>
     <testsuites>
         <testsuite name="Unit Tests">
