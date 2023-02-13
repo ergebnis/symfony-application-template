@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "8.1"
+          - "8.2"
 
         dependencies:
           - "locked"
@@ -73,7 +73,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "8.1"
+          - "8.2"
 
         dependencies:
           - "locked"
@@ -137,6 +137,8 @@ jobs:
 
       - name: "Run friendsofphp/php-cs-fixer"
         run: "vendor/bin/php-cs-fixer fix --ansi --config=.php-cs-fixer.php --diff --dry-run --verbose"
+        env:
+          PHP_CS_FIXER_IGNORE_ENV: 1
 
   dependency-analysis:
     name: "Dependency Analysis"
@@ -146,7 +148,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "8.1"
+          - "8.2"
 
         dependencies:
           - "locked"
@@ -197,7 +199,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "8.1"
+          - "8.2"
 
         dependencies:
           - "locked"
@@ -253,7 +255,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "8.1"
+          - "8.2"
 
         dependencies:
           - "locked"
@@ -310,7 +312,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "8.1"
+          - "8.2"
 
         dependencies:
           - "locked"
@@ -343,7 +345,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "8.1"
+          - "8.2"
 
         dependencies:
           - "locked"
@@ -400,7 +402,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "8.1"
+          - "8.2"
 
         dependencies:
           - "locked"
@@ -476,7 +478,7 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "8.1"
+          - "8.2"
 
         dependencies:
           - "locked"
