@@ -25,6 +25,7 @@
 >
     <extensions>
         <bootstrap class="DAMA\DoctrineTestBundle\PHPUnit\PHPUnitExtension" />
+        <bootstrap class="Ergebnis\PHPUnit\SlowTestDetector\Extension"/>
     </extensions>
     <php>
         <ini name="error_reporting" value="-1" />
