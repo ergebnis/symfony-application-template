@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace App\Test\Functional;
 
-use PHPUnit\Framework;
+use Symfony\Bundle\FrameworkBundle;
 
 /**
  * @internal
  *
  * @coversNothing
  */
-final class ExampleTest extends Framework\TestCase
+final class ExampleTest extends FrameworkBundle\Test\WebTestCase
 {
     public function testTrueIsTrue(): void
     {
