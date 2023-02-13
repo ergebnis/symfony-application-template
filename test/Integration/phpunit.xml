@@ -18,7 +18,7 @@
     stopOnSkipped="false"
 >
     <extensions>
-        <extension class="DAMA\DoctrineTestBundle\PHPUnit\PHPUnitExtension" />
+        <bootstrap class="DAMA\DoctrineTestBundle\PHPUnit\PHPUnitExtension" />
     </extensions>
     <php>
         <ini name="error_reporting" value="-1" />
