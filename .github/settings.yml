@@ -69,7 +69,7 @@ repository:
   archived: false
   default_branch: "main"
   delete_branch_on_merge: true
-  description: ":octocat: + :musical_score: Provides a GitHub repository template for a Symfony application, using GitHub Actions."
+  description: ":octocat: + :musical_score: Provides a GitHub template repository for a Symfony application, using GitHub Actions."
   enable_automated_security_fixes: true
   enable_vulnerability_alerts: true
   has_downloads: true
