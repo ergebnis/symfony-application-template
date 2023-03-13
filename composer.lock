@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46b150faa6be1cf6d88e1ec69f12d646",
+    "content-hash": "5898e8ca48abad2b62e6566495203980",
     "packages": [
         {
             "name": "brick/math",
@@ -5325,34 +5325,34 @@
         },
         {
             "name": "ergebnis/php-cs-fixer-config",
-            "version": "5.3.1",
+            "version": "5.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/php-cs-fixer-config.git",
-                "reference": "1f9b13fe75ebe08396f07dc6baa2f66f4856efc6"
+                "reference": "04f50768ae098fc9b8f94d775ec7553f12c9acc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/1f9b13fe75ebe08396f07dc6baa2f66f4856efc6",
-                "reference": "1f9b13fe75ebe08396f07dc6baa2f66f4856efc6",
+                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/04f50768ae098fc9b8f94d775ec7553f12c9acc6",
+                "reference": "04f50768ae098fc9b8f94d775ec7553f12c9acc6",
                 "shasum": ""
             },
             "require": {
                 "ext-filter": "*",
-                "friendsofphp/php-cs-fixer": "~3.14.4",
+                "friendsofphp/php-cs-fixer": "~3.15.0",
                 "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.29.0",
+                "ergebnis/composer-normalize": "^2.30.2",
                 "ergebnis/license": "^2.1.0",
                 "fakerphp/faker": "^1.21.0",
                 "infection/infection": "~0.26.19",
-                "phpunit/phpunit": "^9.6.3",
+                "phpunit/phpunit": "^9.6.5",
                 "psalm/plugin-phpunit": "~0.18.4",
-                "rector/rector": "~0.15.13",
+                "rector/rector": "~0.15.21",
                 "symfony/filesystem": "^5.0.0 || ^6.0.0",
                 "symfony/process": "^5.0.0 || ^6.0.0",
-                "vimeo/psalm": "^5.6.0"
+                "vimeo/psalm": "^5.8.0"
             },
             "type": "library",
             "extra": {
@@ -5382,7 +5382,7 @@
                 "issues": "https://github.com/ergebnis/php-cs-fixer-config/issues",
                 "source": "https://github.com/ergebnis/php-cs-fixer-config"
             },
-            "time": "2023-02-09T21:58:44+00:00"
+            "time": "2023-03-13T08:25:26+00:00"
         },
         {
             "name": "ergebnis/phpunit-slow-test-detector",
@@ -5681,16 +5681,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.14.5",
+            "version": "v3.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "fb929675a201b7fc79a516226033e36538d5308d"
+                "reference": "7306744c63e9cc1337894252b4eec4920c38b053"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/fb929675a201b7fc79a516226033e36538d5308d",
-                "reference": "fb929675a201b7fc79a516226033e36538d5308d",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/7306744c63e9cc1337894252b4eec4920c38b053",
+                "reference": "7306744c63e9cc1337894252b4eec4920c38b053",
                 "shasum": ""
             },
             "require": {
@@ -5765,7 +5765,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.14.5"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.15.0"
             },
             "funding": [
                 {
@@ -5773,7 +5773,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-03-12T22:24:56+00:00"
+            "time": "2023-03-12T22:44:55+00:00"
         },
         {
             "name": "infection/abstract-testframework-adapter",
