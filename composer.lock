@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "855c5f203b2cf7edc3829550269dd3e0",
+    "content-hash": "1004dad5a26ded888674387fea7c5060",
     "packages": [
         {
             "name": "brick/math",
@@ -1931,12 +1931,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache-contracts.git",
-                "reference": "668f6bbdfd450c5a54ce240bf856c71860a43319"
+                "reference": "eeb71f04b6f7f34ca6d15633df82e014528b1632"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache-contracts/zipball/668f6bbdfd450c5a54ce240bf856c71860a43319",
-                "reference": "668f6bbdfd450c5a54ce240bf856c71860a43319",
+                "url": "https://api.github.com/repos/symfony/cache-contracts/zipball/eeb71f04b6f7f34ca6d15633df82e014528b1632",
+                "reference": "eeb71f04b6f7f34ca6d15633df82e014528b1632",
                 "shasum": ""
             },
             "require": {
@@ -2002,7 +2002,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-02T07:48:03+00:00"
+            "time": "2023-03-01T10:32:47+00:00"
         },
         {
             "name": "symfony/config",
@@ -7321,16 +7321,16 @@
         },
         {
             "name": "psalm/plugin-symfony",
-            "version": "v5.0.1",
+            "version": "v5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-symfony.git",
-                "reference": "e9900d2f0186564a30934a2ebcf60481d916ebf0"
+                "reference": "f017563fa40728a5a40628915774e7d3469a0cbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/e9900d2f0186564a30934a2ebcf60481d916ebf0",
-                "reference": "e9900d2f0186564a30934a2ebcf60481d916ebf0",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-symfony/zipball/f017563fa40728a5a40628915774e7d3469a0cbd",
+                "reference": "f017563fa40728a5a40628915774e7d3469a0cbd",
                 "shasum": ""
             },
             "require": {
@@ -7380,9 +7380,9 @@
             "description": "Psalm Plugin for Symfony",
             "support": {
                 "issues": "https://github.com/psalm/psalm-plugin-symfony/issues",
-                "source": "https://github.com/psalm/psalm-plugin-symfony/tree/v5.0.1"
+                "source": "https://github.com/psalm/psalm-plugin-symfony/tree/v5.0.2"
             },
-            "time": "2023-01-08T18:54:02+00:00"
+            "time": "2023-03-22T20:58:14+00:00"
         },
         {
             "name": "rector/rector",
