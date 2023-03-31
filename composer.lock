@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9902a26045ddd8e7f9ecc9cf2a4a44e0",
+    "content-hash": "f5d5b69fcf82ab90ac8ebfcd0166f90d",
     "packages": [
         {
             "name": "brick/math",
@@ -3541,16 +3541,16 @@
         },
         {
             "name": "symfony/runtime",
-            "version": "v6.2.7",
+            "version": "v6.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/runtime.git",
-                "reference": "111b9d617d0cfc71d44baf01eb9951517fd8b739"
+                "reference": "f8b0751b33888329be8f8f0481bb81d279ec4157"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/runtime/zipball/111b9d617d0cfc71d44baf01eb9951517fd8b739",
-                "reference": "111b9d617d0cfc71d44baf01eb9951517fd8b739",
+                "url": "https://api.github.com/repos/symfony/runtime/zipball/f8b0751b33888329be8f8f0481bb81d279ec4157",
+                "reference": "f8b0751b33888329be8f8f0481bb81d279ec4157",
                 "shasum": ""
             },
             "require": {
@@ -3596,8 +3596,11 @@
             ],
             "description": "Enables decoupling PHP applications from global state",
             "homepage": "https://symfony.com",
+            "keywords": [
+                "runtime"
+            ],
             "support": {
-                "source": "https://github.com/symfony/runtime/tree/v6.2.7"
+                "source": "https://github.com/symfony/runtime/tree/v6.2.8"
             },
             "funding": [
                 {
@@ -3613,7 +3616,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-02T07:44:01+00:00"
+            "time": "2023-03-14T15:48:35+00:00"
         },
         {
             "name": "symfony/service-contracts",
