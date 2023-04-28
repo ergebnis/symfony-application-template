@@ -48,7 +48,7 @@
     "ergebnis/php-cs-fixer-config": "^5.5.2",
     "ergebnis/phpunit-slow-test-detector": "^2.1.1",
     "fakerphp/faker": "^1.21.0",
-    "infection/infection": "~0.26.20",
+    "infection/infection": "~0.26.21",
     "phpunit/phpunit": "^10.0.19",
     "psalm/plugin-phpunit": "~0.18.4",
     "psalm/plugin-symfony": "^5.0.3",
