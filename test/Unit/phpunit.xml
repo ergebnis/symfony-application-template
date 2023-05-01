@@ -23,19 +23,20 @@
     stopOnIncomplete="false"
     stopOnSkipped="false"
 >
-    <coverage includeUncoveredFiles="true">
+    <coverage includeUncoveredFiles="true"/>
+    <extensions>
+        <bootstrap class="Ergebnis\PHPUnit\SlowTestDetector\Extension">
+            <parameter name="maximum-duration" value="100"/>
+        </bootstrap>
+    </extensions>
+    <source>
         <exclude>
             <file>../../src/Kernel.php</file>
         </exclude>
         <include>
             <directory suffix=".php">../../src/</directory>
         </include>
-    </coverage>
-    <extensions>
-        <bootstrap class="Ergebnis\PHPUnit\SlowTestDetector\Extension">
-            <parameter name="maximum-duration" value="100"/>
-        </bootstrap>
-    </extensions>
+    </source>
     <testsuites>
         <testsuite name="Unit Tests">
             <directory>.</directory>
