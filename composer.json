@@ -28,7 +28,7 @@
     "doctrine/migrations": "^3.6.0",
     "doctrine/orm": "^2.15.1",
     "ramsey/uuid": "^4.7.4",
-    "symfony/config": "^6.2.5",
+    "symfony/config": "^6.3.0",
     "symfony/console": "^6.2.11",
     "symfony/dependency-injection": "^6.2.11",
     "symfony/dotenv": "^6.2.8",
