@@ -23,7 +23,7 @@
     "ext-pdo_pgsql": "*",
     "doctrine/annotations": "^2.0.1",
     "doctrine/collections": "^2.1.2",
-    "doctrine/doctrine-bundle": "^2.9.1",
+    "doctrine/doctrine-bundle": "^2.10.0",
     "doctrine/doctrine-migrations-bundle": "^3.2.4",
     "doctrine/migrations": "^3.6.0",
     "doctrine/orm": "^2.15.2",
