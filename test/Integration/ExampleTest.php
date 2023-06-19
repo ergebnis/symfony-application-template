@@ -13,13 +13,10 @@ declare(strict_types=1);
 
 namespace App\Test\Integration;
 
+use PHPUnit\Framework;
 use Symfony\Bundle\FrameworkBundle;
 
-/**
- * @internal
- *
- * @coversNothing
- */
+#[Framework\Attributes\CoversNothing]
 final class ExampleTest extends FrameworkBundle\Test\KernelTestCase
 {
     public function testTrueIsTrue(): void

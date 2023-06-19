@@ -1,7 +1,7 @@
 # symfony-application-template
 
 [![Integrate](https://github.com/ergebnis/symfony-application-template/workflows/Integrate/badge.svg)](https://github.com/ergebnis/symfony-application-template/actions)
-[![Prune](https://github.com/ergebnis/symfony-application-template/workflows/Prune/badge.svg)](https://github.com/ergebnis/symfony-application-template/actions)
+[![Merge](https://github.com/ergebnis/symfony-application-template/workflows/Merge/badge.svg)](https://github.com/ergebnis/symfony-application-template/actions)
 [![Release](https://github.com/ergebnis/symfony-application-template/workflows/Release/badge.svg)](https://github.com/ergebnis/symfony-application-template/actions)
 [![Renew](https://github.com/ergebnis/symfony-application-template/workflows/Renew/badge.svg)](https://github.com/ergebnis/symfony-application-template/actions)
 
@@ -19,6 +19,10 @@ Please have a look at [`CONTRIBUTING.md`](.github/CONTRIBUTING.md).
 ## Code of Conduct
 
 Please have a look at [`CODE_OF_CONDUCT.md`](.github/CODE_OF_CONDUCT.md).
+
+## Security Policy
+
+Please have a look at [`SECURITY.md`](.github/SECURITY.md).
 
 ## License
 
