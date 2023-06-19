@@ -32,7 +32,7 @@ $config->getFinder()
     ->exclude([
         '.build/',
         '.github/',
-        '.notes/',
+        '.note/',
         'var/',
     ])
     ->ignoreDotFiles(false)
