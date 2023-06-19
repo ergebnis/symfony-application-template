@@ -410,9 +410,6 @@ jobs:
     steps:
       - name: "Checkout"
         uses: "actions/checkout@v3"
-        with:
-          ref: "${{ github.head_ref }}"
-          token: "${{ secrets.ERGEBNIS_BOT_TOKEN }}"
 
       - name: "Set up PHP"
         uses: "shivammathur/setup-php@2.25.4"
@@ -439,28 +436,7 @@ jobs:
       - name: "Synchronize symfony/flex recipes"
         run: "composer symfony:sync-recipes --ansi"
 
-      - name: "Commit symfony.lock"
-        if: >
-          github.event_name == 'pull_request' &&
-          github.event.pull_request.draft == false && (
-            github.event.action == 'opened' ||
-            github.event.action == 'reopened' ||
-            github.event.action == 'synchronize'
-          ) && (
-            (github.actor == 'dependabot[bot]' && startsWith(github.event.pull_request.title, 'composer(deps)')) ||
-            (github.actor == 'dependabot[bot]' && startsWith(github.event.pull_request.title, 'composer(deps-dev)'))
-          )
-        uses: "stefanzweifel/git-auto-commit-action@v4.16.0"
-        with:
-          branch: "${{ github.head_ref }}"
-          commit_author: "ergebnis-bot <bot@ergebn.is>"
-          commit_message: "Fix: Update symfony.lock"
-          commit_user_email: "bot@ergebn.is"
-          commit_user_name: "ergebnis-bot"
-          file_pattern: "symfony.lock"
-
       - name: "Verify that symfony.lock is up-to-date"
-        if: "github.actor != 'dependabot[bot]'"
         run: |
           diff=$(git diff symfony.lock)
 
