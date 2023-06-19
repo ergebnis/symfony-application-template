@@ -17,11 +17,7 @@ use App\Entity;
 use App\Test;
 use PHPUnit\Framework;
 
-/**
- * @internal
- *
- * @covers \App\Entity\Example
- */
+#[Framework\Attributes\CoversClass(Entity\Example::class)]
 final class ExampleTest extends Framework\TestCase
 {
     use Test\Util\Helper;

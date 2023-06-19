@@ -7,7 +7,7 @@
     beStrictAboutOutputDuringTests="true"
     beStrictAboutTestsThatDoNotTestAnything="true"
     bootstrap="bootstrap.php"
-    cacheDirectory="../../.build/phpunit/cache/unit/"
+    cacheDirectory="../../.build/phpunit/integration/"
     cacheResult="true"
     colors="true"
     columns="max"
