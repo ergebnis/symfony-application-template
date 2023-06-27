@@ -36,7 +36,7 @@
     "symfony/flex": "^2.3.1",
     "symfony/framework-bundle": "^6.2.11",
     "symfony/http-kernel": "^6.3.1",
-    "symfony/routing": "^6.2.5",
+    "symfony/routing": "^6.3.1",
     "symfony/runtime": "^6.3.1",
     "symfony/yaml": "^6.3.0"
   },
