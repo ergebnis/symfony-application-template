@@ -20,7 +20,7 @@
     "ext-iconv": "*",
     "ext-mbstring": "*",
     "ext-pdo": "*",
-    "ext-pdo_pgsql": "*",
+    "ext-pdo_mysql": "*",
     "doctrine/annotations": "^2.0.1",
     "doctrine/collections": "^2.1.2",
     "doctrine/doctrine-bundle": "^2.10.1",

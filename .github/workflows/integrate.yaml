@@ -30,7 +30,7 @@ jobs:
         uses: "shivammathur/setup-php@2.25.4"
         with:
           coverage: "xdebug"
-          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
+          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_mysql, phar, simplexml, tokenizer, xml, xmlwriter"
           php-version: "${{ matrix.php-version }}"
 
       - name: "Set up problem matchers for PHP"
@@ -96,7 +96,7 @@ jobs:
         uses: "shivammathur/setup-php@2.25.4"
         with:
           coverage: "none"
-          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
+          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_mysql, phar, simplexml, tokenizer, xml, xmlwriter"
           php-version: "${{ matrix.php-version }}"
 
       - name: "Set up problem matchers for PHP"
@@ -162,7 +162,7 @@ jobs:
         uses: "shivammathur/setup-php@2.25.4"
         with:
           coverage: "none"
-          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
+          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_mysql, phar, simplexml, tokenizer, xml, xmlwriter"
           php-version: "${{ matrix.php-version }}"
           tools: "phive"
 
@@ -219,7 +219,7 @@ jobs:
         uses: "shivammathur/setup-php@2.25.4"
         with:
           coverage: "xdebug"
-          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
+          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_mysql, phar, simplexml, tokenizer, xml, xmlwriter"
           php-version: "${{ matrix.php-version }}"
 
       - name: "Set up problem matchers for PHP"
@@ -275,7 +275,7 @@ jobs:
         uses: "shivammathur/setup-php@2.25.4"
         with:
           coverage: "none"
-          extensions: "none, ctype, curl, dom, iconv, intl, json, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
+          extensions: "none, ctype, curl, dom, iconv, intl, json, mbstring, pdo, pdo_mysql, phar, simplexml, tokenizer, xml, xmlwriter"
           php-version: "${{ matrix.php-version }}"
 
       - name: "Set up problem matchers for PHP"
@@ -335,7 +335,7 @@ jobs:
         uses: "shivammathur/setup-php@2.25.4"
         with:
           coverage: "none"
-          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
+          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_mysql, phar, simplexml, tokenizer, xml, xmlwriter"
           php-version: "${{ matrix.php-version }}"
 
       - name: "Set up problem matchers for PHP"
@@ -386,7 +386,7 @@ jobs:
         uses: "shivammathur/setup-php@2.25.4"
         with:
           coverage: "none"
-          extensions: "none, ctype, curl, dom, iconv, json, mbstring, opcache, pcntl, pdo, pdo_pgsql, phar, posix, simplexml, tokenizer, xml, xmlwriter"
+          extensions: "none, ctype, curl, dom, iconv, json, mbstring, opcache, pcntl, pdo, pdo_mysql, phar, posix, simplexml, tokenizer, xml, xmlwriter"
           php-version: "${{ matrix.php-version }}"
 
       - name: "Set up problem matchers for PHP"
@@ -446,7 +446,7 @@ jobs:
         uses: "shivammathur/setup-php@2.25.4"
         with:
           coverage: "none"
-          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
+          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_mysql, phar, simplexml, tokenizer, xml, xmlwriter"
           php-version: "${{ matrix.php-version }}"
 
       - name: "Determine composer cache directory"
@@ -514,13 +514,13 @@ jobs:
     services:
       database-default:
         env:
-          POSTGRES_USER: "postgres"
-          POSTGRES_PASSWORD: "postgres"
-          POSTGRES_DB: "default"
-        image: "postgres:12"
+          MYSQL_DATABASE: "database"
+          MYSQL_ROOT_PASSWORD: "root"
+        image: "mariadb:10.6.11"
         ports:
-          - "5432:5432"
-        options: "--health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 3"
+          - "3306:3306"
+        options: >-
+          --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
 
     env:
       APP_ENV: "test"
@@ -534,7 +534,7 @@ jobs:
         uses: "shivammathur/setup-php@2.25.4"
         with:
           coverage: "none"
-          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_pgsql, phar, simplexml, tokenizer, xml, xmlwriter"
+          extensions: "none, ctype, curl, dom, iconv, json, mbstring, pdo, pdo_mysql, phar, simplexml, tokenizer, xml, xmlwriter"
           php-version: "${{ matrix.php-version }}"
 
       - name: "Set up problem matchers for PHP"
