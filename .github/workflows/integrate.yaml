@@ -500,7 +500,6 @@ jobs:
 
     env:
       APP_ENV: "test"
-      CONNECTION_NAME_DEFAULT: "default"
       ENTITY_MANAGER_NAME_DEFAULT: "default"
 
     steps:
