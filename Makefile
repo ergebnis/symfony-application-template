@@ -1,5 +1,5 @@
 APP_ENV:=test
-CONNECTION_NAME_DEFAULT:=default
+DATABASE_CONNECTION_NAME:=default
 ENTITY_MANAGER_NAME_DEFAULT:=default
 
 .PHONY: it
@@ -29,8 +29,8 @@ dependency-analysis: phive vendor ## Runs a dependency analysis with maglnet/com
 
 .PHONY: doctrine
 doctrine: vendor environment ## Runs doctrine commands to set up a local test database
-	bin/console doctrine:database:drop --connection=${CONNECTION_NAME_DEFAULT} --env=${APP_ENV} --force --if-exists
-	bin/console doctrine:database:create --connection=${CONNECTION_NAME_DEFAULT} --env=${APP_ENV}
+	bin/console doctrine:database:drop --connection=${DATABASE_CONNECTION_NAME} --env=${APP_ENV} --force --if-exists
+	bin/console doctrine:database:create --connection=${DATABASE_CONNECTION_NAME} --env=${APP_ENV}
 	bin/console doctrine:migrations:status --env=${APP_ENV}
 	bin/console doctrine:migrations:migrate --env=${APP_ENV} --allow-no-migration --no-interaction
 	bin/console doctrine:schema:validate --em=${ENTITY_MANAGER_NAME_DEFAULT} || (bin/console doctrine:migrations:diff --env=${APP_ENV} && false)
