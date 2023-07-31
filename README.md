@@ -8,6 +8,8 @@
 [![Code Coverage](https://codecov.io/gh/ergebnis/symfony-application-template/branch/main/graph/badge.svg)](https://codecov.io/gh/ergebnis/symfony-application-template)
 [![Type Coverage](https://shepherd.dev/github/ergebnis/symfony-application-template/coverage.svg)](https://shepherd.dev/github/ergebnis/symfony-application-template)
 
+Provides a [GitHub template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for a [Symfony](https://symfony.com) application, using [GitHub Actions]https://docs.github.com/en/actions.
+
 ## Changelog
 
 Please have a look at [`CHANGELOG.md`](CHANGELOG.md).
