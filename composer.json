@@ -32,7 +32,7 @@
     "symfony/console": "^6.2.11",
     "symfony/dependency-injection": "^6.3.1",
     "symfony/dotenv": "^6.3.0",
-    "symfony/error-handler": "^6.3.0",
+    "symfony/error-handler": "^6.3.2",
     "symfony/flex": "^2.3.1",
     "symfony/framework-bundle": "^6.2.11",
     "symfony/http-kernel": "^6.3.1",
