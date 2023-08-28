@@ -29,7 +29,7 @@
     "doctrine/orm": "^2.16.1",
     "ramsey/uuid": "^4.7.4",
     "symfony/config": "^6.2.5",
-    "symfony/console": "^6.2.11",
+    "symfony/console": "^6.3.4",
     "symfony/dependency-injection": "^6.3.1",
     "symfony/dotenv": "^6.3.0",
     "symfony/error-handler": "^6.3.0",
