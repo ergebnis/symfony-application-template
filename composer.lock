@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "89a924f6ab38163b49625f3d21d648b9",
+    "content-hash": "9d4fb0b5d92e8964b523952f87ac26e2",
     "packages": [
         {
             "name": "brick/math",
@@ -5372,21 +5372,21 @@
         },
         {
             "name": "ergebnis/php-cs-fixer-config",
-            "version": "5.15.0",
+            "version": "5.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/php-cs-fixer-config.git",
-                "reference": "dcf60edce3e89f1affd7a1939527fab13792bcdb"
+                "reference": "0307e2094ea8b014216e357f7c292d5e71d17ae9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/dcf60edce3e89f1affd7a1939527fab13792bcdb",
-                "reference": "dcf60edce3e89f1affd7a1939527fab13792bcdb",
+                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/0307e2094ea8b014216e357f7c292d5e71d17ae9",
+                "reference": "0307e2094ea8b014216e357f7c292d5e71d17ae9",
                 "shasum": ""
             },
             "require": {
                 "ext-filter": "*",
-                "friendsofphp/php-cs-fixer": "~3.26.0",
+                "friendsofphp/php-cs-fixer": "~3.26.1",
                 "php": "~8.1.0 || ~8.2.0"
             },
             "require-dev": {
@@ -5430,7 +5430,7 @@
                 "issues": "https://github.com/ergebnis/php-cs-fixer-config/issues",
                 "source": "https://github.com/ergebnis/php-cs-fixer-config"
             },
-            "time": "2023-09-08T10:14:46+00:00"
+            "time": "2023-09-08T20:48:21+00:00"
         },
         {
             "name": "ergebnis/phpunit-slow-test-detector",
