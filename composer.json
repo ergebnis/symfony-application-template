@@ -91,6 +91,9 @@
       "symfony/flex": true,
       "symfony/runtime": true
     },
+    "audit": {
+      "abandoned": "report"
+    },
     "platform": {
       "php": "8.2.0"
     },
