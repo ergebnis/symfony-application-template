@@ -13,7 +13,8 @@
   "homepage": "https://github.com/ergebnis/symfony-application-template",
   "support": {
     "issues": "https://github.com/ergebnis/symfony-application-template/issues",
-    "source": "https://github.com/ergebnis/symfony-application-template"
+    "source": "https://github.com/ergebnis/symfony-application-template",
+    "security": "https://github.com/ergebnis/symfony-application-template/blob/main/.github/SECURITY.md"
   },
   "require": {
     "php": "~8.2.0",
