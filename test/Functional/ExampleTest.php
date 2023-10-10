@@ -16,7 +16,7 @@ namespace App\Test\Functional;
 use PHPUnit\Framework;
 use Symfony\Bundle\FrameworkBundle;
 
-#[Framework\Attributes\CoversNothing]
+#[Framework\Attributes\CoversNothing()]
 final class ExampleTest extends FrameworkBundle\Test\WebTestCase
 {
     public function testTrueIsTrue(): void
