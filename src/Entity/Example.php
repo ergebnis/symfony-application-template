@@ -16,11 +16,11 @@ namespace App\Entity;
 use Doctrine\ORM;
 use Ramsey\Uuid;
 
-#[ORM\Mapping\Entity]
+#[ORM\Mapping\Entity()]
 #[ORM\Mapping\Table(name: 'example')]
 final class Example
 {
-    #[ORM\Mapping\Id]
+    #[ORM\Mapping\Id()]
     #[ORM\Mapping\GeneratedValue(strategy: 'NONE')]
     #[ORM\Mapping\Column(
         name: 'id',
