@@ -37,7 +37,7 @@
     "symfony/error-handler": "^6.3.0",
     "symfony/flex": "^2.4.0",
     "symfony/framework-bundle": "^6.3.6",
-    "symfony/http-kernel": "^6.3.6",
+    "symfony/http-kernel": "^6.3.7",
     "symfony/routing": "^6.3.5",
     "symfony/runtime": "^6.3.2",
     "symfony/yaml": "^6.3.3"
