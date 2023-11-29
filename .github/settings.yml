@@ -14,14 +14,14 @@ branches:
         required_approving_review_count: 1
       required_status_checks:
         checks:
-          - context: "Code Coverage (8.2, locked)"
-          - context: "Coding Standards (8.2, locked)"
-          - context: "Dependency Analysis (8.2, locked)"
-          - context: "Mutation Tests (8.2, locked)"
-          - context: "Refactoring (8.2, locked)"
-          - context: "Security Analysis (8.2, locked)"
-          - context: "Static Code Analysis (8.2, locked)"
-          - context: "Tests (8.2, locked)"
+          - context: "Code Coverage (8.3, locked)"
+          - context: "Coding Standards (8.3, locked)"
+          - context: "Dependency Analysis (8.3, locked)"
+          - context: "Mutation Tests (8.3, locked)"
+          - context: "Refactoring (8.3, locked)"
+          - context: "Security Analysis (8.3, locked)"
+          - context: "Static Code Analysis (8.3, locked)"
+          - context: "Tests (8.3, locked)"
         strict: false
       restrictions:
 
