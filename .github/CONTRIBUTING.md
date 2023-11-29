@@ -1,6 +1,6 @@
 # CONTRIBUTING
 
-We are using [GitHub Actions](https://github.com/features/actions) as a continuous integration system.
+We use [GitHub Actions](https://github.com/features/actions) as a continuous integration system.
 
 For details, take a look at the following workflow configuration files:
 
@@ -12,9 +12,9 @@ For details, take a look at the following workflow configuration files:
 
 ## Coding Standards
 
-We are using [`ergebnis/composer-normalize`](https://github.com/ergebnis/composer-normalize) to normalize `composer.json`.
+We use [`ergebnis/composer-normalize`](https://github.com/ergebnis/composer-normalize) to normalize `composer.json`.
 
-We are using [`yamllint`](https://github.com/adrienverge/yamllint) to enforce coding standards in YAML files.
+We use [`yamllint`](https://github.com/adrienverge/yamllint) to enforce coding standards in YAML files.
 
 If you do not have `yamllint` installed yet, run
 
@@ -24,9 +24,9 @@ brew install yamllint
 
 to install `yamllint`.
 
-We are using [`symplify/config-transformer`](https://github.com/symplify/config-transformer) to convert YAML configuration files to PHP.
+We use [`symplify/config-transformer`](https://github.com/symplify/config-transformer) to convert YAML configuration files to PHP.
 
-We are using [`friendsofphp/php-cs-fixer`](https://github.com/FriendsOfPHP/PHP-CS-Fixer) to enforce coding standards in PHP files.
+We use [`friendsofphp/php-cs-fixer`](https://github.com/FriendsOfPHP/PHP-CS-Fixer) to enforce coding standards in PHP files.
 
 Run
 
@@ -38,7 +38,7 @@ to automatically fix coding standard violations.
 
 ## Dependency Analysis
 
-We are using [`maglnet/composer-require-checker`](https://github.com/maglnet/ComposerRequireChecker) to prevent the use of unknown symbols in production code.
+We use [`maglnet/composer-require-checker`](https://github.com/maglnet/ComposerRequireChecker) to prevent the use of unknown symbols in production code.
 
 Run
 
@@ -50,7 +50,7 @@ to run a dependency analysis.
 
 ## Mutation Tests
 
-We are using [`infection/infection`](https://github.com/infection/infection) to ensure a minimum quality of the tests.
+We use [`infection/infection`](https://github.com/infection/infection) to ensure a minimum quality of the tests.
 
 Enable `Xdebug` and run
 
@@ -62,7 +62,7 @@ to run mutation tests.
 
 ## Refactoring
 
-We are using [`rector/rector`](https://github.com/rectorphp/rector) to automatically refactor code.
+We use [`rector/rector`](https://github.com/rectorphp/rector) to automatically refactor code.
 
 Run
 
@@ -74,7 +74,7 @@ to automatically refactor code.
 
 ## Security Analysis
 
-We are using [`composer`](https://github.com/composer/composer) to run a security analysis.
+We use [`composer`](https://github.com/composer/composer) to run a security analysis.
 
 Run
 
@@ -86,7 +86,7 @@ to run a security analysis.
 
 ## Static Code Analysis
 
-We are using [`vimeo/psalm`](https://github.com/vimeo/psalm) to statically analyze the code.
+We use [`vimeo/psalm`](https://github.com/vimeo/psalm) to statically analyze the code.
 
 Run
 
@@ -96,7 +96,7 @@ make static-code-analysis
 
 to run a static code analysis.
 
-We are also using the baseline feature of [`vimeo/psalm`](https://psalm.dev/docs/running_psalm/dealing_with_code_issues/#using-a-baseline-file).
+We also use the baseline feature of [`vimeo/psalm`](https://psalm.dev/docs/running_psalm/dealing_with_code_issues/#using-a-baseline-file).
 
 Run
 
@@ -110,7 +110,7 @@ to regenerate the baseline in [`../psalm-baseline.xml`](../psalm-baseline.xml).
 
 ## Symfony
 
-We are using [`symfony/flex`](https://github.com/symfony/flex) to integrate packages into the application.
+We use [`symfony/flex`](https://github.com/symfony/flex) to integrate packages into the application.
 
 Run
 
@@ -122,7 +122,7 @@ to synchronize recipes.
 
 ## Tests
 
-We are using [`phpunit/phpunit`](https://github.com/sebastianbergmann/phpunit) to drive the development.
+We use [`phpunit/phpunit`](https://github.com/sebastianbergmann/phpunit) to drive the development.
 
 Run
 

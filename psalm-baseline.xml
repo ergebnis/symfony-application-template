@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.6.0@e784128902dfe01d489c4123d69918a9f3c1eac5">
+<files psalm-version="5.16.0@2897ba636551a8cb61601cc26f6ccfbba6c36591">
   <file src="src/Kernel.php">
     <MixedArgument>
-      <code>$this-&gt;debug</code>
+      <code><![CDATA[$this->debug]]></code>
     </MixedArgument>
     <MixedArrayAccess>
-      <code>$envs[$this-&gt;environment]</code>
-      <code>$envs['all']</code>
+      <code><![CDATA[$envs[$this->environment]]]></code>
+      <code><![CDATA[$envs['all']]]></code>
     </MixedArrayAccess>
     <MixedAssignment>
       <code>$class</code>
@@ -24,7 +24,7 @@
       <code>configureRoutes</code>
     </PossiblyUnusedMethod>
     <UnresolvableInclude>
-      <code>require $this-&gt;getProjectDir() . '/config/bundles.php'</code>
+      <code><![CDATA[require $this->getProjectDir() . '/config/bundles.php']]></code>
     </UnresolvableInclude>
   </file>
 </files>

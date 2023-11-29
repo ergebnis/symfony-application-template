@@ -14,6 +14,8 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    timeout-minutes: 5
+
     strategy:
       matrix:
         php-version:
@@ -24,7 +26,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v4"
+        uses: "actions/checkout@v4.1.1"
 
       - name: "Set up PHP"
         uses: "shivammathur/setup-php@2.28.0"
@@ -73,6 +75,8 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    timeout-minutes: 5
+
     strategy:
       matrix:
         php-version:
@@ -83,7 +87,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v4"
+        uses: "actions/checkout@v4.1.1"
 
       - name: "Lint YAML files"
         uses: "ibiqlik/action-yamllint@v3.1.1"
@@ -146,6 +150,8 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    timeout-minutes: 5
+
     strategy:
       matrix:
         php-version:
@@ -156,7 +162,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v4"
+        uses: "actions/checkout@v4.1.1"
 
       - name: "Set up PHP"
         uses: "shivammathur/setup-php@2.28.0"
@@ -193,12 +199,14 @@ jobs:
           trust-gpg-keys: "0x033E5F8D801A2F8D"
 
       - name: "Run maglnet/composer-require-checker"
-        run: ".phive/composer-require-checker check --config-file=$(pwd)/composer-require-checker.json"
+        run: ".phive/composer-require-checker check --ansi --config-file=$(pwd)/composer-require-checker.json --verbose"
 
   mutation-tests:
     name: "Mutation Tests"
 
     runs-on: "ubuntu-latest"
+
+    timeout-minutes: 5
 
     strategy:
       matrix:
@@ -213,7 +221,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v4"
+        uses: "actions/checkout@v4.1.1"
 
       - name: "Set up PHP"
         uses: "shivammathur/setup-php@2.28.0"
@@ -259,6 +267,8 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    timeout-minutes: 5
+
     strategy:
       matrix:
         php-version:
@@ -269,7 +279,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v4"
+        uses: "actions/checkout@v4.1.1"
 
       - name: "Set up PHP"
         uses: "shivammathur/setup-php@2.28.0"
@@ -319,6 +329,8 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    timeout-minutes: 5
+
     strategy:
       matrix:
         php-version:
@@ -329,7 +341,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v4"
+        uses: "actions/checkout@v4.1.1"
 
       - name: "Set up PHP"
         uses: "shivammathur/setup-php@2.28.0"
@@ -367,6 +379,8 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    timeout-minutes: 5
+
     strategy:
       matrix:
         php-version:
@@ -380,7 +394,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v4"
+        uses: "actions/checkout@v4.1.1"
 
       - name: "Set up PHP"
         uses: "shivammathur/setup-php@2.28.0"
@@ -427,6 +441,8 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    timeout-minutes: 5
+
     strategy:
       matrix:
         php-version:
@@ -455,7 +471,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v4"
+        uses: "actions/checkout@v4.1.1"
 
       - name: "Set up PHP"
         uses: "shivammathur/setup-php@2.28.0"
