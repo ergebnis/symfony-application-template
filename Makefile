@@ -12,7 +12,7 @@ cache: vendor ## Warms up the cache
 
 .PHONY: code-coverage
 code-coverage: vendor ## Collects coverage from running unit tests with phpunit/phpunit
-	mkdir -p .build/phpunit
+	mkdir -p .build/phpunit/
 	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml --coverage-text
 
 .PHONY: coding-standards
@@ -25,7 +25,7 @@ coding-standards: vendor ## Lints YAML files with yamllint, normalizes composer.
 
 .PHONY: dependency-analysis
 dependency-analysis: phive vendor ## Runs a dependency analysis with maglnet/composer-require-checker
-	.phive/composer-require-checker check --config-file=$(shell pwd)/composer-require-checker.json
+	.phive/composer-require-checker check --config-file=$(shell pwd)/composer-require-checker.json --verbose
 
 .PHONY: doctrine
 doctrine: vendor environment ## Runs doctrine commands to set up a local test database
@@ -49,12 +49,13 @@ mutation-tests: vendor ## Runs mutation tests with infection/infection
 	vendor/bin/infection --configuration=infection.json
 
 .PHONY: phive
-phive: .phive## Installs dependencies with phive
+phive: .phive ## Installs dependencies with phive
 	mkdir -p .build/phive/
 	PHIVE_HOME=.build/phive phive install --trust-gpg-keys 0x033E5F8D801A2F8D
 
 .PHONY: refactoring
 refactoring: vendor ## Runs automated refactoring with rector/rector
+	mkdir -p .build/rector/
 	vendor/bin/rector process --config=rector.php
 
 .PHONY: security-analysis

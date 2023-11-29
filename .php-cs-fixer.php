@@ -40,7 +40,6 @@ $config->getFinder()
     ->ignoreDotFiles(false)
     ->in(__DIR__)
     ->name([
-        '.php-cs-fixer.php',
         'console',
     ])
     ->notName([
