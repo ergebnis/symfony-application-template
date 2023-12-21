@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28ce0d5c19a2c374bd43b26b148c2fd7",
+    "content-hash": "5b42d0c43c5ce72569b250d841303f63",
     "packages": [
         {
             "name": "brick/math",
@@ -2092,16 +2092,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v6.3.8",
+            "version": "v6.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "0d14a9f6d04d4ac38a8cea1171f4554e325dae92"
+                "reference": "a550a7c99daeedef3f9d23fb82e3531525ff11fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/0d14a9f6d04d4ac38a8cea1171f4554e325dae92",
-                "reference": "0d14a9f6d04d4ac38a8cea1171f4554e325dae92",
+                "url": "https://api.github.com/repos/symfony/console/zipball/a550a7c99daeedef3f9d23fb82e3531525ff11fd",
+                "reference": "a550a7c99daeedef3f9d23fb82e3531525ff11fd",
                 "shasum": ""
             },
             "require": {
@@ -2109,7 +2109,7 @@
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/service-contracts": "^2.5|^3",
-                "symfony/string": "^5.4|^6.0"
+                "symfony/string": "^5.4|^6.0|^7.0"
             },
             "conflict": {
                 "symfony/dependency-injection": "<5.4",
@@ -2123,12 +2123,16 @@
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
-                "symfony/config": "^5.4|^6.0",
-                "symfony/dependency-injection": "^5.4|^6.0",
-                "symfony/event-dispatcher": "^5.4|^6.0",
-                "symfony/lock": "^5.4|^6.0",
-                "symfony/process": "^5.4|^6.0",
-                "symfony/var-dumper": "^5.4|^6.0"
+                "symfony/config": "^5.4|^6.0|^7.0",
+                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
+                "symfony/http-foundation": "^6.4|^7.0",
+                "symfony/http-kernel": "^6.4|^7.0",
+                "symfony/lock": "^5.4|^6.0|^7.0",
+                "symfony/messenger": "^5.4|^6.0|^7.0",
+                "symfony/process": "^5.4|^6.0|^7.0",
+                "symfony/stopwatch": "^5.4|^6.0|^7.0",
+                "symfony/var-dumper": "^5.4|^6.0|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -2162,7 +2166,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v6.3.8"
+                "source": "https://github.com/symfony/console/tree/v6.4.1"
             },
             "funding": [
                 {
@@ -2178,7 +2182,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-31T08:09:35+00:00"
+            "time": "2023-11-30T10:54:28+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -3823,20 +3827,20 @@
         },
         {
             "name": "symfony/string",
-            "version": "v6.4.0",
+            "version": "v7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "b45fcf399ea9c3af543a92edf7172ba21174d809"
+                "reference": "92bd2bfbba476d4a1838e5e12168bef2fd1e6620"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/b45fcf399ea9c3af543a92edf7172ba21174d809",
-                "reference": "b45fcf399ea9c3af543a92edf7172ba21174d809",
+                "url": "https://api.github.com/repos/symfony/string/zipball/92bd2bfbba476d4a1838e5e12168bef2fd1e6620",
+                "reference": "92bd2bfbba476d4a1838e5e12168bef2fd1e6620",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
+                "php": ">=8.2",
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
@@ -3846,11 +3850,11 @@
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
-                "symfony/error-handler": "^5.4|^6.0|^7.0",
-                "symfony/http-client": "^5.4|^6.0|^7.0",
-                "symfony/intl": "^6.2|^7.0",
+                "symfony/error-handler": "^6.4|^7.0",
+                "symfony/http-client": "^6.4|^7.0",
+                "symfony/intl": "^6.4|^7.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
-                "symfony/var-exporter": "^5.4|^6.0|^7.0"
+                "symfony/var-exporter": "^6.4|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -3889,7 +3893,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v6.4.0"
+                "source": "https://github.com/symfony/string/tree/v7.0.0"
             },
             "funding": [
                 {
@@ -3905,7 +3909,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-28T20:41:49+00:00"
+            "time": "2023-11-29T08:40:23+00:00"
         },
         {
             "name": "symfony/var-dumper",
