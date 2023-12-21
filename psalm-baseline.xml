@@ -16,10 +16,6 @@
     <MoreSpecificReturnType>
       <code>iterable</code>
     </MoreSpecificReturnType>
-    <PossiblyUnusedMethod>
-      <code>configureContainer</code>
-      <code>configureRoutes</code>
-    </PossiblyUnusedMethod>
     <UnresolvableInclude>
       <code><![CDATA[require $this->getProjectDir() . '/config/bundles.php']]></code>
     </UnresolvableInclude>
