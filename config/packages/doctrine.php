@@ -43,7 +43,7 @@ return static function (DependencyInjection\Loader\Configurator\ContainerConfigu
                             'dir' => '%kernel.project_dir%/src/Entity',
                             'is_bundle' => false,
                             'prefix' => 'App\Entity',
-                            'type' => 'annotation',
+                            'type' => 'attribute',
                         ],
                     ],
                     'naming_strategy' => 'doctrine.orm.naming_strategy.underscore_number_aware',
