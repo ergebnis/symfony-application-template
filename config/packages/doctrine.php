@@ -26,6 +26,7 @@ return static function (DependencyInjection\Loader\Configurator\ContainerConfigu
                     'driver' => 'pdo_pgsql',
                     'server_version' => '12',
                     'url' => '%env(resolve:DATABASE_URL)%',
+                    'use_savepoints' => true,
                 ],
             ],
             'default_connection' => 'default',
