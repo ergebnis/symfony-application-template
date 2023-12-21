@@ -14,6 +14,6 @@ declare(strict_types=1);
 use Symfony\Component\Routing;
 
 return static function (Routing\Loader\Configurator\RoutingConfigurator $routingConfigurator): void {
-    $routingConfigurator->import('../../src/Controller/', 'annotation');
-    $routingConfigurator->import('../../src/Kernel.php', 'annotation');
+    $routingConfigurator->import('../../src/Controller/', 'attribute');
+    $routingConfigurator->import('../../src/Kernel.php', 'attribute');
 };
