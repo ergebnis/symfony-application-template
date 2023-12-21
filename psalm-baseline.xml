@@ -1,23 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.18.0@b113f3ed0259fd6e212d87c3df80eec95a6abf19">
-  <file src="src/Kernel.php">
-    <MixedArrayAccess>
-      <code><![CDATA[$envs[$this->environment]]]></code>
-      <code><![CDATA[$envs['all']]]></code>
-    </MixedArrayAccess>
-    <MixedAssignment>
-      <code>$class</code>
-      <code>$contents</code>
-      <code>$envs</code>
-    </MixedAssignment>
-    <MixedMethodCall>
-      <code>new $class()</code>
-    </MixedMethodCall>
-    <MoreSpecificReturnType>
-      <code>iterable</code>
-    </MoreSpecificReturnType>
-    <UnresolvableInclude>
-      <code><![CDATA[require $this->getProjectDir() . '/config/bundles.php']]></code>
-    </UnresolvableInclude>
-  </file>
-</files>
+<files psalm-version="5.18.0@b113f3ed0259fd6e212d87c3df80eec95a6abf19"/>
