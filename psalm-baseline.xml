@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <files psalm-version="5.18.0@b113f3ed0259fd6e212d87c3df80eec95a6abf19">
   <file src="src/Kernel.php">
-    <MixedArgument>
-      <code><![CDATA[$this->debug]]></code>
-    </MixedArgument>
     <MixedArrayAccess>
       <code><![CDATA[$envs[$this->environment]]]></code>
       <code><![CDATA[$envs['all']]]></code>
