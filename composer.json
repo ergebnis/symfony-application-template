@@ -47,7 +47,7 @@
     "ergebnis/composer-normalize": "^2.41.1",
     "ergebnis/factory-bot": "^1.6.0",
     "ergebnis/license": "^2.4.0",
-    "ergebnis/php-cs-fixer-config": "~6.19.0",
+    "ergebnis/php-cs-fixer-config": "^6.19.0",
     "ergebnis/phpunit-slow-test-detector": "^2.9.0",
     "fakerphp/faker": "^1.23.1",
     "infection/infection": "~0.27.9",
