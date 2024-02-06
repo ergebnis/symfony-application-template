@@ -25,7 +25,7 @@
     "ext-pdo_mysql": "*",
     "doctrine/annotations": "^2.0.1",
     "doctrine/collections": "^2.1.4",
-    "doctrine/doctrine-bundle": "^2.11.1",
+    "doctrine/doctrine-bundle": "^2.11.2",
     "doctrine/doctrine-migrations-bundle": "^3.3.0",
     "doctrine/migrations": "^3.7.2",
     "doctrine/orm": "^2.18.0",
