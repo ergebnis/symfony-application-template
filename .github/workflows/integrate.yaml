@@ -251,6 +251,9 @@ jobs:
       - name: "Dump environment variables"
         run: "composer dump-env ${{ env.APP_ENV }} --ansi"
 
+      - name: "List environment variables"
+        run: "bin/console debug:dotenv --ansi"
+
       - name: "Warm up cache"
         run: "bin/console cache:warmup --ansi"
 
@@ -421,6 +424,9 @@ jobs:
       - name: "Dump environment variables"
         run: "composer dump-env ${{ env.APP_ENV }} --ansi"
 
+      - name: "List environment variables"
+        run: "bin/console debug:dotenv --ansi"
+
       - name: "Warm up cache"
         run: "bin/console cache:warmup --ansi"
 
@@ -497,6 +503,9 @@ jobs:
 
       - name: "Dump environment variables"
         run: "composer dump-env ${{ env.APP_ENV }} --ansi"
+
+      - name: "List environment variables"
+        run: "bin/console debug:dotenv --ansi"
 
       - name: "Warm up cache"
         run: "bin/console cache:warmup --ansi"
