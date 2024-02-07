@@ -36,6 +36,7 @@ doctrine: vendor environment ## Runs doctrine commands to set up a local test da
 .PHONY: environment
 environment: vendor ## Dumps environment variables
 	composer dump-env ${APP_ENV}
+	bin/console debug:dotenv
 
 .PHONY: help
 help: ## Displays this list of targets with descriptions
