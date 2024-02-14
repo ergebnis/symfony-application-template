@@ -56,7 +56,7 @@
     "psalm/plugin-symfony": "^5.1.0",
     "rector/rector": "^1.0.0",
     "symplify/config-transformer": "^12.3.4",
-    "vimeo/psalm": "^5.21.1"
+    "vimeo/psalm": "^5.22.0"
   },
   "replace": {
     "paragonie/random_compat": "*",
