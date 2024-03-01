@@ -28,7 +28,7 @@
     "doctrine/doctrine-bundle": "^2.11.3",
     "doctrine/doctrine-migrations-bundle": "^3.3.0",
     "doctrine/migrations": "^3.7.2",
-    "doctrine/orm": "^2.18.0",
+    "doctrine/orm": "^3.0.2",
     "ramsey/uuid": "^4.7.5",
     "symfony/config": "^7.0.3",
     "symfony/console": "^7.0.3",
