@@ -24,6 +24,10 @@ return static function (DependencyInjection\Loader\Configurator\ContainerConfigu
                         'collate' => 'utf8mb4_unicode_ci',
                     ],
                     'driver' => 'pdo_pgsql',
+                    /**
+                     * @see https://github.com/doctrine/migrations/issues/1406#issuecomment-1988041445
+                     */
+                    'schema_filter' => '~^(?!doctrine_)~',
                     'server_version' => '12',
                     'url' => '%env(resolve:DATABASE_URL)%',
                     'use_savepoints' => true,
