@@ -11,7 +11,7 @@ updates:
     directory: "/"
     labels:
       - "dependency"
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 10
     package-ecosystem: "composer"
     schedule:
       interval: "daily"
