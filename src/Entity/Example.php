@@ -20,13 +20,13 @@ use Ramsey\Uuid;
 #[ORM\Mapping\Table(name: 'example')]
 final class Example
 {
-    #[ORM\Mapping\Id()]
-    #[ORM\Mapping\GeneratedValue(strategy: 'NONE')]
     #[ORM\Mapping\Column(
         name: 'id',
         type: 'string',
         length: 36,
     )]
+    #[ORM\Mapping\GeneratedValue(strategy: 'NONE')]
+    #[ORM\Mapping\Id()]
     private string $id;
 
     #[ORM\Mapping\Column(
