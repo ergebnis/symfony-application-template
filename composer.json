@@ -40,7 +40,7 @@
     "symfony/http-kernel": "^7.0.7",
     "symfony/routing": "^7.0.7",
     "symfony/runtime": "^7.0.7",
-    "symfony/yaml": "^7.0.7"
+    "symfony/yaml": "^7.1.1"
   },
   "require-dev": {
     "dama/doctrine-test-bundle": "^8.0.2",
