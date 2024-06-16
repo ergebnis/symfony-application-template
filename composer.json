@@ -23,7 +23,6 @@
     "ext-mbstring": "*",
     "ext-pdo": "*",
     "ext-pdo_mysql": "*",
-    "doctrine/annotations": "^2.0.1",
     "doctrine/collections": "^2.2.2",
     "doctrine/doctrine-bundle": "^2.12.0",
     "doctrine/doctrine-migrations-bundle": "^3.3.1",
