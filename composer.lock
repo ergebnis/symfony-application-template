@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ceafcf93234ac19a3140845ba7e2c8ef",
+    "content-hash": "200aee2c34ec44002cb822692cc03dc9",
     "packages": [
         {
             "name": "brick/math",
@@ -2009,16 +2009,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v7.1.1",
+            "version": "v7.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "77c636dfd86c0b60c5d184b2fd2ddf8dd11c309c"
+                "reference": "6e108cded928bdafaf1da3fabe30dd5af20e36b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/77c636dfd86c0b60c5d184b2fd2ddf8dd11c309c",
-                "reference": "77c636dfd86c0b60c5d184b2fd2ddf8dd11c309c",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/6e108cded928bdafaf1da3fabe30dd5af20e36b9",
+                "reference": "6e108cded928bdafaf1da3fabe30dd5af20e36b9",
                 "shasum": ""
             },
             "require": {
@@ -2069,7 +2069,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v7.1.1"
+                "source": "https://github.com/symfony/dependency-injection/tree/v7.1.2"
             },
             "funding": [
                 {
@@ -2085,7 +2085,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-31T14:57:53+00:00"
+            "time": "2024-06-28T10:03:55+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
