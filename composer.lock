@@ -4962,35 +4962,39 @@
         },
         {
             "name": "ergebnis/json-pointer",
-            "version": "3.4.0",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/json-pointer.git",
-                "reference": "b654757d873050622c2166f55ab25d04685261c5"
+                "reference": "f6ff71e69305b8ab5e4457e374b35dcd0812609b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/json-pointer/zipball/b654757d873050622c2166f55ab25d04685261c5",
-                "reference": "b654757d873050622c2166f55ab25d04685261c5",
+                "url": "https://api.github.com/repos/ergebnis/json-pointer/zipball/f6ff71e69305b8ab5e4457e374b35dcd0812609b",
+                "reference": "f6ff71e69305b8ab5e4457e374b35dcd0812609b",
                 "shasum": ""
             },
             "require": {
-                "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
+                "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "require-dev": {
+                "ergebnis/composer-normalize": "^2.43.0",
                 "ergebnis/data-provider": "^3.2.0",
                 "ergebnis/license": "^2.4.0",
-                "ergebnis/php-cs-fixer-config": "^6.20.0",
-                "ergebnis/phpunit-slow-test-detector": "^2.9.0",
+                "ergebnis/php-cs-fixer-config": "^6.32.0",
+                "ergebnis/phpunit-slow-test-detector": "^2.15.0",
                 "fakerphp/faker": "^1.23.1",
                 "infection/infection": "~0.26.6",
-                "phpunit/phpunit": "^9.6.16",
-                "psalm/plugin-phpunit": "~0.18.4",
-                "rector/rector": "~0.19.2",
-                "vimeo/psalm": "^5.20.0"
+                "phpunit/phpunit": "^9.6.19",
+                "psalm/plugin-phpunit": "~0.19.0",
+                "rector/rector": "^1.2.1",
+                "vimeo/psalm": "^5.25.0"
             },
             "type": "library",
             "extra": {
+                "branch-alias": {
+                    "dev-main": "3.4-dev"
+                },
                 "composer-normalize": {
                     "indent-size": 2,
                     "indent-style": "space"
@@ -5024,7 +5028,7 @@
                 "security": "https://github.com/ergebnis/json-pointer/blob/main/.github/SECURITY.md",
                 "source": "https://github.com/ergebnis/json-pointer"
             },
-            "time": "2024-01-29T16:37:15+00:00"
+            "time": "2024-09-27T15:47:15+00:00"
         },
         {
             "name": "ergebnis/json-printer",
