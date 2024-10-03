@@ -53,7 +53,7 @@
     "phpunit/phpunit": "^10.5.26",
     "psalm/plugin-phpunit": "~0.19.0",
     "psalm/plugin-symfony": "^5.2.5",
-    "rector/rector": "^1.2.5",
+    "rector/rector": "^1.2.6",
     "symplify/config-transformer": "^12.3.4",
     "vimeo/psalm": "^5.26.1"
   },
